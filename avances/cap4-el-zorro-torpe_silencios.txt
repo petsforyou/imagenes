@@ -1,0 +1,20 @@
+silence_start: 14.1407
+silence_end: 14.6277 | silence_duration: 0.487021
+silence_start: 20.2176
+silence_end: 20.7375 | silence_duration: 0.519937
+silence_start: 22.6738
+silence_end: 23.0917 | silence_duration: 0.417854
+silence_start: 26.659
+silence_end: 27.2066 | silence_duration: 0.547562
+silence_start: 28.521
+silence_end: 29.5103 | silence_duration: 0.989312
+silence_start: 47.7172
+silence_end: 48.2541 | silence_duration: 0.536896
+silence_start: 49.1903
+silence_end: 51.5355 | silence_duration: 2.34521
+silence_start: 51.5358
+silence_end: 52.0492 | silence_duration: 0.513437
+silence_start: 52.7762
+silence_end: 53.3678 | silence_duration: 0.591604
+silence_start: 56.16
+silence_end: 58.176 | silence_duration: 2.016
