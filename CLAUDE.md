@@ -15,3 +15,4 @@
 - No se publican: Cosas de casa, Quién es quién, Las mascotas hablan, Antes y después, frase de la semana, Frases de vida.
 - María no aparece en cámara y no se colabora con protectoras.
 - Tarjetas 1080x1350 con el estilo de la casa: `herramientas/tarjeta.py`. Músicas reutilizables: `audio/musica-noticias.mp3` y `audio/musica-curiosidades.mp3`.
+- El envío es gratis siempre (no poner "desde 25 €").
