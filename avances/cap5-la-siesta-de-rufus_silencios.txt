@@ -1,0 +1,32 @@
+silence_start: 10.4155
+silence_end: 10.8915 | silence_duration: 0.475979
+silence_start: 32.3402
+silence_end: 32.9196 | silence_duration: 0.579437
+silence_start: 34.2771
+silence_end: 35.9291 | silence_duration: 1.65206
+silence_start: 35.9292
+silence_end: 37.9816 | silence_duration: 2.05242
+silence_start: 38.1155
+silence_end: 38.8096 | silence_duration: 0.694125
+silence_start: 39.1984
+silence_end: 39.6819 | silence_duration: 0.483479
+silence_start: 40.1727
+silence_end: 40.7568 | silence_duration: 0.584146
+silence_start: 43.7716
+silence_end: 44.3666 | silence_duration: 0.594979
+silence_start: 45.4614
+silence_end: 45.9062 | silence_duration: 0.44475
+silence_start: 47.0475
+silence_end: 47.6053 | silence_duration: 0.557833
+silence_start: 49.174
+silence_end: 49.719 | silence_duration: 0.545
+silence_start: 50.0837
+silence_end: 50.5887 | silence_duration: 0.505021
+silence_start: 52.0946
+silence_end: 52.5112 | silence_duration: 0.416646
+silence_start: 52.5114
+silence_end: 53.0282 | silence_duration: 0.516813
+silence_start: 53.7522
+silence_end: 54.3438 | silence_duration: 0.591583
+silence_start: 57.136
+silence_end: 59.2853 | silence_duration: 2.14933
