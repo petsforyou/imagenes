@@ -8,6 +8,7 @@ María decidió el 16/10 que la tarjeta blanca no funciona en Instagram y Facebo
 - **Música acorde a la historia** (en `audio/`): héroes → `musica-heroe-epica.mp3`; abandono → `musica-abandono-triste.mp3`; superación → `musica-superacion-inspiradora.mp3`; historias tiernas → `musica-historias-emocionante.mp3`; curiosidades → `musica-curiosidades-pegadiza.mp3`.
 - **Publicar**: subir el mp4 a `videos/` de este repositorio y programarlo con "🎬 Programar vídeo en redes (Upload-Post)" (Instagram, Facebook, TikTok, YouTube y Pinterest).
 - **Historias de cuatro patas: todos los días a las 20:30** (hora de Madrid).
+- **Producto del día: todos los días a las 20:00** desde el 17/10/2026 (sustituye a "máximo 2 productos por semana"): producto dentro de un consejo útil, imágenes bonitas de mascotas usando el producto generadas a partir de su foto real (etiqueta "Imágenes creadas con IA a partir del producto real") y precio y stock comprobados en Shopify el mismo día.
 
 # Normas de publicación
 
@@ -22,7 +23,7 @@ María decidió el 16/10 que la tarjeta blanca no funciona en Instagram y Facebo
 
 - Calendario vigente en `calendario/` (y en Drive, carpeta "Calendario editorial", documento "(VIGENTE)").
 - 13 publicaciones por semana (hora de Madrid): curiosidad en vídeo cada día a las 18:00; "Historias de cuatro patas" todos los días a las 20:30 (antes martes y sábado 13:00); producto dentro de un consejo miércoles 13:00; avance de Ada jueves 13:00; capítulo de Ada viernes 13:00; guía en carrusel con producto domingo 13:00.
-- Máximo 2 publicaciones de producto por semana y siempre dentro de un consejo útil.
+- (Hasta el 16/10) Máximo 2 publicaciones de producto por semana. Desde el 17/10, uno al día a las 20:00, siempre dentro de un consejo útil.
 - No se publican: Cosas de casa, Quién es quién, Las mascotas hablan, Antes y después, frase de la semana, Frases de vida.
 - María no aparece en cámara y no se colabora con protectoras.
 - (Solo para lo ya programado) Tarjetas 1080x1350 con el estilo de la casa: `herramientas/tarjeta.py`. Lo nuevo va con `herramientas/montar_reel.py`. Músicas reutilizables: `audio/musica-noticias.mp3` y `audio/musica-curiosidades.mp3`.
