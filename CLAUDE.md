@@ -1,6 +1,6 @@
 # Formato de redes desde el 16/10/2026 (manda sobre lo de abajo)
 
-**Cada sección lleva su nombre** (decisión de María, 16/10): en el guion de montar_reel.py pon `"seccion"` (sale como etiqueta de color arriba en la primera escena) y empieza el texto de la publicación con el nombre en mayúsculas. Secciones: Curiosidades de mascotas (18:00 y curiosidades rehechas), Historias de cuatro patas (20:30), Producto del día (20:00), Los animales, nuestros amigos (lunes y jueves 13:00), Curiosidades del mundo animal (sábado y domingo 13:00), Del blog de Petsforyou y La familia Petsforyou (reels de las tarjetas). Ada y sus amigos y Las mascotas hablan ya tienen su propia intro.
+**Cada sección lleva su nombre** (decisión de María, 16/10): en el guion de montar_reel.py pon `"seccion"` (sale como etiqueta de color arriba en la primera escena) y empieza el texto de la publicación con el nombre en mayúsculas. Secciones: Curiosidades de mascotas (18:00 y curiosidades rehechas), Historias de cuatro patas (22:00), Producto del día (20:00), Los animales, nuestros amigos (lunes y jueves 13:00), Curiosidades del mundo animal (sábado y domingo 13:00), Del blog de Petsforyou y La familia Petsforyou (reels de las tarjetas). Ada y sus amigos y Las mascotas hablan ya tienen su propia intro.
 
 María decidió el 16/10 que la tarjeta blanca no funciona en Instagram y Facebook. Desde ese día:
 
@@ -9,7 +9,7 @@ María decidió el 16/10 que la tarjeta blanca no funciona en Instagram y Facebo
 - **Historias**: rescates, héroes, abandonos con final feliz, superación. Una imagen por cada frase de la historia (lo que se cuenta en ese momento), nunca la misma foto repetida. Fotos reales primero: de cuentas oficiales (Guardia Civil, Policía, bomberos, 112, ayuntamientos) o de los dueños/protagonistas, mencionándolos y etiquetándolos. Fotos de agencias (EFE, Europa Press…) o periódicos no: busca la misma historia en otra fuente. Si no hay foto real de una escena, se genera (ElevenLabs, bytedance-seedream-5-pro; sale en 16:9, usa "x" para el recorte) y se marca "Imágenes ilustrativas creadas con IA".
 - **Música acorde a la historia** (en `audio/`): héroes → `musica-heroe-epica.mp3`; abandono → `musica-abandono-triste.mp3`; superación → `musica-superacion-inspiradora.mp3`; historias tiernas → `musica-historias-emocionante.mp3`; curiosidades → `musica-curiosidades-pegadiza.mp3`.
 - **Publicar**: subir el mp4 a `videos/` de este repositorio y programarlo con "🎬 Programar vídeo en redes (Upload-Post)" (Instagram, Facebook, TikTok, YouTube y Pinterest).
-- **Historias de cuatro patas: todos los días a las 20:30** (hora de Madrid).
+- **Historias de cuatro patas: todos los días a las 22:00** (hora de Madrid; hasta el 16/10 a las 20:30, se movió para separarla del Producto del día de las 20:00).
 - **Producto del día: todos los días a las 20:00** desde el 17/10/2026 (sustituye a "máximo 2 productos por semana"): producto dentro de un consejo útil, imágenes bonitas de mascotas usando el producto generadas a partir de su foto real (etiqueta "Imágenes creadas con IA a partir del producto real") y precio y stock comprobados en Shopify el mismo día.
 
 # Normas de publicación
