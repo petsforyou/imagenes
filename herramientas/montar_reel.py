@@ -25,9 +25,11 @@ guion.json (rutas relativas a la carpeta del guion):
 queda al recortarla a vertical (útil con imágenes generadas en 16:9).
 
 Secciones y su color (los mismos del calendario de redes):
-  Curiosidades de mascotas, Historias de cuatro patas, Producto del día,
+  Curiosidades de nuestras mascotas, Historias de cuatro patas, Producto del día,
   Del blog de Petsforyou, La familia Petsforyou, Los animales, nuestros amigos,
-  Curiosidades del mundo animal. Cualquier otro nombre sale en gris.
+  Curiosidades del mundo animal, Ada y sus amigos, Las mascotas hablan.
+  Cualquier otro nombre sale en gris. Para poner la portada a un vídeo ya
+  montado (Ada, Las mascotas hablan) usa herramientas/portada_seccion.py.
 """
 import json
 import os
@@ -52,6 +54,7 @@ if FONT is None:
 
 
 COLORES = {
+    "curiosidades de nuestras mascotas": (11, 138, 123),
     "curiosidades de mascotas": (11, 138, 123),
     "historias de cuatro patas": (196, 106, 6),
     "producto del día": (210, 58, 82),
@@ -59,6 +62,8 @@ COLORES = {
     "la familia petsforyou": (154, 107, 47),
     "los animales, nuestros amigos": (14, 116, 144),
     "curiosidades del mundo animal": (162, 28, 175),
+    "ada y sus amigos": (116, 66, 214),
+    "las mascotas hablan": (55, 140, 46),
 }
 
 
