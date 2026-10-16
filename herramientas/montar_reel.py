@@ -2,8 +2,10 @@
 
 Formato de redes de Petsforyou desde el 16/10/2026 (sustituye a la tarjeta
 blanca de tarjeta.py): cada foto ocupa toda la pantalla con un zoom lento, pasa
-a la siguiente con un fundido y lleva su frase en subtítulos grandes abajo; la
-primera escena lleva un gancho arriba. Música de fondo con fundido al final.
+a la siguiente con un fundido y lleva su frase en subtítulos grandes abajo. Si el guion
+tiene "seccion", el reel empieza con 1 s de portada con el nombre de la sección
+(sobre la primera foto desenfocada); después la historia, con el gancho abajo
+en amarillo en la primera escena. Música de fondo con fundido al final.
 
 Requisitos: pip install pillow imageio-ffmpeg
 Uso: python herramientas/montar_reel.py guion.json  ->  <nombre>.mp4 junto al guion
@@ -12,10 +14,10 @@ guion.json (rutas relativas a la carpeta del guion):
 {
   "nombre": "historia-rony",
   "musica": "audio/musica-heroe-epica.mp3",
-  "seccion": "Historias de cuatro patas",   (nombre de la sección: sale arriba en la primera escena)
+  "seccion": "Historias de cuatro patas",   (portada de 1 s con el nombre de la sección)
   "etiqueta": "Imágenes ilustrativas creadas con IA",   (opcional, abajo a la izquierda)
   "escenas": [
-    {"foto": "img/1.jpg", "dur": 3.4, "gancho": "Frase gancho arriba", "texto": null},
+    {"foto": "img/1.jpg", "dur": 3.4, "gancho": "Frase gancho (abajo, en amarillo)", "texto": null},
     {"foto": "img/2.png", "dur": 4.0, "texto": "Subtítulo de esta escena", "x": 0.4}
   ]
 }
@@ -35,7 +37,7 @@ import textwrap
 from pathlib import Path
 
 import imageio_ffmpeg
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 FFMPEG = imageio_ffmpeg.get_ffmpeg_exe()
 W, H, FPS = 1080, 1920, 30
@@ -60,19 +62,33 @@ COLORES = {
 }
 
 
-def etiqueta_seccion(d, seccion):
-    """Etiqueta con el nombre de la sección arriba del todo, en su color."""
-    f = ImageFont.truetype(FONT, 46)
-    txt = seccion.upper()
-    w = d.textlength(txt, font=f)
-    x0, y0 = (W - w) / 2 - 34, 96
-    d.rounded_rectangle([x0, y0, x0 + w + 68, y0 + 84], radius=42,
-                        fill=COLORES.get(seccion.lower(), (90, 98, 110)) + (235,))
-    d.text(((W - w) / 2, y0 + 16), txt, font=f, fill="white")
+PORTADA = 1.6  # segundos de portada con el nombre de la sección (se ve ~1 s entera)
 
 
-def capa_texto(texto, salida, arriba=None, etiqueta=None, seccion=None):
-    """PNG transparente con el subtítulo abajo (y opcionalmente un gancho arriba)."""
+def capa_portada(seccion, salida):
+    """Capa de la portada: velo oscuro, nombre de la sección grande en el centro y
+    una barra de su color debajo."""
+    img = Image.new("RGBA", (W, H), (0, 0, 0, 110))
+    d = ImageDraw.Draw(img)
+    color = COLORES.get(seccion.lower(), (90, 98, 110))
+    f = ImageFont.truetype(FONT, 104)
+    lineas = textwrap.wrap(seccion.upper(), 14)
+    alto = 104 * 1.15
+    y = H / 2 - alto * len(lineas) / 2 - 40
+    for ln in lineas:
+        w = d.textlength(ln, font=f)
+        d.text(((W - w) / 2, y), ln, font=f, fill="white", stroke_width=6, stroke_fill="black")
+        y += alto
+    d.rounded_rectangle([W / 2 - 170, y + 30, W / 2 + 170, y + 52], radius=11, fill=color + (255,))
+    f2 = ImageFont.truetype(FONT, 40)
+    w = d.textlength("PETSFORYOU", font=f2)
+    d.text(((W - w) / 2, y + 90), "PETSFORYOU", font=f2, fill=(255, 255, 255, 220),
+           stroke_width=3, stroke_fill="black")
+    img.save(salida)
+
+
+def capa_texto(texto, salida, gancho=None, etiqueta=None):
+    """PNG transparente con el subtítulo abajo; el gancho (si lo hay) también abajo, en amarillo."""
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
 
@@ -81,27 +97,24 @@ def capa_texto(texto, salida, arriba=None, etiqueta=None, seccion=None):
         a = int(200 * ((y - (H - 900)) / 900) ** 1.6)
         d.line([(0, y), (W, y)], fill=(0, 0, 0, a))
 
-    def bloque(txt, size, y_centro, ancho):
+    def bloque(txt, size, y_centro, ancho, color="white"):
         f = ImageFont.truetype(FONT, size)
         lineas = textwrap.wrap(txt, ancho)
         alto = size * 1.18
         y = y_centro - alto * len(lineas) / 2
         for ln in lineas:
             w = d.textlength(ln, font=f)
-            d.text(((W - w) / 2, y), ln, font=f, fill="white",
+            d.text(((W - w) / 2, y), ln, font=f, fill=color,
                    stroke_width=max(4, size // 14), stroke_fill="black")
             y += alto
 
-    if texto:
+    if gancho and texto:
+        bloque(gancho, 80, 1260, 22, (255, 216, 74))
+        bloque(texto, 72, 1580, 24)
+    elif gancho:
+        bloque(gancho, 84, 1450, 21, (255, 216, 74))
+    elif texto:
         bloque(texto, 72, 1450, 24)
-    if arriba or seccion:
-        for y in range(0, 600):
-            a = int(170 * (1 - y / 600) ** 1.6)
-            d.line([(0, y), (W, y)], fill=(0, 0, 0, a))
-    if seccion:
-        etiqueta_seccion(d, seccion)
-    if arriba:
-        bloque(arriba, 86, 390 if seccion else 300, 20)
     if etiqueta:
         f = ImageFont.truetype(FONT, 30)
         d.text((40, H - 70), etiqueta, font=f, fill=(255, 255, 255, 200),
@@ -109,7 +122,7 @@ def capa_texto(texto, salida, arriba=None, etiqueta=None, seccion=None):
     img.save(salida)
 
 
-def clip(foto, capa, dur, salida, zoom_in=True, fx=0.5):
+def clip(foto, capa, dur, salida, zoom_in=True, fx=0.5, fundido=True):
     """Foto a pantalla completa con zoom lento + capa de texto que entra con fundido.
 
     fx (0-1) elige qué parte horizontal de la foto se queda al recortar a vertical.
@@ -120,7 +133,7 @@ def clip(foto, capa, dur, salida, zoom_in=True, fx=0.5):
     vf = (f"[0:v]scale={W*2}:{H*2}:force_original_aspect_ratio=increase,"
           f"crop={W*2}:{H*2}:(iw-{W*2})*{fx}:(ih-{H*2})/2,zoompan={z}:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)'"
           f":d={frames}:s={W}x{H}:fps={FPS},setsar=1[bg];"
-          f"[1:v]format=rgba,fade=t=in:st=0.25:d=0.45:alpha=1[t];"
+          f"[1:v]format=rgba{',fade=t=in:st=0.25:d=0.45:alpha=1' if fundido else ''}[t];"
           f"[bg][t]overlay=0:0:shortest=1,format=yuv420p")
     subprocess.run([FFMPEG, "-y", "-loglevel", "error", "-loop", "1", "-i", foto,
                     "-loop", "1", "-t", str(dur), "-i", capa,
@@ -136,10 +149,22 @@ def main(guion_path):
     tmp.mkdir(parents=True, exist_ok=True)
 
     clips, durs = [], []
+    if g.get("seccion"):
+        # Portada: la primera foto desenfocada con el nombre de la sección encima.
+        e0 = g["escenas"][0]
+        fondo = tmp / "portada.jpg"
+        Image.open(base / e0["foto"]).convert("RGB").filter(
+            ImageFilter.GaussianBlur(18)).save(fondo, quality=92)
+        capa = tmp / "portada.png"
+        capa_portada(g["seccion"], capa)
+        c = tmp / "c_portada.mp4"
+        clip(str(fondo), str(capa), PORTADA, str(c), zoom_in=False,
+             fx=e0.get("x", 0.5), fundido=False)
+        clips.append(c)
+        durs.append(PORTADA)
     for i, esc in enumerate(g["escenas"]):
         capa = tmp / f"t{i}.png"
-        capa_texto(esc.get("texto"), capa, esc.get("gancho"), g.get("etiqueta"),
-                   g.get("seccion") if i == 0 else None)
+        capa_texto(esc.get("texto"), capa, esc.get("gancho"), g.get("etiqueta"))
         c = tmp / f"c{i}.mp4"
         clip(str(base / esc["foto"]), str(capa), esc["dur"], str(c),
              zoom_in=i % 2 == 0, fx=esc.get("x", 0.5))
