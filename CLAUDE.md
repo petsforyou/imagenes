@@ -1,5 +1,7 @@
 # Formato de redes desde el 16/10/2026 (manda sobre lo de abajo)
 
+**Cada sección lleva su nombre** (decisión de María, 16/10): en el guion de montar_reel.py pon `"seccion"` (sale como etiqueta de color arriba en la primera escena) y empieza el texto de la publicación con el nombre en mayúsculas. Secciones: Curiosidades de mascotas (18:00 y curiosidades rehechas), Historias de cuatro patas (20:30), Producto del día (20:00), Los animales, nuestros amigos (lunes y jueves 13:00), Curiosidades del mundo animal (sábado y domingo 13:00), Del blog de Petsforyou y La familia Petsforyou (reels de las tarjetas). Ada y sus amigos y Las mascotas hablan ya tienen su propia intro.
+
 María decidió el 16/10 que la tarjeta blanca no funciona en Instagram y Facebook. Desde ese día:
 
 - **Todo reel nuevo se monta a pantalla completa** con `herramientas/montar_reel.py` (uso y formato del guion en su cabecera): 1080x1920, la foto ocupa toda la pantalla con zoom lento, fundido entre fotos cada 3,5-4,5 s, subtítulos grandes abajo frase a frase y un gancho arriba desde el segundo 0. Sin recuadro blanco. Las tarjetas de `tarjeta.py` ya programadas se dejan como estaban y llevan "👀 Mañana te lo contamos con más detalle."; su reel sale al día siguiente a la misma hora.

@@ -12,6 +12,7 @@ guion.json (rutas relativas a la carpeta del guion):
 {
   "nombre": "historia-rony",
   "musica": "audio/musica-heroe-epica.mp3",
+  "seccion": "Historias de cuatro patas",   (nombre de la sección: sale arriba en la primera escena)
   "etiqueta": "Imágenes ilustrativas creadas con IA",   (opcional, abajo a la izquierda)
   "escenas": [
     {"foto": "img/1.jpg", "dur": 3.4, "gancho": "Frase gancho arriba", "texto": null},
@@ -20,6 +21,11 @@ guion.json (rutas relativas a la carpeta del guion):
 }
 "x" (0-1, por defecto 0.5) elige qué parte horizontal de una foto apaisada se
 queda al recortarla a vertical (útil con imágenes generadas en 16:9).
+
+Secciones y su color (los mismos del calendario de redes):
+  Curiosidades de mascotas, Historias de cuatro patas, Producto del día,
+  Del blog de Petsforyou, La familia Petsforyou, Los animales, nuestros amigos,
+  Curiosidades del mundo animal. Cualquier otro nombre sale en gris.
 """
 import json
 import os
@@ -43,7 +49,29 @@ if FONT is None:
     sys.exit("No encuentro una fuente en negrita: instala fonts-dejavu-core")
 
 
-def capa_texto(texto, salida, arriba=None, etiqueta=None):
+COLORES = {
+    "curiosidades de mascotas": (11, 138, 123),
+    "historias de cuatro patas": (196, 106, 6),
+    "producto del día": (210, 58, 82),
+    "del blog de petsforyou": (42, 100, 212),
+    "la familia petsforyou": (154, 107, 47),
+    "los animales, nuestros amigos": (14, 116, 144),
+    "curiosidades del mundo animal": (162, 28, 175),
+}
+
+
+def etiqueta_seccion(d, seccion):
+    """Etiqueta con el nombre de la sección arriba del todo, en su color."""
+    f = ImageFont.truetype(FONT, 46)
+    txt = seccion.upper()
+    w = d.textlength(txt, font=f)
+    x0, y0 = (W - w) / 2 - 34, 96
+    d.rounded_rectangle([x0, y0, x0 + w + 68, y0 + 84], radius=42,
+                        fill=COLORES.get(seccion.lower(), (90, 98, 110)) + (235,))
+    d.text(((W - w) / 2, y0 + 16), txt, font=f, fill="white")
+
+
+def capa_texto(texto, salida, arriba=None, etiqueta=None, seccion=None):
     """PNG transparente con el subtítulo abajo (y opcionalmente un gancho arriba)."""
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
@@ -66,11 +94,14 @@ def capa_texto(texto, salida, arriba=None, etiqueta=None):
 
     if texto:
         bloque(texto, 72, 1450, 24)
-    if arriba:
-        for y in range(0, 520):
-            a = int(170 * (1 - y / 520) ** 1.6)
+    if arriba or seccion:
+        for y in range(0, 600):
+            a = int(170 * (1 - y / 600) ** 1.6)
             d.line([(0, y), (W, y)], fill=(0, 0, 0, a))
-        bloque(arriba, 86, 300, 20)
+    if seccion:
+        etiqueta_seccion(d, seccion)
+    if arriba:
+        bloque(arriba, 86, 390 if seccion else 300, 20)
     if etiqueta:
         f = ImageFont.truetype(FONT, 30)
         d.text((40, H - 70), etiqueta, font=f, fill=(255, 255, 255, 200),
@@ -107,7 +138,8 @@ def main(guion_path):
     clips, durs = [], []
     for i, esc in enumerate(g["escenas"]):
         capa = tmp / f"t{i}.png"
-        capa_texto(esc.get("texto"), capa, esc.get("gancho"), g.get("etiqueta"))
+        capa_texto(esc.get("texto"), capa, esc.get("gancho"), g.get("etiqueta"),
+                   g.get("seccion") if i == 0 else None)
         c = tmp / f"c{i}.mp4"
         clip(str(base / esc["foto"]), str(capa), esc["dur"], str(c),
              zoom_in=i % 2 == 0, fx=esc.get("x", 0.5))
