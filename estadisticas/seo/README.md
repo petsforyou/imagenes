@@ -14,6 +14,7 @@ Trabajo del 19/10/2026 (decisión de María: hacer en casa lo que vende Soro SEO
 - `fichas-revisadas-2026-10-19.csv`: la revisión completa del catálogo activo (1.017 productos).
 - `paginas-de-entrada-90-dias-2026-10-19.csv`: páginas de entrada /products con sesiones (Shopify, 90 días).
 
-## Pendiente
-- Search Console: Supermetrics caducó el 1/10 (ticket #75335 pidiendo reiniciar la prueba). Vía permanente: conexión de Google Search Console en Make (solicitud de autorización creada; María tiene que aceptarla).
-- Tarea semanal de SEO (lunes) que revise Search Console y las fichas nuevas en inglés.
+## Search Console y tarea semanal (hecho el 19/10 por la tarde)
+- Search Console se lee con el escenario de Make "🔎 Search Console - consulta (solo lectura)" (id 8055543); los volcados están en `../search-console/`.
+- La tarea programada "🔎 SEO semanal de la tienda (lunes)" (8:47, hora de Madrid) guarda Search Console, corrige fichas nuevas y páginas rotas y manda el correo "SEO semanal".
+- Supermetrics: ticket #75335 abierto por si reactivan la prueba; ya no es necesario.
