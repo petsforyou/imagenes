@@ -3,9 +3,9 @@
 Formato de redes de Petsforyou desde el 16/10/2026 (sustituye a la tarjeta
 blanca de tarjeta.py): cada foto ocupa toda la pantalla con un zoom lento, pasa
 a la siguiente con un fundido y lleva su frase en subtítulos grandes abajo. Si el guion
-tiene "seccion", el reel empieza con 1 s de portada con el nombre de la sección
-(sobre la primera foto desenfocada); después la historia, con el gancho abajo
-en amarillo en la primera escena. Música de fondo con fundido al final.
+tiene "seccion", la primera escena lleva arriba la etiqueta de la sección (píldora de
+su color con el nombre; desde el 19/10/2026 ya no hay portada borrosa de 1 s: el vídeo
+arranca con la imagen real), con el gancho abajo en amarillo. Música de fondo con fundido al final.
 
 Requisitos: pip install pillow imageio-ffmpeg
 Uso: python herramientas/montar_reel.py guion.json  ->  <nombre>.mp4 junto al guion
@@ -14,7 +14,7 @@ guion.json (rutas relativas a la carpeta del guion):
 {
   "nombre": "historia-rony",
   "musica": "audio/musica-heroe-epica.mp3",
-  "seccion": "Historias de cuatro patas",   (portada de 1 s con el nombre de la sección)
+  "seccion": "Historias de cuatro patas",   (etiqueta de la sección arriba en la 1.ª escena)
   "etiqueta": "Imágenes ilustrativas creadas con IA",   (opcional, abajo a la izquierda)
   "escenas": [
     {"foto": "img/1.jpg", "dur": 3.4, "gancho": "Frase gancho (abajo, en amarillo)", "texto": null},
@@ -92,6 +92,43 @@ def capa_portada(seccion, salida):
     img.save(salida)
 
 
+def capa_etiqueta_seccion(seccion, salida):
+    """Etiqueta de la sección ARRIBA, sobre la primera escena (desde el 19/10/2026 sustituye
+    a la portada borrosa de 1 s): una píldora del color de la sección con su nombre en blanco
+    y PETSFORYOU debajo. El vídeo empieza ya con la imagen real, que es lo que engancha
+    (en TikTok el primer segundo decide si la gente se queda)."""
+    img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    # Velo suave arriba para que se lea sobre cualquier foto.
+    for y in range(0, 520):
+        a = int(150 * (1 - y / 520) ** 1.5)
+        d.line([(0, y), (W, y)], fill=(0, 0, 0, a))
+    color = COLORES.get(seccion.lower(), (90, 98, 110))
+    f = ImageFont.truetype(FONT, 58)
+    txt = seccion.upper()
+    tw = d.textlength(txt, font=f)
+    while tw > W - 160 and f.size > 36:
+        f = ImageFont.truetype(FONT, f.size - 4)
+        tw = d.textlength(txt, font=f)
+    x0, y0 = (W - tw) / 2 - 44, 190
+    d.rounded_rectangle([x0, y0, x0 + tw + 88, y0 + f.size + 46], radius=(f.size + 46) // 2,
+                        fill=color + (240,))
+    d.text(((W - tw) / 2, y0 + 20), txt, font=f, fill="white")
+    f2 = ImageFont.truetype(FONT, 34)
+    w2 = d.textlength("PETSFORYOU", font=f2)
+    d.text(((W - w2) / 2, y0 + f.size + 66), "PETSFORYOU", font=f2, fill=(255, 255, 255, 235),
+           stroke_width=3, stroke_fill="black")
+    img.save(salida)
+
+
+def unir_capas(*capas, salida):
+    """Superpone varios PNG transparentes en uno."""
+    base = Image.open(capas[0]).convert("RGBA")
+    for c in capas[1:]:
+        base = Image.alpha_composite(base, Image.open(c).convert("RGBA"))
+    base.save(salida)
+
+
 def capa_texto(texto, salida, gancho=None, etiqueta=None):
     """PNG transparente con el subtítulo abajo; el gancho (si lo hay) también abajo, en amarillo."""
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
@@ -154,25 +191,20 @@ def main(guion_path):
     tmp.mkdir(parents=True, exist_ok=True)
 
     clips, durs = [], []
+    etiqueta_sec = None
     if g.get("seccion"):
-        # Portada: la primera foto desenfocada con el nombre de la sección encima.
-        e0 = g["escenas"][0]
-        fondo = tmp / "portada.jpg"
-        Image.open(base / e0["foto"]).convert("RGB").filter(
-            ImageFilter.GaussianBlur(18)).save(fondo, quality=92)
-        capa = tmp / "portada.png"
-        capa_portada(g["seccion"], capa)
-        c = tmp / "c_portada.mp4"
-        clip(str(fondo), str(capa), PORTADA, str(c), zoom_in=False,
-             fx=e0.get("x", 0.5), fundido=False)
-        clips.append(c)
-        durs.append(PORTADA)
+        # Desde el 19/10/2026: nada de portada borrosa aparte. La etiqueta de la sección va
+        # arriba, encima de la primera escena, y el vídeo arranca ya con la imagen real.
+        etiqueta_sec = tmp / "etiqueta_seccion.png"
+        capa_etiqueta_seccion(g["seccion"], etiqueta_sec)
     for i, esc in enumerate(g["escenas"]):
         capa = tmp / f"t{i}.png"
         capa_texto(esc.get("texto"), capa, esc.get("gancho"), g.get("etiqueta"))
+        if i == 0 and etiqueta_sec:
+            unir_capas(capa, etiqueta_sec, salida=capa)
         c = tmp / f"c{i}.mp4"
         clip(str(base / esc["foto"]), str(capa), esc["dur"], str(c),
-             zoom_in=i % 2 == 0, fx=esc.get("x", 0.5))
+             zoom_in=i % 2 == 0, fx=esc.get("x", 0.5), fundido=i > 0)
         clips.append(c)
         durs.append(esc["dur"])
 

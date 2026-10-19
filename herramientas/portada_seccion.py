@@ -1,10 +1,12 @@
-"""Pone delante de un vídeo ya montado la portada de 1 s con el nombre de la sección.
+"""Pone la etiqueta de la sección encima del principio de un vídeo ya montado.
 
-Es la misma portada que monta montar_reel.py (nombre grande sobre la primera
-imagen desenfocada, barra del color de la sección y PETSFORYOU). Se usa para los
-vídeos que no salen de montar_reel.py: capítulos de Ada y sus amigos y
-monólogos de Las mascotas hablan. Salida 1080x1920, 30 fps, con el audio del
-vídeo original (que entra cuando termina el fundido de la portada).
+Desde el 19/10/2026 ya no se añade 1 s de portada borrosa delante: el vídeo
+arranca con su propia imagen y, durante los primeros segundos, lleva arriba la
+etiqueta de la sección (píldora de su color con el nombre y PETSFORYOU), que se
+desvanece. Es la misma etiqueta que pone montar_reel.py en la primera escena.
+Se usa para los vídeos que no salen de montar_reel.py: capítulos de Ada y sus
+amigos y monólogos de Las mascotas hablan. Salida 1080x1920, 30 fps, con el
+audio original intacto (el vídeo dura lo mismo que el original).
 
 Requisitos: pip install pillow imageio-ffmpeg
 Uso: python herramientas/portada_seccion.py --video capitulo.mp4 \
@@ -16,10 +18,8 @@ import sys
 import tempfile
 from pathlib import Path
 
-from PIL import Image, ImageFilter
-
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from montar_reel import FADE, FFMPEG, FPS, PORTADA, H, W, capa_portada, clip  # noqa: E402
+from montar_reel import FFMPEG, FPS, H, W, capa_etiqueta_seccion  # noqa: E402
 
 
 def main():
@@ -27,29 +27,23 @@ def main():
     ap.add_argument("--video", required=True)
     ap.add_argument("--seccion", required=True)
     ap.add_argument("--salida", required=True)
-    ap.add_argument("--fotograma", type=float, default=1.0,
-                    help="segundo del vídeo que se usa de fondo de la portada")
+    ap.add_argument("--segundos", type=float, default=3.0,
+                    help="cuánto tiempo se ve la etiqueta antes de desvanecerse")
+    ap.add_argument("--fotograma", type=float, default=None, help="(obsoleto, se ignora)")
     a = ap.parse_args()
 
-    tmp = Path(tempfile.mkdtemp(prefix="portada-"))
-    fondo = tmp / "fondo.png"
-    subprocess.run([FFMPEG, "-y", "-loglevel", "error", "-ss", str(a.fotograma), "-i", a.video,
-                    "-frames:v", "1", str(fondo)], check=True)
-    Image.open(fondo).convert("RGB").filter(ImageFilter.GaussianBlur(18)).save(tmp / "fondo.jpg", quality=92)
-    capa_portada(a.seccion, tmp / "capa.png")
-    portada = tmp / "portada.mp4"
-    clip(str(tmp / "fondo.jpg"), str(tmp / "capa.png"), PORTADA, str(portada),
-         zoom_in=False, fundido=False)
+    tmp = Path(tempfile.mkdtemp(prefix="etiqueta-"))
+    capa = tmp / "etiqueta.png"
+    capa_etiqueta_seccion(a.seccion, capa)
 
-    off = PORTADA - FADE
-    filtro = (f"[1:v]scale={W}:{H}:force_original_aspect_ratio=decrease,"
-              f"pad={W}:{H}:(ow-iw)/2:(oh-ih)/2,fps={FPS},setsar=1,format=yuv420p,settb=1/{FPS}[v1];"
-              f"[0:v]fps={FPS},format=yuv420p,settb=1/{FPS}[v0];"
-              f"[v0][v1]xfade=transition=fade:duration={FADE}:offset={off:.2f}[v];"
-              f"[1:a]aresample=48000,aformat=channel_layouts=stereo,"
-              f"adelay={int(off * 1000)}:all=1[a]")
-    subprocess.run([FFMPEG, "-y", "-loglevel", "error", "-i", str(portada), "-i", a.video,
-                    "-filter_complex", filtro, "-map", "[v]", "-map", "[a]",
+    fin = a.segundos
+    filtro = (f"[0:v]scale={W}:{H}:force_original_aspect_ratio=decrease,"
+              f"pad={W}:{H}:(ow-iw)/2:(oh-ih)/2,fps={FPS},setsar=1[v0];"
+              f"[1:v]format=rgba,fade=t=out:st={fin - 0.5:.2f}:d=0.5:alpha=1[e];"
+              f"[v0][e]overlay=0:0:enable='lt(t,{fin:.2f})',format=yuv420p[v]")
+    subprocess.run([FFMPEG, "-y", "-loglevel", "error", "-i", a.video,
+                    "-loop", "1", "-t", f"{fin:.2f}", "-i", str(capa),
+                    "-filter_complex", filtro, "-map", "[v]", "-map", "0:a?",
                     "-c:v", "libx264", "-preset", "medium", "-crf", "21", "-pix_fmt", "yuv420p",
                     "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", a.salida], check=True)
     print(a.salida)
