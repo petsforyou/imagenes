@@ -21,6 +21,12 @@ guion.json (rutas relativas a la carpeta del guion):
     {"foto": "img/2.png", "dur": 4.0, "texto": "Subtítulo de esta escena", "x": 0.4}
   ]
 }
+Escena de VÍDEO (21/10/2026): en vez de "foto", pon "video": "clips/1.mp4" (un clip
+real libre, p. ej. de Pexels, o uno corto generado con IA). Se recorta a vertical, se queda
+con los primeros "dur" segundos y se le quita su audio.
+SECUENCIA (21/10/2026): "corte": true en una escena hace que entre con un corte seco
+(0,12 s) en vez del fundido. Sirve para encadenar 3-4 imágenes del mismo momento (antes,
+durante, después) y que parezca movimiento.
 "x" (0-1, por defecto 0.5) elige qué parte horizontal de una foto apaisada se
 queda al recortarla a vertical (útil con imágenes generadas en 16:9).
 
@@ -189,13 +195,30 @@ def clip(foto, capa, dur, salida, zoom_in=True, fx=0.5, fundido=True):
                    check=True)
 
 
+def clip_video(video, capa, dur, salida, fx=0.5, fundido=True):
+    """Clip de vídeo (sin su audio) a pantalla completa vertical + capa de texto.
+
+    Se queda con los primeros `dur` segundos; si el vídeo es más corto, repite el último fotograma.
+    """
+    vf = (f"[0:v]scale={W}:{H}:force_original_aspect_ratio=increase,"
+          f"crop={W}:{H}:(iw-{W})*{fx}:(ih-{H})/2,fps={FPS},setsar=1,"
+          f"tpad=stop_mode=clone:stop_duration={dur}[bg];"
+          f"[1:v]format=rgba{',fade=t=in:st=0.25:d=0.45:alpha=1' if fundido else ''}[t];"
+          f"[bg][t]overlay=0:0:shortest=1,format=yuv420p")
+    subprocess.run([FFMPEG, "-y", "-loglevel", "error", "-i", video,
+                    "-loop", "1", "-t", str(dur), "-i", capa,
+                    "-filter_complex", vf, "-t", str(dur), "-r", str(FPS), "-an",
+                    "-c:v", "libx264", "-preset", "medium", "-crf", "20", salida],
+                   check=True)
+
+
 def main(guion_path):
     g = json.loads(Path(guion_path).read_text(encoding="utf-8"))
     base = Path(guion_path).parent
     tmp = base / "tmp" / g["nombre"]
     tmp.mkdir(parents=True, exist_ok=True)
 
-    clips, durs = [], []
+    clips, durs, fades = [], [], []
     etiqueta_sec = None
     if g.get("seccion"):
         # Desde el 19/10/2026: nada de portada borrosa aparte. La etiqueta de la sección va
@@ -208,20 +231,26 @@ def main(guion_path):
         if i == 0 and etiqueta_sec:
             unir_capas(capa, etiqueta_sec, salida=capa)
         c = tmp / f"c{i}.mp4"
-        clip(str(base / esc["foto"]), str(capa), esc["dur"], str(c),
-             zoom_in=i % 2 == 0, fx=esc.get("x", 0.5), fundido=i > 0)
+        if esc.get("video"):
+            clip_video(str(base / esc["video"]), str(capa), esc["dur"], str(c),
+                       fx=esc.get("x", 0.5), fundido=i > 0 and not esc.get("corte"))
+        else:
+            clip(str(base / esc["foto"]), str(capa), esc["dur"], str(c),
+                 zoom_in=i % 2 == 0, fx=esc.get("x", 0.5),
+                 fundido=i > 0 and not esc.get("corte"))
         clips.append(c)
         durs.append(esc["dur"])
+        fades.append(0.12 if esc.get("corte") else FADE)
 
     # Encadenar con fundidos (xfade) y poner la música.
     inputs = sum([["-i", str(c)] for c in clips], [])
     filtro, prev, t = [], "[0:v]", 0.0
     for i in range(1, len(clips)):
-        t += durs[i - 1] - FADE
+        t += durs[i - 1] - fades[i]
         out = f"[v{i}]"
-        filtro.append(f"{prev}[{i}:v]xfade=transition=fade:duration={FADE}:offset={t:.2f}{out}")
+        filtro.append(f"{prev}[{i}:v]xfade=transition=fade:duration={fades[i]}:offset={t:.2f}{out}")
         prev = out
-    total = sum(durs) - FADE * (len(clips) - 1)
+    total = sum(durs) - sum(fades[1:])
     musica = str(base / g["musica"])
     filtro.append(f"[{len(clips)}:a]atrim=0:{total:.2f},afade=t=in:d=0.5,"
                   f"afade=t=out:st={total-1.5:.2f}:d=1.5,volume=0.9[a]")
