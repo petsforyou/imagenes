@@ -64,6 +64,10 @@ COLORES = {
     "curiosidades del mundo animal": (162, 28, 175),
     "ada y sus amigos": (116, 66, 214),
     "las mascotas hablan": (55, 140, 46),
+    "busca familia": (219, 39, 119),
+    "noticias que cuentan": (71, 85, 105),
+    "tu mascota y la ley": (30, 64, 175),
+    "salud y mascotas": (5, 150, 105),
 }
 
 
