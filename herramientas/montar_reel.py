@@ -68,6 +68,7 @@ COLORES = {
     "noticias que cuentan": (71, 85, 105),
     "tu mascota y la ley": (30, 64, 175),
     "salud y mascotas": (5, 150, 105),
+    "nosotros y nuestras mascotas": (234, 88, 12),
 }
 
 
