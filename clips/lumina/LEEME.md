@@ -21,4 +21,4 @@ Cómo se usan: en el guion de montar_reel.py, una escena con "video": "clips/lum
 | perro-huye-del-bano.mp4 | Perro que ve llenarse la bañera y se esconde detrás de la puerta | OK |
 | gato-te-sigue-al-bano.mp4 | Gato blanco que espera en la puerta del baño y la abre con la cabeza | OK |
 | gatito-ataca-pies-manta.mp4 | Gatito que caza los pies bajo la manta y asoma la cabeza | OK |
-| labrador-en-cama-de-gato.mp4 | Golden tumbado en la cama del gato y el gato al lado | FLOJO: apenas hay movimiento y la cama le cabe bien. Usar solo si no queda otro. |
+| labrador-en-cama-de-gato.mp4 | Golden tumbado en la cama del gato y el gato al lado | OK (María, 21/10: se queda). Poco movimiento: mejor con un texto gracioso del tipo «Cuando el perro decide que la cama del gato ahora es suya». |
