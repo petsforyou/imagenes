@@ -3,6 +3,8 @@
 Son clips generados con IA en Lumina (Seedance 2.0 Mini), en vertical 720x1280, de 8 s y sin audio. Se generaron el 21/10/2026 con los créditos de la suscripción de María, que caducan el 5/11.
 Todos llevan en el texto «(Imágenes creadas con IA)».
 
+NORMA (María, 21/10/2026): hámsters, cobayas y conejos siempre con LECHO GRUESO (virutas de papel o cáñamo de varios centímetros, para excavar), sin barrotes y con comida adecuada (heno y verdura de hoja; pipas solo como premio, nunca como suelo).
+
 Cómo se usan: en el guion de montar_reel.py, una escena con "video": "clips/lumina/<archivo>.mp4". Cuando uses uno, apúntalo en estadisticas/nosotros-temas-publicados.txt y no lo repitas en 60 días.
 
 | Archivo | Situación | Estado |
@@ -28,7 +30,6 @@ Cómo se usan: en el guion de montar_reel.py, una escena con "video": "clips/lum
 | gato-en-la-ropa.mp4 | Gato naranja tumbado encima de la ropa recién doblada | OK |
 | gato-mira-pajaros.mp4 | Gato en la ventana que «castañetea» mirando a los pájaros (no salen los pájaros) | OK |
 | gato-te-despierta.mp4 | Gato junto a una persona dormida (casi no se mueve, no llega a darle con la pata) | FLOJO: usar solo si no queda otro |
-| hamster-mofletes.mp4 | Hámster en hábitat de cristal llenándose los mofletes | DUDOSO: el suelo parece todo pipas, no lecho. No usar sin el sí de María |
 | huron-dormido-hamaca.mp4 | Hurón dormido como un trapo en la hamaca; bosteza y sigue durmiendo | OK |
 | ninfa-baila.mp4 | Ninfa en el hombro moviendo la cabeza al ritmo | OK |
 | perro-culpable-cojin.mp4 | Golden con cara de culpa junto a un cojín destrozado | OK |
