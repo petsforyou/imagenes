@@ -22,4 +22,3 @@ Cómo se usan: en el guion de montar_reel.py, una escena con "video": "clips/lum
 | gato-te-sigue-al-bano.mp4 | Gato blanco que espera en la puerta del baño y la abre con la cabeza | OK |
 | gatito-ataca-pies-manta.mp4 | Gatito que caza los pies bajo la manta y asoma la cabeza | OK |
 | labrador-en-cama-de-gato.mp4 | Golden tumbado en la cama del gato y el gato al lado | FLOJO: apenas hay movimiento y la cama le cabe bien. Usar solo si no queda otro. |
-| cobayas-nevera.mp4 | Dos cobayas de pie al abrir la nevera; les dan una hoja de lechuga | DUDOSO: el corral es de barrotes y la lechuga no es lo ideal para cobayas. No usar sin el sí de María. |
