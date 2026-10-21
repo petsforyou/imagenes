@@ -1,0 +1,23 @@
+{
+ "nombre": "holywin-28-10",
+ "musica": "../../audio/musica-curiosidades-pegadiza.mp3",
+ "seccion": "Feliz Holywin",
+ "escenas": [
+  {
+   "video": "disfraz-01.mp4",
+   "dur": 9.5,
+   "texto": null
+  },
+  {
+   "video": "disfraz-13.mp4",
+   "dur": 9.5,
+   "texto": null,
+   "corte": true
+  },
+  {
+   "foto": "cierre-petsforyou.png",
+   "dur": 2.8,
+   "texto": null
+  }
+ ]
+}
