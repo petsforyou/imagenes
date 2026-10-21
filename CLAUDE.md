@@ -32,3 +32,9 @@ María decidió el 16/10 que la tarjeta blanca no funciona en Instagram y Facebo
 - María no aparece en cámara y no se colabora con protectoras.
 - (Solo para lo ya programado) Tarjetas 1080x1350 con el estilo de la casa: `herramientas/tarjeta.py`. Lo nuevo va con `herramientas/montar_reel.py`. Músicas reutilizables: `audio/musica-noticias.mp3` y `audio/musica-curiosidades.mp3`.
 - El envío es gratis siempre (no poner "desde 25 €").
+
+## Tope de créditos de ElevenLabs (21/10/2026, manda sobre todas las tareas)
+Antes de generar imágenes, lee el saldo con Make s7918693 "Saldo de ElevenLabs".
+- **Por debajo de 200.000 créditos disponibles:** no se genera ninguna imagen en ninguna sección, salvo Ada y Las mascotas hablan. Se usan fotos reales o libres (Pexels, Pixabay, Unsplash, Wikimedia), y se dice en el correo.
+- **Por debajo de 100.000:** tampoco se genera nada para Las mascotas hablan, y se avisa a María.
+Cada imagen de Seedream 5 Pro cuesta unos 818 créditos. La recarga automática de ElevenLabs cobra aparte en cuanto se acaba el saldo.
