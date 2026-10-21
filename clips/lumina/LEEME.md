@@ -22,3 +22,15 @@ Cómo se usan: en el guion de montar_reel.py, una escena con "video": "clips/lum
 | gato-te-sigue-al-bano.mp4 | Gato blanco que espera en la puerta del baño y la abre con la cabeza | OK |
 | gatito-ataca-pies-manta.mp4 | Gatito que caza los pies bajo la manta y asoma la cabeza | OK |
 | labrador-en-cama-de-gato.mp4 | Golden tumbado en la cama del gato y el gato al lado | OK (María, 21/10: se queda). Poco movimiento: mejor con un texto gracioso del tipo «Cuando el perro decide que la cama del gato ahora es suya». |
+| cobayas-nevera-madera.mp4 | Dos cobayas en un recinto de madera con heno: se asoman al abrir la nevera y les dan pimiento rojo y perejil | OK (sustituye al de barrotes, María 21/10) |
+| corgi-no-quiere-andar.mp4 | Corgi que se tumba en la calle empedrada y no quiere seguir el paseo | OK |
+| gato-caja-pequena.mp4 | Gato grande que se mete en una caja demasiado pequeña y se queda tan feliz | OK |
+| gato-en-la-ropa.mp4 | Gato naranja tumbado encima de la ropa recién doblada | OK |
+| gato-mira-pajaros.mp4 | Gato en la ventana que «castañetea» mirando a los pájaros (no salen los pájaros) | OK |
+| gato-te-despierta.mp4 | Gato junto a una persona dormida (casi no se mueve, no llega a darle con la pata) | FLOJO: usar solo si no queda otro |
+| hamster-mofletes.mp4 | Hámster en hábitat de cristal llenándose los mofletes | DUDOSO: el suelo parece todo pipas, no lecho. No usar sin el sí de María |
+| huron-dormido-hamaca.mp4 | Hurón dormido como un trapo en la hamaca; bosteza y sigue durmiendo | OK |
+| ninfa-baila.mp4 | Ninfa en el hombro moviendo la cabeza al ritmo | OK |
+| perro-culpable-cojin.mp4 | Golden con cara de culpa junto a un cojín destrozado | OK |
+| perro-ladea-cabeza.mp4 | Corgi que ladea la cabeza al oír un ruido raro | OK |
+| perro-recibe-en-casa.mp4 | Perro que salta de alegría al abrirse la puerta de casa | OK |
