@@ -27,6 +27,7 @@ con los primeros "dur" segundos y se le quita su audio.
 SECUENCIA (21/10/2026): "corte": true en una escena hace que entre con un corte seco
 (0,12 s) en vez del fundido. Sirve para encadenar 3-4 imágenes del mismo momento (antes,
 durante, después) y que parezca movimiento.
+"titulo" (21/10/2026): texto grande y nítido ARRIBA en esa escena (para la frase de la situación).
 "x" (0-1, por defecto 0.5) elige qué parte horizontal de una foto apaisada se
 queda al recortarla a vertical (útil con imágenes generadas en 16:9).
 
@@ -141,7 +142,7 @@ def unir_capas(*capas, salida):
     base.save(salida)
 
 
-def capa_texto(texto, salida, gancho=None, etiqueta=None):
+def capa_texto(texto, salida, gancho=None, etiqueta=None, titulo=None):
     """PNG transparente con el subtítulo abajo; el gancho (si lo hay) también abajo, en amarillo."""
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
@@ -162,6 +163,9 @@ def capa_texto(texto, salida, gancho=None, etiqueta=None):
                    stroke_width=max(4, size // 14), stroke_fill="black")
             y += alto
 
+    if titulo:
+        # Título nítido arriba (21/10/2026): debajo de la píldora de la sección y de la marca.
+        bloque(titulo, 76, 470, 22)
     if gancho and texto:
         bloque(gancho, 80, 1260, 22, (255, 216, 74))
         bloque(texto, 72, 1580, 24)
@@ -228,7 +232,7 @@ def main(guion_path):
         capa_etiqueta_seccion(g["seccion"], etiqueta_sec)
     for i, esc in enumerate(g["escenas"]):
         capa = tmp / f"t{i}.png"
-        capa_texto(esc.get("texto"), capa, esc.get("gancho"), g.get("etiqueta"))
+        capa_texto(esc.get("texto"), capa, esc.get("gancho"), g.get("etiqueta"), esc.get("titulo"))
         if i == 0 and etiqueta_sec:
             unir_capas(capa, etiqueta_sec, salida=capa)
         c = tmp / f"c{i}.mp4"
