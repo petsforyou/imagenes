@@ -7,4 +7,19 @@ Cómo se usan: en el guion de montar_reel.py, una escena con "video": "clips/lum
 
 | Archivo | Situación | Estado |
 |---|---|---|
-| cobayas-nevera.mp4 | Dos cobayas que se ponen de pie al abrir la nevera y les dan una hoja de lechuga | DUDOSO: el corral es de barrotes y la lechuga no es lo ideal para cobayas. Si se usa, que el texto dé el consejo correcto (heno y verdura de hoja verde como la canónigos o la escarola, nunca lechuga iceberg). Mejor no usarlo sin el sí de María. |
+| gato-no-quiere-beso.mp4 | Gato atigrado gris en brazos: pone la pata delante de la cámara para no dar el beso y se va con la cola en alto | OK |
+| gato-no-quiere-beso-b.mp4 | La misma situación en otro salón (versión B) | OK (alternativa: no usar el mismo mes que la A) |
+| gato-no-quiere-beso-c.mp4 | La misma situación, versión C; la pata tapa la cámara | OK (alternativa) |
+| gato-tira-la-taza.mp4 | Gato naranja en la mesa: empuja la taza mirando a cámara y la taza desaparece | OK |
+| huron-roba-calcetin.mp4 | Hurón que cruza con un calcetín robado y se pone de pie con él | OK |
+| perro-se-queda-la-cama.mp4 | La persona se levanta y el perro se queda la cama y la almohada | OK |
+| beagle-paseo.mp4 | Beagle loco de alegría al oír «paseo»; luego espera sentado en la puerta | OK |
+| gato-en-la-maleta.mp4 | Gato que se mete en la maleta a medio hacer y mira a cámara | OK |
+| perro-pide-comida.mp4 | Golden con la barbilla en la mesa y cara de pena mientras comes | OK |
+| gato-encima-portatil.mp4 | Gato blanco y negro que se tumba encima del portátil y no se deja mover | OK |
+| conejo-saltos-alegria.mp4 | Conejo belier que salta de alegría y se tumba de lado en la alfombra | OK (un segundo algo movido) |
+| perro-huye-del-bano.mp4 | Perro que ve llenarse la bañera y se esconde detrás de la puerta | OK |
+| gato-te-sigue-al-bano.mp4 | Gato blanco que espera en la puerta del baño y la abre con la cabeza | OK |
+| gatito-ataca-pies-manta.mp4 | Gatito que caza los pies bajo la manta y asoma la cabeza | OK |
+| labrador-en-cama-de-gato.mp4 | Golden tumbado en la cama del gato y el gato al lado | FLOJO: apenas hay movimiento y la cama le cabe bien. Usar solo si no queda otro. |
+| cobayas-nevera.mp4 | Dos cobayas de pie al abrir la nevera; les dan una hoja de lechuga | DUDOSO: el corral es de barrotes y la lechuga no es lo ideal para cobayas. No usar sin el sí de María. |
