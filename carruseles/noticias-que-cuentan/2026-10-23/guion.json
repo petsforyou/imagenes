@@ -1,0 +1,23 @@
+{
+  "nombre": "noticias-que-cuentan-2026-10-23",
+  "semana": "Viernes 23 de octubre",
+  "portada": "Gallinas, gatos y adopción: lo nuevo de esta semana",
+  "noticias": [
+    {"etiqueta": "GANADERÍA",
+     "titulo": "Aragón obliga a vacunar a las aves contra la enfermedad de Newcastle",
+     "que": "Desde el 22 de octubre, todas las granjas de aves de Aragón tienen que vacunar. Es por la llegada de la enfermedad a Castilla-La Mancha. Castilla y León ya lo exigía.",
+     "importa": "Las gallinas solo para casa (autoconsumo) quedan fuera. Si tienes aves y dudas, pregunta a tu veterinario.",
+     "fuente": "Boletín Oficial de Aragón, 21/10/2026"},
+    {"etiqueta": "VETERINARIA",
+     "titulo": "Leishmania en casi 17 de cada 100 gatos sin hogar de Madrid",
+     "que": "Un estudio de la Universidad Complutense (Visavet) halló el parásito en el 16,8 % de gatos callejeros y de refugio. Es más de lo visto en estudios anteriores.",
+     "importa": "La leishmania no es solo cosa de perros. Si tu gato pierde peso o tiene heridas en la piel, coméntalo con tu veterinario.",
+     "fuente": "Visavet (UCM), vía Animal's Health, 21/10/2026"},
+    {"etiqueta": "SOCIAL",
+     "titulo": "Salón de la Adopción en Madrid Río este 24 y 25 de octubre",
+     "que": "La Comunidad de Madrid organiza el XXI Salón de la Adopción en Puente del Rey. Habrá protectoras con animales y se puede empezar allí la adopción.",
+     "importa": "Si buscas compañero, es una buena ocasión. Los veterinarios de Madrid informarán de lo que supone cuidar a un animal.",
+     "fuente": "Colegio de Veterinarios de Madrid, 20/10/2026"}
+  ],
+  "cierre": "¿Te ha servido? Guárdalo y compártelo con quien tenga mascota."
+}
