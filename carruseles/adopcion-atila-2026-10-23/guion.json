@@ -1,0 +1,10 @@
+{
+  "nombre": "adopcion-atila-2026-10-23",
+  "musica": "../../audio/musica-historias-emocionante.mp3",
+  "seccion": "Busca familia",
+  "escenas": [
+    {"foto": "lienzos/atila-1.jpg", "dur": 4.0, "titulo": "ATILA BUSCA FAMILIA", "texto": "Mestizo de rottweiler, negro, nacido en 2017"},
+    {"foto": "lienzos/atila-2.jpg", "dur": 4.0, "texto": "Lleva en el refugio desde abril de 2020"},
+    {"foto": "lienzos/atila-3.jpg", "dur": 4.0, "texto": "En la protectora dicen que es buenísimo y muy cariñoso"}
+  ]
+}
