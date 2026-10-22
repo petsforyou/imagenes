@@ -1,0 +1,14 @@
+{
+  "nombre": "producto-escalera-espuma-perros-reel",
+  "musica": "../audio/musica-curiosidades-pegadiza.mp3",
+  "seccion": "Producto del día",
+  "escenas": [
+    {"foto": "img/e3.jpg", "dur": 3.4, "titulo": "ESCALERA PARA PERROS|Para subir al sofá sin saltar", "gancho": "Cada salto desde el sofá es un golpe para su espalda", "texto": null},
+    {"foto": "img/e1.jpg", "dur": 4.4, "texto": "Más aún en cachorros, en perros de más de 7 años o con problemas de espalda"},
+    {"foto": "img/e6.jpg", "dur": 4.0, "texto": "Con escalones, sube y baja paso a paso, sin impacto"},
+    {"foto": "img/e4.jpg", "dur": 4.0, "texto": "Espuma de alta densidad y funda con cremallera, lavable"},
+    {"foto": "img/e7.jpg", "dur": 3.8, "texto": "3 peldaños: 30 × 35 × 30 cm, para perros pequeños"},
+    {"foto": "img/e9.jpg", "dur": 3.6, "texto": "En 4 colores: dos grises y dos marrones"},
+    {"foto": "img/e5.jpg", "dur": 4.4, "texto": "22,99 € · Envío gratis. ¿Tu perro salta solo del sofá?"}
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "nombre": "producto-terrario-cristal-86l-reel",
+  "musica": "../audio/musica-curiosidades-pegadiza.mp3",
+  "seccion": "Producto del día",
+  "escenas": [
+    {"foto": "img/t2.jpg", "dur": 3.4, "titulo": "TERRARIO DE CRISTAL 86 L|Para geckos y reptiles pequeños", "gancho": "El cristal frena la luz UVB que tu reptil necesita", "texto": null},
+    {"foto": "img/t6.jpg", "dur": 4.4, "texto": "Sin UVB no fija bien el calcio y sus huesos se debilitan"},
+    {"foto": "img/t1.jpg", "dur": 4.4, "texto": "Este terrario tiene la tapa de malla entera: pasan el aire, el calor y la luz UVB"},
+    {"foto": "img/t7.jpg", "dur": 4.2, "texto": "Puertas correderas con cerradura y cierre arriba para que no se escape"},
+    {"foto": "img/t3.jpg", "dur": 4.2, "texto": "60 × 45 × 32 cm por dentro y base estanca elevada, compatible con mantas calefactoras"},
+    {"foto": "img/t5.jpg", "dur": 4.4, "texto": "122,99 € · Envío gratis. ¿Qué reptil vive en tu casa?"}
+  ]
+}
