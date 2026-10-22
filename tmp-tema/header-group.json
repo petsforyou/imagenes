@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "header",
   "name": "Header",
@@ -9,7 +18,7 @@
           "type": "_announcement",
           "name": "Envío gratis",
           "settings": {
-            "text": "🚚 Envío gratis a España y toda la UE, sin pedido mínimo",
+            "text": "🚚 Envío gratis a España y casi toda la UE, sin pedido mínimo",
             "link": "shopify://collections/all",
             "font": "var(--font-body--family)",
             "font_size": "1rem",
@@ -138,7 +147,7 @@
       "type": "custom-liquid",
       "name": "t:names.custom_liquid",
       "settings": {
-        "custom_liquid": "{% if template.name == 'index' %}<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"OnlineStore\",\"name\":\"Petsforyou\",\"url\":\"https://www.petsforyou.es\",\"logo\":\"https://www.petsforyou.es/cdn/shop/files/logo-petsforyou-letras-grandes-con-animalitos.png?width=500\",\"description\":\"Tienda online de productos para perros, gatos y mascotas pequeñas, con envío gratis a España y la UE.\",\"email\":\"contacto@petsforyou.es\",\"telephone\":\"+34 646 62 45 42\",\"areaServed\":[\"ES\",\"EU\"],\"sameAs\":[\"https://www.instagram.com/petsforyou.es/\",\"https://www.facebook.com/Petsforyou.es\",\"https://www.tiktok.com/@petsforyou05\",\"https://www.youtube.com/@petsforyou88\",\"https://es.pinterest.com/petsforyou05/\"]}</script>{% endif %}",
+        "custom_liquid": "{% if template.name == 'index' %}<script type=\"application/ld+json\">{\"@context\":\"https://schema.org\",\"@type\":\"OnlineStore\",\"name\":\"Petsforyou\",\"url\":\"https://www.petsforyou.es\",\"logo\":\"https://www.petsforyou.es/cdn/shop/files/logo-petsforyou-letras-grandes-con-animalitos.png?width=500\",\"description\":\"Tienda online de productos para perros, gatos y mascotas pequeñas, con envío gratis a España y casi toda la UE.\",\"email\":\"contacto@petsforyou.es\",\"telephone\":\"+34 646 62 45 42\",\"areaServed\":[\"ES\",\"EU\"],\"sameAs\":[\"https://www.instagram.com/petsforyou.es/\",\"https://www.facebook.com/Petsforyou.es\",\"https://www.tiktok.com/@petsforyou.es\",\"https://www.youtube.com/@petsforyou88\",\"https://es.pinterest.com/petsforyou05/\"]}</script>{% endif %}",
         "color_scheme": "",
         "section_width": "page-width",
         "padding-block-start": 0,
