@@ -1,0 +1,29 @@
+{
+  "nombre": "noticias-que-cuentan-2026-10-24",
+  "semana": "Sábado 24 de octubre",
+  "portada": "Minipigs, un virus de las vacas y el cambio de hora",
+  "noticias": [
+    {
+      "etiqueta": "NORMATIVA",
+      "titulo": "Los minipigs, de forma expresa en la lista de especies invasoras",
+      "que": "Una orden del Gobierno aclara que los minipigs y los cruces del cerdo vietnamita están en el catálogo de especies invasoras. Incluye a los que viven como mascota y a los de las tiendas.",
+      "importa": "La ley prohíbe tener, vender o soltar estas especies. Si ya convives con uno, pregunta en tu comunidad autónoma qué debes hacer.",
+      "fuente": "BOE (Orden TED/1096/2026), 19/10/2026"
+    },
+    {
+      "etiqueta": "VETERINARIA",
+      "titulo": "Virus Shamonda: primer caso en una persona, en Francia",
+      "que": "Hasta ahora solo se veía en vacas y lo transmiten unos mosquitos diminutos. Una persona con las defensas muy bajas lo tuvo y falleció; se investiga si fue la causa. En España hay vacas afectadas, también en Ávila.",
+      "importa": "Sanidad no ve riesgo para la población general. Si tienes ganado y notas fiebre o menos leche, avisa a tu veterinario.",
+      "fuente": "Ministerio de Sanidad y de Agricultura, 22-23/10/2026"
+    },
+    {
+      "etiqueta": "SOCIAL",
+      "titulo": "Cambio de hora el domingo 25: más cuidado en los paseos",
+      "que": "Con menos luz por la tarde, la Real Sociedad Canina pide extremar el cuidado. En 2024, más de 3.000 accidentes de tráfico en España tuvieron que ver con perros, según la DGT.",
+      "importa": "Usa collar o correa reflectante o con luz, no lo sueltes cerca de la carretera y cambia sus horarios poco a poco.",
+      "fuente": "Real Sociedad Canina de España y DGT, 22/10/2026"
+    }
+  ],
+  "cierre": "¿Te ha servido? Guárdalo y compártelo con quien tenga mascota."
+}
