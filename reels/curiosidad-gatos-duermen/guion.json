@@ -1,0 +1,14 @@
+{
+  "nombre": "curiosidad-gatos-duermen-reel",
+  "musica": "audio/musica-curiosidades-pegadiza.mp3",
+  "seccion": "Curiosidades de nuestras mascotas",
+  "escenas": [
+    {"foto": "fotos/cloe-17-bola.jpg", "dur": 3.4, "gancho": "Tu gato duerme unas 15 horas al día: más de la mitad de su vida", "texto": null},
+    {"foto": "fotos/cloe-1-manta.jpg", "dur": 4.0, "texto": "Los gatitos y los gatos mayores pueden dormir cerca de 20 horas"},
+    {"foto": "fotos/cloe-9-cama-mascota.jpg", "dur": 4.0, "texto": "No duerme de un tirón: hace siestas de unos 78 minutos de media"},
+    {"foto": "fotos/cloe-6-panera.jpg", "dur": 4.0, "texto": "Casi siempre es sueño ligero: sus orejas siguen atentas a cada ruido"},
+    {"foto": "fotos/cloe-18-cojin.jpg", "dur": 4.0, "texto": "Solo una cuarta parte es sueño profundo. Si da sacudidas, seguramente sueña"},
+    {"foto": "fotos/cloe-25-acecho.jpg", "dur": 4.0, "texto": "Es herencia de cazador: guarda energía y se activa al amanecer y al anochecer", "x": 0.9},
+    {"foto": "fotos/cloe-10-estanteria.jpg", "dur": 4.5, "texto": "Dale un rincón tranquilo y en alto. ¿Cuántas horas duerme el tuyo?"}
+  ]
+}
