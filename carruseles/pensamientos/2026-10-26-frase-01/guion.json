@@ -1,0 +1,9 @@
+{
+  "nombre": "pensamientos-frase-01",
+  "musica": "../../../audio/musica-pensamientos-calma.mp3",
+  "seccion": "Pensamientos",
+  "escenas": [
+    {"foto": "img/1-completa.jpg", "dur": 5.0},
+    {"foto": "img/1-completa.jpg", "dur": 5.0}
+  ]
+}
