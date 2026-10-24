@@ -1,0 +1,22 @@
+{
+  "nombre": "noticias-que-cuentan-2026-10-25",
+  "semana": "Domingo 25 de octubre",
+  "portada": "Gatos de colonia en Valencia y nuevas normas para el ganado",
+  "noticias": [
+    {
+      "etiqueta": "SOCIAL",
+      "titulo": "Valencia amplía la ayuda veterinaria a los gatos de colonia",
+      "que": "El centro veterinario municipal abre de lunes a jueves de 16:00 a 22:00 para entregar y recoger gatos de colonia operados. Además, habrá un servicio para rescatar gatos en sitios difíciles.",
+      "importa": "En Valencia hay más de 600 colonias y unos 22.000 gatos comunitarios. Si ves una colonia sin control, avisa a tu ayuntamiento.",
+      "fuente": "Ayuntamiento de Valencia, vía Diario Veterinario, 23/10/2026"
+    },
+    {
+      "etiqueta": "GANADERÍA",
+      "titulo": "Lengua azul: nuevas normas para el ganado desde el 1 de noviembre",
+      "que": "Una orden del Ministerio de Agricultura adapta las reglas a la UE. En la península, vacunar al ganado será voluntario, aunque cada comunidad puede hacerlo obligatorio. En Baleares sigue siendo obligatorio.",
+      "importa": "No afecta a perros ni gatos, ni pasa a las personas. Si tienes ganado, pregunta a tu veterinario qué pide tu comunidad.",
+      "fuente": "BOE (Orden APA/1082/2026), 14/10/2026"
+    }
+  ],
+  "cierre": "¿Te ha servido? Guárdalo y compártelo con quien tenga mascota."
+}
