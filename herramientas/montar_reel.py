@@ -77,6 +77,7 @@ COLORES = {
     "salud y mascotas": (5, 150, 105),
     "nosotros y nuestras mascotas": (234, 88, 12),
     "feliz holywin": (232, 119, 34),
+    "pensamientos": (184, 115, 51),
 }
 
 
