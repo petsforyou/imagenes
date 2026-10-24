@@ -1,0 +1,12 @@
+{
+  "nombre": "adopcion-pin-2026-10-25",
+  "musica": "../../audio/musica-historias-emocionante.mp3",
+  "seccion": "Busca familia",
+  "escenas": [
+    {"foto": "lienzos/pin-1.jpg", "dur": 4.0, "titulo": "PIN BUSCA FAMILIA", "texto": "American staffordshire, negra, nacida en 2015"},
+    {"foto": "lienzos/pin-2.jpg", "dur": 4.0, "texto": "Llegó a Scooby de cachorrita, en agosto de 2016"},
+    {"foto": "lienzos/pin-3.jpg", "dur": 4.0, "texto": "Nadie se interesó en ella: lleva 10 años esperando"},
+    {"foto": "lienzos/pin-4.jpg", "dur": 4.0, "texto": "Es cariñosa y muy enérgica, y adora estar con la gente"},
+    {"foto": "lienzos/pin-5.jpg", "dur": 4.0, "texto": "Se lleva bien con otros perros; con gatos, no"}
+  ]
+}
