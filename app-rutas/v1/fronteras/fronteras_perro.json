@@ -1,0 +1,1261 @@
+{
+ "revisado": "2026-10-23",
+ "origen": "ES",
+ "leyenda": {
+  "semaforo_base": "verde: solo las normas de la UE; ambar: hay algún paso extra o algo sin confirmar; rojo: hace falta preparar el viaje con meses (cuarentena o análisis de rabia)",
+  "estado": "oficial = leído en fuente oficial; sin_confirmar = la app lo enseña en amarillo con «compruébalo antes de viajar»",
+  "razas.estado": "prohibe_entrada | restricciones | por_region | sin_lista_encontrada"
+ },
+ "comun": {
+  "base_legal": "Desde el 22/04/2026 rige el Reglamento Delegado (UE) 2026/131 (sustituye al 576/2013). Listas de países: Reglamento de Ejecución (UE) 2026/636, modificado por el 2026/1228.",
+  "requisitos": [
+   {
+    "id": "chip",
+    "texto": "Microchip puesto antes de la vacuna de la rabia (o tatuaje legible anterior al 3/7/2011).",
+    "fuente": "https://food.ec.europa.eu/animals/live-animal-movements/dogs-cats-and-ferrets/travelling-pet-within-eu_es",
+    "estado": "oficial"
+   },
+   {
+    "id": "pasaporte",
+    "texto": "Pasaporte europeo para animales de compañía, expedido por un veterinario autorizado. Solo pueden tenerlo quienes viven en la UE. Los pasaportes antiguos siguen valiendo.",
+    "fuente": "https://food.ec.europa.eu/animals/live-animal-movements/dogs-cats-and-ferrets/travelling-pet-within-eu_es",
+    "estado": "oficial"
+   },
+   {
+    "id": "rabia",
+    "texto": "Vacuna de la rabia en vigor, puesta con 12 semanas o más. Tras la primera vacuna hay que esperar al menos 21 días (o más, si lo dice la ficha de la vacuna) antes de cruzar la frontera.",
+    "fuente": "https://food.ec.europa.eu/animals/live-animal-movements/dogs-cats-and-ferrets/travelling-pet-within-eu_es",
+    "estado": "oficial"
+   },
+   {
+    "id": "edad_minima",
+    "texto": "Por la regla anterior, un cachorro no puede viajar hasta tener unas 15 semanas.",
+    "fuente": "https://food.ec.europa.eu/animals/live-animal-movements/dogs-cats-and-ferrets/travelling-pet-within-eu_es",
+    "estado": "oficial"
+   },
+   {
+    "id": "maximo",
+    "texto": "Máximo 5 animales por persona. El perro viaja con su dueño o con alguien autorizado por escrito que viaje como mucho 5 días antes o después.",
+    "fuente": "https://food.ec.europa.eu/animals/live-animal-movements/dogs-cats-and-ferrets/travelling-pet-within-eu_es",
+    "estado": "oficial"
+   }
+  ],
+  "tenia": {
+   "texto": "Pastilla contra la tenia (Echinococcus multilocularis, con praziquantel) puesta por un veterinario, que la apunta en el pasaporte, entre 120 y 24 horas antes de entrar.",
+   "ventana_horas": [
+    24,
+    120
+   ],
+   "fuente": "https://food.ec.europa.eu/animals/live-animal-movements/dogs-cats-and-ferrets/travelling-pet-within-eu_es",
+   "estado": "oficial"
+  },
+  "vuelta_a_la_ue": {
+   "anexo_1": "Países del anexo I: se vuelve a la UE como dentro de ella, sin análisis ni puesto de control.",
+   "anexo_2": "Países del anexo II: no hace falta análisis de anticuerpos, pero al volver hay que entrar por un punto de entrada para viajeros, donde revisan los papeles.",
+   "no_listado": "País fuera de las listas: para volver a la UE hace falta un análisis de anticuerpos de la rabia (sangre sacada 30 días o más después de la vacuna, resultado ≥ 0,5 UI/ml, en un laboratorio autorizado). Si se hace y se apunta en el pasaporte ANTES de salir de la UE, no hay que esperar 3 meses al volver.",
+   "fuentes": [
+    "https://food.ec.europa.eu/animals/live-animal-movements/dogs-cats-and-ferrets/bringing-pet-eu-non-eu-country_en",
+    "https://eur-lex.europa.eu/eli/reg_impl/2026/636/oj",
+    "https://eur-lex.europa.eu/eli/reg_impl/2026/1228/oj",
+    "https://food.ec.europa.eu/animals/live-animal-movements/dogs-cats-and-ferrets/travellers-points-entry_en"
+   ],
+   "estado": "oficial"
+  },
+  "aviso": "Información orientativa. Manda siempre la norma oficial de cada país: revísala con tu veterinario antes de viajar."
+ },
+ "razas_sensibles": [
+  "Pit bull terrier",
+  "American Staffordshire terrier",
+  "Staffordshire bull terrier",
+  "Bull terrier",
+  "Bull terrier miniatura",
+  "American bully / XL Bully",
+  "Bulldog americano",
+  "Rottweiler",
+  "Dogo argentino",
+  "Fila brasileiro",
+  "Tosa inu",
+  "Presa canario",
+  "Perro de presa mallorquín (ca de bou)",
+  "Cane corso",
+  "Mastín napolitano",
+  "Mastiff",
+  "Bullmastiff",
+  "Boerboel",
+  "Dogo de Burdeos",
+  "Bandog",
+  "Akita inu",
+  "Dóberman",
+  "Pastor alemán",
+  "Rhodesian ridgeback",
+  "Kangal / pastor de Anatolia",
+  "Akbash",
+  "Pastor del Cáucaso",
+  "Pastor de Asia Central",
+  "Pastor de Rusia meridional",
+  "Moscow watchdog",
+  "Tornjak",
+  "Sarplaninac",
+  "Mastín español",
+  "Perro lobo checoslovaco",
+  "Híbrido de lobo"
+ ],
+ "paises": {
+  "PT": {
+   "nombre": "Portugal",
+   "grupo": "ue",
+   "grupo_texto": "País de la UE: basta con el pasaporte europeo.",
+   "semaforo_base": "verde",
+   "requisitos_comunes": true,
+   "tenia": null,
+   "extra": [],
+   "vuelta_a_la_ue": null,
+   "razas": {
+    "estado": "restricciones",
+    "texto": "Las razas potencialmente peligrosas pueden entrar de vacaciones (menos de 4 meses) cumpliendo solo las normas sanitarias. En la calle se aplican las normas de perros potencialmente peligrosos.",
+    "lista": [
+     "Fila brasileiro",
+     "Dogo argentino",
+     "Pit bull terrier",
+     "Rottweiler",
+     "American Staffordshire terrier",
+     "Staffordshire bull terrier",
+     "Tosa inu"
+    ],
+    "lista_normas": [],
+    "salvo_pedigri": false,
+    "max_dias_turista": null,
+    "fuente": "https://www.dgav.pt/animais/conteudo/animais-de-companhia/animais-perigosos-e-potencialmente-perigosos/entrada-de-caes-perigosos-e-potencialmente-perigosos-em-portugal/",
+    "verificado": "oficial"
+   }
+  },
+  "FR": {
+   "nombre": "Francia",
+   "grupo": "ue",
+   "grupo_texto": "País de la UE: basta con el pasaporte europeo.",
+   "semaforo_base": "verde",
+   "requisitos_comunes": true,
+   "tenia": null,
+   "extra": [],
+   "vuelta_a_la_ue": null,
+   "razas": {
+    "estado": "prohibe_entrada",
+    "texto": "Prohibida la entrada, incluso de paso, de los perros de 1ª categoría: sin pedigrí y con aspecto de American Staffordshire («pitbull»), Mastiff («boerbull») o Tosa. Los de 2ª categoría (esas razas con pedigrí y los Rottweiler) pueden entrar, con correa y bozal en la calle.",
+    "lista": [
+     "Pit bull terrier",
+     "American Staffordshire terrier",
+     "Mastiff",
+     "Boerboel",
+     "Tosa inu"
+    ],
+    "lista_normas": [
+     "Rottweiler",
+     "American Staffordshire terrier",
+     "Tosa inu"
+    ],
+    "salvo_pedigri": true,
+    "max_dias_turista": null,
+    "fuente": "https://agriculture.gouv.fr/les-chiens-de-categorie-1-et-2-et-les-chiens-dangereux",
+    "verificado": "oficial"
+   }
+  },
+  "IT": {
+   "nombre": "Italia",
+   "grupo": "ue",
+   "grupo_texto": "País de la UE: basta con el pasaporte europeo.",
+   "semaforo_base": "verde",
+   "requisitos_comunes": true,
+   "tenia": null,
+   "extra": [],
+   "vuelta_a_la_ue": null,
+   "razas": {
+    "estado": "sin_lista_encontrada",
+    "texto": "No hemos encontrado en fuentes oficiales una lista nacional de razas prohibidas. Compruébalo antes de viajar si tu perro es de una raza grande o de presa.",
+    "lista": [],
+    "lista_normas": [],
+    "salvo_pedigri": false,
+    "max_dias_turista": null,
+    "fuente": null,
+    "verificado": "sin_confirmar"
+   }
+  },
+  "DE": {
+   "nombre": "Alemania",
+   "grupo": "ue",
+   "grupo_texto": "País de la UE: basta con el pasaporte europeo.",
+   "semaforo_base": "verde",
+   "requisitos_comunes": true,
+   "tenia": null,
+   "extra": [],
+   "vuelta_a_la_ue": null,
+   "razas": {
+    "estado": "restricciones",
+    "texto": "Prohibido traer Pit bull terrier, American Staffordshire terrier, Staffordshire bull terrier, Bull terrier y sus cruces, salvo turistas que se queden 4 semanas o menos (lleva papeles de raza, pasaporte y prueba de la estancia). Cada estado alemán tiene además sus propias normas.",
+    "lista": [
+     "Pit bull terrier",
+     "American Staffordshire terrier",
+     "Staffordshire bull terrier",
+     "Bull terrier"
+    ],
+    "lista_normas": [],
+    "salvo_pedigri": false,
+    "max_dias_turista": 28,
+    "fuente": "https://www.zoll.de/EN/Private-individuals/Travel/Entering-Germany/Restrictions/Dangerous-dogs/dangerous-dogs.html",
+    "verificado": "oficial"
+   }
+  },
+  "AT": {
+   "nombre": "Austria",
+   "grupo": "ue",
+   "grupo_texto": "País de la UE: basta con el pasaporte europeo.",
+   "semaforo_base": "verde",
+   "requisitos_comunes": true,
+   "tenia": null,
+   "extra": [],
+   "vuelta_a_la_ue": null,
+   "razas": {
+    "estado": "por_region",
+    "texto": "Depende del estado: Viena exige carné de perro para los «Listenhunde» y bozal y correa en la calle; Baja Austria y Vorarlberg también tienen listas; Carintia no.",
+    "lista": [
+     "Bull terrier",
+     "Staffordshire bull terrier",
+     "American Staffordshire terrier",
+     "Mastín napolitano",
+     "Mastín español",
+     "Fila brasileiro",
+     "Mastiff",
+     "Bullmastiff",
+     "Tosa inu",
+     "Pit bull terrier",
+     "Rottweiler",
+     "Dogo argentino"
+    ],
+    "lista_normas": [],
+    "salvo_pedigri": false,
+    "max_dias_turista": null,
+    "fuente": "https://www.oesterreich.gv.at/de/themen/reisen_und_freizeit/haustiere/1/2/Seite.742280",
+    "verificado": "oficial"
+   }
+  },
+  "CH": {
+   "nombre": "Suiza",
+   "grupo": "anexo_1",
+   "grupo_texto": "Fuera de la UE pero con las mismas normas: se va y se vuelve como dentro de la UE.",
+   "semaforo_base": "ambar",
+   "requisitos_comunes": true,
+   "tenia": null,
+   "extra": [
+    {
+     "id": "rabo_orejas",
+     "texto": "Perros con la cola o las orejas cortadas: su importación está prohibida, pero quien vive fuera puede traerlos de vacaciones declarándolos en la aduana y dejando una fianza.",
+     "fuente": "https://www.bazg.admin.ch/en/dog-purchase-importation-pets",
+     "estado": "oficial"
+    }
+   ],
+   "vuelta_a_la_ue": {
+    "tipo": "anexo_1",
+    "analisis_rabia": false,
+    "punto_de_entrada": false
+   },
+   "razas": {
+    "estado": "por_region",
+    "texto": "No hay ley nacional: cada cantón tiene su lista y algunos (por ejemplo Ginebra) prohíben ciertas razas.",
+    "lista": [],
+    "lista_normas": [],
+    "salvo_pedigri": false,
+    "max_dias_turista": null,
+    "fuente": "https://www.ge.ch/detenir-chien/races-canines-interdites-geneve",
+    "verificado": "oficial"
+   }
+  },
+  "LI": {
+   "nombre": "Liechtenstein",
+   "grupo": "anexo_1",
+   "grupo_texto": "Fuera de la UE pero con las mismas normas: se va y se vuelve como dentro de la UE.",
+   "semaforo_base": "verde",
+   "requisitos_comunes": true,
+   "tenia": null,
+   "extra": [],
+   "vuelta_a_la_ue": {
+    "tipo": "anexo_1",
+    "analisis_rabia": false,
+    "punto_de_entrada": false
+   },
+   "razas": {
+    "estado": "sin_lista_encontrada",
+    "texto": "No hemos encontrado en fuentes oficiales una lista nacional de razas prohibidas. Compruébalo antes de viajar si tu perro es de una raza grande o de presa.",
+    "lista": [],
+    "lista_normas": [],
+    "salvo_pedigri": false,
+    "max_dias_turista": null,
+    "fuente": null,
+    "verificado": "sin_confirmar"
+   }
+  },
+  "BE": {
+   "nombre": "Bélgica",
+   "grupo": "ue",
+   "grupo_texto": "País de la UE: basta con el pasaporte europeo.",
+   "semaforo_base": "verde",
+   "requisitos_comunes": true,
+   "tenia": null,
+   "extra": [],
+   "vuelta_a_la_ue": null,
+   "razas": {
+    "estado": "sin_lista_encontrada",
+    "texto": "No hemos encontrado en fuentes oficiales una lista nacional de razas prohibidas. Compruébalo antes de viajar si tu perro es de una raza grande o de presa.",
+    "lista": [],
+    "lista_normas": [],
+    "salvo_pedigri": false,
+    "max_dias_turista": null,
+    "fuente": null,
+    "verificado": "sin_confirmar"
+   }
+  },
+  "NL": {
+   "nombre": "Países Bajos",
+   "grupo": "ue",
+   "grupo_texto": "País de la UE: basta con el pasaporte europeo.",
+   "semaforo_base": "verde",
+   "requisitos_comunes": true,
+   "tenia": null,
+   "extra": [],
+   "vuelta_a_la_ue": null,
+   "razas": {
+    "estado": "sin_lista_encontrada",
+    "texto": "No hemos encontrado en fuentes oficiales una lista nacional de razas prohibidas. Compruébalo antes de viajar si tu perro es de una raza grande o de presa.",
+    "lista": [],
+    "lista_normas": [],
+    "salvo_pedigri": false,
+    "max_dias_turista": null,
+    "fuente": null,
+    "verificado": "sin_confirmar"
+   }
+  },
+  "LU": {
+   "nombre": "Luxemburgo",
+   "grupo": "ue",
+   "grupo_texto": "País de la UE: basta con el pasaporte europeo.",
+   "semaforo_base": "verde",
+   "requisitos_comunes": true,
+   "tenia": null,
+   "extra": [],
+   "vuelta_a_la_ue": null,
+   "razas": {
+    "estado": "restricciones",
+    "texto": "Los perros «susceptibles de ser peligrosos» (Staffordshire bull terrier, Mastiff, American Staffordshire, Tosa y parecidos sin pedigrí) necesitan permiso para tenerlos. No está claro si afecta a un turista: compruébalo.",
+    "lista": [
+     "Staffordshire bull terrier",
+     "Mastiff",
+     "American Staffordshire terrier",
+     "Tosa inu"
+    ],
+    "lista_normas": [],
+    "salvo_pedigri": false,
+    "max_dias_turista": null,
+    "fuente": "https://legilux.public.lu/eli/etat/leg/loi/2008/05/09/n2/jo",
+    "verificado": "sin_confirmar"
+   }
+  },
+  "MC": {
+   "nombre": "Mónaco",
+   "grupo": "anexo_1",
+   "grupo_texto": "Fuera de la UE pero con las mismas normas: se va y se vuelve como dentro de la UE.",
+   "semaforo_base": "verde",
+   "requisitos_comunes": true,
+   "tenia": null,
+   "extra": [],
+   "vuelta_a_la_ue": {
+    "tipo": "anexo_1",
+    "analisis_rabia": false,
+    "punto_de_entrada": false
+   },
+   "razas": {
+    "estado": "sin_lista_encontrada",
+    "texto": "No hemos encontrado en fuentes oficiales una lista nacional de razas prohibidas. Compruébalo antes de viajar si tu perro es de una raza grande o de presa.",
+    "lista": [],
+    "lista_normas": [],
+    "salvo_pedigri": false,
+    "max_dias_turista": null,
+    "fuente": null,
+    "verificado": "sin_confirmar"
+   }
+  },
+  "DK": {
+   "nombre": "Dinamarca",
+   "grupo": "ue",
+   "grupo_texto": "País de la UE: basta con el pasaporte europeo.",
+   "semaforo_base": "verde",
+   "requisitos_comunes": true,
+   "tenia": null,
+   "extra": [],
+   "vuelta_a_la_ue": null,
+   "razas": {
+    "estado": "prohibe_entrada",
+    "texto": "Prohibido traer, también de vacaciones, 13 razas y sus cruces.",
+    "lista": [
+     "Pit bull terrier",
+     "Tosa inu",
+     "American Staffordshire terrier",
+     "Fila brasileiro",
+     "Dogo argentino",
+     "Bulldog americano",
+     "Boerboel",
+     "Kangal / pastor de Anatolia",
+     "Pastor de Asia Central",
+     "Pastor del Cáucaso",
+     "Pastor de Rusia meridional",
+     "Tornjak",
+     "Sarplaninac"
+    ],
+    "lista_normas": [],
+    "salvo_pedigri": false,
+    "max_dias_turista": null,
+    "fuente": "https://en.foedevarestyrelsen.dk/animals/animal-welfare/danish-legislation-on-dogs",
+    "verificado": "oficial"
+   }
+  },
+  "SE": {
+   "nombre": "Suecia",
+   "grupo": "ue",
+   "grupo_texto": "País de la UE: basta con el pasaporte europeo.",
+   "semaforo_base": "ambar",
+   "requisitos_comunes": true,
+   "tenia": null,
+   "extra": [
+    {
+     "id": "aduana",
+     "texto": "Hay que declarar el perro a la aduana sueca (Tullverket) antes de cruzar, por internet, o en el carril rojo.",
+     "fuente": "https://www.tullverket.se/sv/privat/resa/resameddjur/resamedhundellerkatt.4.7df61c5915510cfe9e7107ce.html",
+     "estado": "oficial"
+    }
+   ],
+   "vuelta_a_la_ue": null,
+   "razas": {
+    "estado": "sin_lista_encontrada",
+    "texto": "No hemos encontrado en fuentes oficiales una lista nacional de razas prohibidas. Compruébalo antes de viajar si tu perro es de una raza grande o de presa.",
+    "lista": [],
+    "lista_normas": [],
+    "salvo_pedigri": false,
+    "max_dias_turista": null,
+    "fuente": null,
+    "verificado": "sin_confirmar"
+   }
+  },
+  "NO": {
+   "nombre": "Noruega",
+   "grupo": "eee",
+   "grupo_texto": "Noruega aplica las normas de la UE (Espacio Económico Europeo).",
+   "semaforo_base": "ambar",
+   "requisitos_comunes": true,
+   "tenia": {
+    "exento_si_vienes_de": [
+     "FI",
+     "IE",
+     "MT"
+    ],
+    "fuente": "https://food.ec.europa.eu/animals/live-animal-movements/dogs-cats-and-ferrets/travelling-pet-within-eu_es",
+    "estado": "oficial"
+   },
+   "extra": [
+    {
+     "id": "aduana",
+     "texto": "Al llegar, pasa por el canal rojo de la aduana y enseña el perro y sus papeles. Se recomienda avisar a Mattilsynet 48 horas antes.",
+     "fuente": "https://www.mattilsynet.no/en/animals/guide-travelling-with-pets-to-norway",
+     "estado": "oficial"
+    }
+   ],
+   "vuelta_a_la_ue": null,
+   "razas": {
+    "estado": "prohibe_entrada",
+    "texto": "Prohibido tener o traer estas 6 razas y sus cruces, en cualquier proporción, y los híbridos de lobo.",
+    "lista": [
+     "Pit bull terrier",
+     "American Staffordshire terrier",
+     "Fila brasileiro",
+     "Tosa inu",
+     "Dogo argentino",
+     "Perro lobo checoslovaco",
+     "Híbrido de lobo"
+    ],
+    "lista_normas": [],
+    "salvo_pedigri": false,
+    "max_dias_turista": null,
+    "fuente": "https://www.mattilsynet.no/en/animals/banned-dogs",
+    "verificado": "oficial"
+   }
+  },
+  "FI": {
+   "nombre": "Finlandia",
+   "grupo": "ue",
+   "grupo_texto": "País de la UE: basta con el pasaporte europeo.",
+   "semaforo_base": "ambar",
+   "requisitos_comunes": true,
+   "tenia": {
+    "exento_si_vienes_de": [
+     "IE",
+     "MT",
+     "NO"
+    ],
+    "fuente": "https://food.ec.europa.eu/animals/live-animal-movements/dogs-cats-and-ferrets/travelling-pet-within-eu_es",
+    "estado": "oficial"
+   },
+   "extra": [],
+   "vuelta_a_la_ue": null,
+   "razas": {
+    "estado": "sin_lista_encontrada",
+    "texto": "No hemos encontrado en fuentes oficiales una lista nacional de razas prohibidas. Compruébalo antes de viajar si tu perro es de una raza grande o de presa.",
+    "lista": [],
+    "lista_normas": [],
+    "salvo_pedigri": false,
+    "max_dias_turista": null,
+    "fuente": null,
+    "verificado": "sin_confirmar"
+   }
+  },
+  "IS": {
+   "nombre": "Islandia",
+   "grupo": "anexo_1",
+   "grupo_texto": "Fuera de la UE pero con las mismas normas: se va y se vuelve como dentro de la UE.",
+   "semaforo_base": "rojo",
+   "requisitos_comunes": true,
+   "tenia": null,
+   "extra": [
+    {
+     "id": "permiso",
+     "texto": "Hace falta permiso de importación de MAST pedido con 30 días o más de antelación, análisis y vacunas adicionales y una CUARENTENA de 14 días en una estación oficial, también para vacaciones. Tasa mínima: 39.633 ISK.",
+     "fuente": "https://www.mast.is/en/import-export/import-of-live-animals",
+     "estado": "oficial"
+    }
+   ],
+   "vuelta_a_la_ue": {
+    "tipo": "anexo_1",
+    "analisis_rabia": false,
+    "punto_de_entrada": false
+   },
+   "razas": {
+    "estado": "prohibe_entrada",
+    "texto": "Prohibidas estas razas y sus cruces hasta 5 generaciones, los híbridos de lobo y otras que MAST considere de riesgo.",
+    "lista": [
+     "Pit bull terrier",
+     "American Staffordshire terrier",
+     "Staffordshire bull terrier",
+     "Bulldog americano",
+     "Fila brasileiro",
+     "Tosa inu",
+     "Dogo argentino",
+     "Cane corso",
+     "Presa canario",
+     "Boerboel",
+     "Híbrido de lobo"
+    ],
+    "lista_normas": [],
+    "salvo_pedigri": false,
+    "max_dias_turista": null,
+    "fuente": "https://www.mast.is/en/import-export/import-of-live-animals",
+    "verificado": "oficial"
+   }
+  },
+  "EE": {
+   "nombre": "Estonia",
+   "grupo": "ue",
+   "grupo_texto": "País de la UE: basta con el pasaporte europeo.",
+   "semaforo_base": "verde",
+   "requisitos_comunes": true,
+   "tenia": null,
+   "extra": [],
+   "vuelta_a_la_ue": null,
+   "razas": {
+    "estado": "sin_lista_encontrada",
+    "texto": "No hemos encontrado en fuentes oficiales una lista nacional de razas prohibidas. Compruébalo antes de viajar si tu perro es de una raza grande o de presa.",
+    "lista": [],
+    "lista_normas": [],
+    "salvo_pedigri": false,
+    "max_dias_turista": null,
+    "fuente": null,
+    "verificado": "sin_confirmar"
+   }
+  },
+  "LV": {
+   "nombre": "Letonia",
+   "grupo": "ue",
+   "grupo_texto": "País de la UE: basta con el pasaporte europeo.",
+   "semaforo_base": "verde",
+   "requisitos_comunes": true,
+   "tenia": null,
+   "extra": [],
+   "vuelta_a_la_ue": null,
+   "razas": {
+    "estado": "sin_lista_encontrada",
+    "texto": "No hemos encontrado en fuentes oficiales una lista nacional de razas prohibidas. Compruébalo antes de viajar si tu perro es de una raza grande o de presa.",
+    "lista": [],
+    "lista_normas": [],
+    "salvo_pedigri": false,
+    "max_dias_turista": null,
+    "fuente": null,
+    "verificado": "sin_confirmar"
+   }
+  },
+  "LT": {
+   "nombre": "Lituania",
+   "grupo": "ue",
+   "grupo_texto": "País de la UE: basta con el pasaporte europeo.",
+   "semaforo_base": "verde",
+   "requisitos_comunes": true,
+   "tenia": null,
+   "extra": [],
+   "vuelta_a_la_ue": null,
+   "razas": {
+    "estado": "sin_lista_encontrada",
+    "texto": "No hemos encontrado en fuentes oficiales una lista nacional de razas prohibidas. Compruébalo antes de viajar si tu perro es de una raza grande o de presa.",
+    "lista": [],
+    "lista_normas": [],
+    "salvo_pedigri": false,
+    "max_dias_turista": null,
+    "fuente": null,
+    "verificado": "sin_confirmar"
+   }
+  },
+  "PL": {
+   "nombre": "Polonia",
+   "grupo": "ue",
+   "grupo_texto": "País de la UE: basta con el pasaporte europeo.",
+   "semaforo_base": "verde",
+   "requisitos_comunes": true,
+   "tenia": null,
+   "extra": [],
+   "vuelta_a_la_ue": null,
+   "razas": {
+    "estado": "restricciones",
+    "texto": "Para tener una de estas 11 razas hace falta permiso del ayuntamiento. No está claro si afecta a un turista: compruébalo.",
+    "lista": [
+     "Pit bull terrier",
+     "Perro de presa mallorquín (ca de bou)",
+     "Bulldog americano",
+     "Dogo argentino",
+     "Presa canario",
+     "Tosa inu",
+     "Rottweiler",
+     "Akbash",
+     "Kangal / pastor de Anatolia",
+     "Moscow watchdog",
+     "Pastor del Cáucaso"
+    ],
+    "lista_normas": [],
+    "salvo_pedigri": false,
+    "max_dias_turista": null,
+    "fuente": "https://www.biznes.gov.pl/pl/portal/ou1492",
+    "verificado": "sin_confirmar"
+   }
+  },
+  "CZ": {
+   "nombre": "Chequia",
+   "grupo": "ue",
+   "grupo_texto": "País de la UE: basta con el pasaporte europeo.",
+   "semaforo_base": "verde",
+   "requisitos_comunes": true,
+   "tenia": null,
+   "extra": [],
+   "vuelta_a_la_ue": null,
+   "razas": {
+    "estado": "sin_lista_encontrada",
+    "texto": "No hemos encontrado en fuentes oficiales una lista nacional de razas prohibidas. Compruébalo antes de viajar si tu perro es de una raza grande o de presa.",
+    "lista": [],
+    "lista_normas": [],
+    "salvo_pedigri": false,
+    "max_dias_turista": null,
+    "fuente": null,
+    "verificado": "sin_confirmar"
+   }
+  },
+  "SK": {
+   "nombre": "Eslovaquia",
+   "grupo": "ue",
+   "grupo_texto": "País de la UE: basta con el pasaporte europeo.",
+   "semaforo_base": "verde",
+   "requisitos_comunes": true,
+   "tenia": null,
+   "extra": [],
+   "vuelta_a_la_ue": null,
+   "razas": {
+    "estado": "sin_lista_encontrada",
+    "texto": "No hemos encontrado en fuentes oficiales una lista nacional de razas prohibidas. Compruébalo antes de viajar si tu perro es de una raza grande o de presa.",
+    "lista": [],
+    "lista_normas": [],
+    "salvo_pedigri": false,
+    "max_dias_turista": null,
+    "fuente": null,
+    "verificado": "sin_confirmar"
+   }
+  },
+  "HU": {
+   "nombre": "Hungría",
+   "grupo": "ue",
+   "grupo_texto": "País de la UE: basta con el pasaporte europeo.",
+   "semaforo_base": "verde",
+   "requisitos_comunes": true,
+   "tenia": null,
+   "extra": [],
+   "vuelta_a_la_ue": null,
+   "razas": {
+    "estado": "sin_lista_encontrada",
+    "texto": "No hemos encontrado en fuentes oficiales una lista nacional de razas prohibidas. Compruébalo antes de viajar si tu perro es de una raza grande o de presa.",
+    "lista": [],
+    "lista_normas": [],
+    "salvo_pedigri": false,
+    "max_dias_turista": null,
+    "fuente": null,
+    "verificado": "sin_confirmar"
+   }
+  },
+  "SI": {
+   "nombre": "Eslovenia",
+   "grupo": "ue",
+   "grupo_texto": "País de la UE: basta con el pasaporte europeo.",
+   "semaforo_base": "verde",
+   "requisitos_comunes": true,
+   "tenia": null,
+   "extra": [],
+   "vuelta_a_la_ue": null,
+   "razas": {
+    "estado": "sin_lista_encontrada",
+    "texto": "No hemos encontrado en fuentes oficiales una lista nacional de razas prohibidas. Compruébalo antes de viajar si tu perro es de una raza grande o de presa.",
+    "lista": [],
+    "lista_normas": [],
+    "salvo_pedigri": false,
+    "max_dias_turista": null,
+    "fuente": null,
+    "verificado": "sin_confirmar"
+   }
+  },
+  "HR": {
+   "nombre": "Croacia",
+   "grupo": "ue",
+   "grupo_texto": "País de la UE: basta con el pasaporte europeo.",
+   "semaforo_base": "verde",
+   "requisitos_comunes": true,
+   "tenia": null,
+   "extra": [],
+   "vuelta_a_la_ue": null,
+   "razas": {
+    "estado": "prohibe_entrada",
+    "texto": "No pueden entrar ni estar de paso los perros tipo bull terrier (Staffordshire bull terrier, American Staffordshire, Bull terrier, Bull terrier miniatura) ni sus cruces si no tienen pedigrí de un club de la FCI. Con pedigrí, sí.",
+    "lista": [
+     "Pit bull terrier",
+     "Staffordshire bull terrier",
+     "American Staffordshire terrier",
+     "Bull terrier",
+     "Bull terrier miniatura"
+    ],
+    "lista_normas": [],
+    "salvo_pedigri": true,
+    "max_dias_turista": null,
+    "fuente": "https://gov.hr/en/travelling-with-pets/1514",
+    "verificado": "oficial"
+   }
+  },
+  "GR": {
+   "nombre": "Grecia",
+   "grupo": "ue",
+   "grupo_texto": "País de la UE: basta con el pasaporte europeo.",
+   "semaforo_base": "verde",
+   "requisitos_comunes": true,
+   "tenia": null,
+   "extra": [],
+   "vuelta_a_la_ue": null,
+   "razas": {
+    "estado": "sin_lista_encontrada",
+    "texto": "No hemos encontrado en fuentes oficiales una lista nacional de razas prohibidas. Compruébalo antes de viajar si tu perro es de una raza grande o de presa.",
+    "lista": [],
+    "lista_normas": [],
+    "salvo_pedigri": false,
+    "max_dias_turista": null,
+    "fuente": null,
+    "verificado": "sin_confirmar"
+   }
+  },
+  "CY": {
+   "nombre": "Chipre",
+   "grupo": "ue",
+   "grupo_texto": "País de la UE: basta con el pasaporte europeo.",
+   "semaforo_base": "ambar",
+   "requisitos_comunes": true,
+   "tenia": null,
+   "extra": [
+    {
+     "id": "edad",
+     "texto": "Chipre no deja entrar animales de menos de 105 días.",
+     "fuente": "https://www.moa.gov.cy/moa/vs/vs.nsf/vs07_en/vs07_en?OpenDocument",
+     "estado": "oficial"
+    }
+   ],
+   "vuelta_a_la_ue": null,
+   "razas": {
+    "estado": "prohibe_entrada",
+    "texto": "Prohibida la entrada de estas 4 razas y sus cruces, venga de donde venga.",
+    "lista": [
+     "Pit bull terrier",
+     "Tosa inu",
+     "Dogo argentino",
+     "Fila brasileiro"
+    ],
+    "lista_normas": [],
+    "salvo_pedigri": false,
+    "max_dias_turista": null,
+    "fuente": "https://www.moa.gov.cy/moa/vs/vs.nsf/vs07_en/vs07_en?OpenDocument",
+    "verificado": "oficial"
+   }
+  },
+  "MT": {
+   "nombre": "Malta",
+   "grupo": "ue",
+   "grupo_texto": "País de la UE: basta con el pasaporte europeo.",
+   "semaforo_base": "ambar",
+   "requisitos_comunes": true,
+   "tenia": {
+    "exento_si_vienes_de": [
+     "FI",
+     "IE",
+     "NO"
+    ],
+    "fuente": "https://food.ec.europa.eu/animals/live-animal-movements/dogs-cats-and-ferrets/travelling-pet-within-eu_es",
+    "estado": "oficial"
+   },
+   "extra": [
+    {
+     "id": "aviso_previo",
+     "texto": "Hay que avisar de la llegada por internet antes de viajar (Pets Arrival Notification). Sin ese aviso pueden negar la entrada.",
+     "fuente": "https://www.servizz.gov.mt/en/Services/web-02315",
+     "estado": "oficial"
+    }
+   ],
+   "vuelta_a_la_ue": null,
+   "razas": {
+    "estado": "restricciones",
+    "texto": "Desde 2024 está prohibido criar y tener perros tipo «bully» sin pedigrí. No está claro si afecta a un turista: compruébalo.",
+    "lista": [
+     "American bully / XL Bully"
+    ],
+    "lista_normas": [],
+    "salvo_pedigri": false,
+    "max_dias_turista": null,
+    "fuente": "https://legislation.mt/eli/ln/2024/183/eng",
+    "verificado": "sin_confirmar"
+   }
+  },
+  "SM": {
+   "nombre": "San Marino",
+   "grupo": "anexo_1",
+   "grupo_texto": "Fuera de la UE pero con las mismas normas: se va y se vuelve como dentro de la UE.",
+   "semaforo_base": "verde",
+   "requisitos_comunes": true,
+   "tenia": null,
+   "extra": [],
+   "vuelta_a_la_ue": {
+    "tipo": "anexo_1",
+    "analisis_rabia": false,
+    "punto_de_entrada": false
+   },
+   "razas": {
+    "estado": "sin_lista_encontrada",
+    "texto": "No hemos encontrado en fuentes oficiales una lista nacional de razas prohibidas. Compruébalo antes de viajar si tu perro es de una raza grande o de presa.",
+    "lista": [],
+    "lista_normas": [],
+    "salvo_pedigri": false,
+    "max_dias_turista": null,
+    "fuente": null,
+    "verificado": "sin_confirmar"
+   }
+  },
+  "UK": {
+   "nombre": "Reino Unido",
+   "grupo": "anexo_2",
+   "grupo_texto": "Fuera de la UE. Para volver no hace falta análisis, pero hay que entrar en la UE por un punto de entrada para viajeros.",
+   "semaforo_base": "ambar",
+   "requisitos_comunes": true,
+   "tenia": {
+    "exento_si_vienes_de": [
+     "FI",
+     "IE",
+     "MT",
+     "NO"
+    ],
+    "fuente": "https://www.gov.uk/bring-pet-to-great-britain/tapeworm-treatment-dogs",
+    "estado": "oficial"
+   },
+   "extra": [
+    {
+     "id": "pasaporte_ue",
+     "texto": "Gran Bretaña acepta el pasaporte europeo. Hay que entrar por una ruta y una compañía aprobadas (ferris, Eurotúnel o vuelos de la lista).",
+     "fuente": "https://www.gov.uk/bring-pet-to-great-britain/travel-routes-pets",
+     "estado": "oficial"
+    },
+    {
+     "id": "declaracion",
+     "texto": "Hay que rellenar una declaración de que no vas a vender ni regalar el perro.",
+     "fuente": "https://www.gov.uk/bring-pet-to-great-britain",
+     "estado": "oficial"
+    }
+   ],
+   "vuelta_a_la_ue": {
+    "tipo": "anexo_2",
+    "analisis_rabia": false,
+    "punto_de_entrada": true
+   },
+   "razas": {
+    "estado": "prohibe_entrada",
+    "texto": "No puedes traer un perro de tipo prohibido sin certificado de exención. Se decide por el aspecto, no por los papeles. El XL Bully está prohibido en Inglaterra, Gales y Escocia.",
+    "lista": [
+     "Pit bull terrier",
+     "Tosa inu",
+     "Dogo argentino",
+     "Fila brasileiro",
+     "American bully / XL Bully"
+    ],
+    "lista_normas": [],
+    "salvo_pedigri": false,
+    "max_dias_turista": null,
+    "fuente": "https://www.gov.uk/control-dog-public/banned-dogs",
+    "verificado": "oficial"
+   }
+  },
+  "IE": {
+   "nombre": "Irlanda",
+   "grupo": "ue",
+   "grupo_texto": "País de la UE: basta con el pasaporte europeo.",
+   "semaforo_base": "ambar",
+   "requisitos_comunes": true,
+   "tenia": {
+    "exento_si_vienes_de": [
+     "FI",
+     "MT",
+     "NO"
+    ],
+    "fuente": "https://food.ec.europa.eu/animals/live-animal-movements/dogs-cats-and-ferrets/travelling-pet-within-eu_es",
+    "estado": "oficial"
+   },
+   "extra": [],
+   "vuelta_a_la_ue": null,
+   "razas": {
+    "estado": "prohibe_entrada",
+    "texto": "Prohibido traer perros tipo XL Bully. Otras 11 razas y sus cruces deben ir con bozal y correa de 2 m como máximo, llevados por una persona de 16 años o más.",
+    "lista": [
+     "American bully / XL Bully"
+    ],
+    "lista_normas": [
+     "Pit bull terrier",
+     "Bullmastiff",
+     "Dóberman",
+     "Bull terrier",
+     "Pastor alemán",
+     "Akita inu",
+     "Tosa inu",
+     "Rhodesian ridgeback",
+     "Rottweiler",
+     "Staffordshire bull terrier",
+     "Bandog"
+    ],
+    "salvo_pedigri": false,
+    "max_dias_turista": null,
+    "fuente": "https://www.gov.ie/en/department-of-agriculture-food-and-the-marine/publications/my-legal-responsibilities-as-a-dog-owner/",
+    "verificado": "oficial"
+   }
+  },
+  "RO": {
+   "nombre": "Rumanía",
+   "grupo": "ue",
+   "grupo_texto": "País de la UE: basta con el pasaporte europeo.",
+   "semaforo_base": "verde",
+   "requisitos_comunes": true,
+   "tenia": null,
+   "extra": [],
+   "vuelta_a_la_ue": null,
+   "razas": {
+    "estado": "prohibe_entrada",
+    "texto": "Prohibido traer perros de 1ª categoría: tipo Pit bull, Boerboel, Bandog y sus cruces. La 2ª categoría (Staffordshire, American Staffordshire, Rottweiler, Tosa, Dogo argentino, Mastín napolitano, Fila, Mastiff, Pastor del Cáucaso, Cane corso) tiene normas especiales.",
+    "lista": [
+     "Pit bull terrier",
+     "Boerboel",
+     "Bandog"
+    ],
+    "lista_normas": [
+     "Staffordshire bull terrier",
+     "American Staffordshire terrier",
+     "Rottweiler",
+     "Tosa inu",
+     "Dogo argentino",
+     "Mastín napolitano",
+     "Fila brasileiro",
+     "Mastiff",
+     "Pastor del Cáucaso",
+     "Cane corso"
+    ],
+    "salvo_pedigri": false,
+    "max_dias_turista": null,
+    "fuente": "https://legislatie.just.ro/Public/DetaliiDocumentAfis/35880",
+    "verificado": "oficial"
+   }
+  },
+  "BG": {
+   "nombre": "Bulgaria",
+   "grupo": "ue",
+   "grupo_texto": "País de la UE: basta con el pasaporte europeo.",
+   "semaforo_base": "verde",
+   "requisitos_comunes": true,
+   "tenia": null,
+   "extra": [],
+   "vuelta_a_la_ue": null,
+   "razas": {
+    "estado": "sin_lista_encontrada",
+    "texto": "No hemos encontrado en fuentes oficiales una lista nacional de razas prohibidas. Compruébalo antes de viajar si tu perro es de una raza grande o de presa.",
+    "lista": [],
+    "lista_normas": [],
+    "salvo_pedigri": false,
+    "max_dias_turista": null,
+    "fuente": null,
+    "verificado": "sin_confirmar"
+   }
+  },
+  "AD": {
+   "nombre": "Andorra",
+   "grupo": "anexo_1",
+   "grupo_texto": "Fuera de la UE pero con las mismas normas: se va y se vuelve como dentro de la UE.",
+   "semaforo_base": "verde",
+   "requisitos_comunes": true,
+   "tenia": null,
+   "extra": [],
+   "vuelta_a_la_ue": {
+    "tipo": "anexo_1",
+    "analisis_rabia": false,
+    "punto_de_entrada": false
+   },
+   "razas": {
+    "estado": "restricciones",
+    "texto": "Andorra tiene una lista de perros potencialmente peligrosos: en la calle, con correa corta (1,5 m) y bozal, llevados por un adulto.",
+    "lista": [],
+    "lista_normas": [],
+    "salvo_pedigri": false,
+    "max_dias_turista": null,
+    "fuente": "https://www.govern.ad/documents/d/guest/gossos-perillosos-requisitis-pdf",
+    "verificado": "sin_confirmar"
+   }
+  },
+  "RS": {
+   "nombre": "Serbia",
+   "grupo": "anexo_2",
+   "grupo_texto": "Fuera de la UE. Para volver no hace falta análisis, pero hay que entrar en la UE por un punto de entrada para viajeros.",
+   "semaforo_base": "ambar",
+   "requisitos_comunes": false,
+   "tenia": null,
+   "extra": [
+    {
+     "id": "entrada",
+     "texto": "Serbia publica su certificado veterinario para viajes no comerciales. No hemos podido confirmar si acepta solo el pasaporte europeo: compruébalo antes de viajar.",
+     "fuente": "https://www.vet.minpolj.gov.rs/medjunarodni-promet-i-sertifikacija/kretanje-kucnih-ljubimaca/",
+     "estado": "sin_confirmar"
+    }
+   ],
+   "vuelta_a_la_ue": {
+    "tipo": "anexo_2",
+    "analisis_rabia": false,
+    "punto_de_entrada": true
+   },
+   "razas": {
+    "estado": "sin_lista_encontrada",
+    "texto": "No hemos encontrado en fuentes oficiales una lista nacional de razas prohibidas. Compruébalo antes de viajar si tu perro es de una raza grande o de presa.",
+    "lista": [],
+    "lista_normas": [],
+    "salvo_pedigri": false,
+    "max_dias_turista": null,
+    "fuente": null,
+    "verificado": "sin_confirmar"
+   }
+  },
+  "BA": {
+   "nombre": "Bosnia y Herzegovina",
+   "grupo": "anexo_2",
+   "grupo_texto": "Fuera de la UE. Para volver no hace falta análisis, pero hay que entrar en la UE por un punto de entrada para viajeros.",
+   "semaforo_base": "ambar",
+   "requisitos_comunes": false,
+   "tenia": null,
+   "extra": [
+    {
+     "id": "entrada",
+     "texto": "Requisitos de entrada sin confirmar en la web oficial (Oficina Veterinaria de Bosnia y Herzegovina).",
+     "fuente": "https://www.vet.gov.ba/en/dokument/d346",
+     "estado": "sin_confirmar"
+    }
+   ],
+   "vuelta_a_la_ue": {
+    "tipo": "anexo_2",
+    "analisis_rabia": false,
+    "punto_de_entrada": true
+   },
+   "razas": {
+    "estado": "sin_lista_encontrada",
+    "texto": "No hemos encontrado en fuentes oficiales una lista nacional de razas prohibidas. Compruébalo antes de viajar si tu perro es de una raza grande o de presa.",
+    "lista": [],
+    "lista_normas": [],
+    "salvo_pedigri": false,
+    "max_dias_turista": null,
+    "fuente": null,
+    "verificado": "sin_confirmar"
+   }
+  },
+  "ME": {
+   "nombre": "Montenegro",
+   "grupo": "anexo_2",
+   "grupo_texto": "Fuera de la UE. Para volver no hace falta análisis, pero hay que entrar en la UE por un punto de entrada para viajeros.",
+   "semaforo_base": "ambar",
+   "requisitos_comunes": false,
+   "tenia": null,
+   "extra": [
+    {
+     "id": "entrada",
+     "texto": "Requisitos de entrada sin confirmar en la web oficial de Montenegro.",
+     "fuente": "https://www.gov.me/uprava-za-bezbjednost-hrane-veterinu-i-fitosanitarne-poslove",
+     "estado": "sin_confirmar"
+    }
+   ],
+   "vuelta_a_la_ue": {
+    "tipo": "anexo_2",
+    "analisis_rabia": false,
+    "punto_de_entrada": true
+   },
+   "razas": {
+    "estado": "sin_lista_encontrada",
+    "texto": "No hemos encontrado en fuentes oficiales una lista nacional de razas prohibidas. Compruébalo antes de viajar si tu perro es de una raza grande o de presa.",
+    "lista": [],
+    "lista_normas": [],
+    "salvo_pedigri": false,
+    "max_dias_turista": null,
+    "fuente": null,
+    "verificado": "sin_confirmar"
+   }
+  },
+  "MK": {
+   "nombre": "Macedonia del Norte",
+   "grupo": "anexo_2",
+   "grupo_texto": "Fuera de la UE. Para volver no hace falta análisis, pero hay que entrar en la UE por un punto de entrada para viajeros.",
+   "semaforo_base": "ambar",
+   "requisitos_comunes": false,
+   "tenia": null,
+   "extra": [
+    {
+     "id": "entrada",
+     "texto": "Requisitos de entrada sin confirmar en fuente oficial.",
+     "fuente": null,
+     "estado": "sin_confirmar"
+    }
+   ],
+   "vuelta_a_la_ue": {
+    "tipo": "anexo_2",
+    "analisis_rabia": false,
+    "punto_de_entrada": true
+   },
+   "razas": {
+    "estado": "sin_lista_encontrada",
+    "texto": "No hemos encontrado en fuentes oficiales una lista nacional de razas prohibidas. Compruébalo antes de viajar si tu perro es de una raza grande o de presa.",
+    "lista": [],
+    "lista_normas": [],
+    "salvo_pedigri": false,
+    "max_dias_turista": null,
+    "fuente": null,
+    "verificado": "sin_confirmar"
+   }
+  },
+  "AL": {
+   "nombre": "Albania",
+   "grupo": "no_listado",
+   "grupo_texto": "Fuera de la UE y de sus listas: para volver hace falta el análisis de anticuerpos de la rabia, hecho ANTES de salir.",
+   "semaforo_base": "rojo",
+   "requisitos_comunes": false,
+   "tenia": null,
+   "extra": [
+    {
+     "id": "entrada",
+     "texto": "Requisitos de entrada sin confirmar en fuente oficial.",
+     "fuente": null,
+     "estado": "sin_confirmar"
+    }
+   ],
+   "vuelta_a_la_ue": {
+    "tipo": "no_listado",
+    "analisis_rabia": true,
+    "punto_de_entrada": true
+   },
+   "razas": {
+    "estado": "sin_lista_encontrada",
+    "texto": "No hemos encontrado en fuentes oficiales una lista nacional de razas prohibidas. Compruébalo antes de viajar si tu perro es de una raza grande o de presa.",
+    "lista": [],
+    "lista_normas": [],
+    "salvo_pedigri": false,
+    "max_dias_turista": null,
+    "fuente": null,
+    "verificado": "sin_confirmar"
+   }
+  },
+  "XK": {
+   "nombre": "Kosovo",
+   "grupo": "no_listado",
+   "grupo_texto": "Fuera de la UE y de sus listas: para volver hace falta el análisis de anticuerpos de la rabia, hecho ANTES de salir.",
+   "semaforo_base": "rojo",
+   "requisitos_comunes": false,
+   "tenia": null,
+   "extra": [
+    {
+     "id": "entrada",
+     "texto": "Requisitos de entrada sin confirmar en fuente oficial.",
+     "fuente": null,
+     "estado": "sin_confirmar"
+    }
+   ],
+   "vuelta_a_la_ue": {
+    "tipo": "no_listado",
+    "analisis_rabia": true,
+    "punto_de_entrada": true
+   },
+   "razas": {
+    "estado": "sin_lista_encontrada",
+    "texto": "No hemos encontrado en fuentes oficiales una lista nacional de razas prohibidas. Compruébalo antes de viajar si tu perro es de una raza grande o de presa.",
+    "lista": [],
+    "lista_normas": [],
+    "salvo_pedigri": false,
+    "max_dias_turista": null,
+    "fuente": null,
+    "verificado": "sin_confirmar"
+   }
+  },
+  "MD": {
+   "nombre": "Moldavia",
+   "grupo": "no_listado",
+   "grupo_texto": "Fuera de la UE y de sus listas: para volver hace falta el análisis de anticuerpos de la rabia, hecho ANTES de salir.",
+   "semaforo_base": "rojo",
+   "requisitos_comunes": false,
+   "tenia": null,
+   "extra": [
+    {
+     "id": "entrada",
+     "texto": "Requisitos de entrada sin confirmar en fuente oficial.",
+     "fuente": null,
+     "estado": "sin_confirmar"
+    }
+   ],
+   "vuelta_a_la_ue": {
+    "tipo": "no_listado",
+    "analisis_rabia": true,
+    "punto_de_entrada": true
+   },
+   "razas": {
+    "estado": "sin_lista_encontrada",
+    "texto": "No hemos encontrado en fuentes oficiales una lista nacional de razas prohibidas. Compruébalo antes de viajar si tu perro es de una raza grande o de presa.",
+    "lista": [],
+    "lista_normas": [],
+    "salvo_pedigri": false,
+    "max_dias_turista": null,
+    "fuente": null,
+    "verificado": "sin_confirmar"
+   }
+  }
+ }
+}
