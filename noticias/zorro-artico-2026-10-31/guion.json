@@ -1,0 +1,11 @@
+{
+  "nombre": "zorro-artico-2026-10-31",
+  "musica": "../../audio/musica-mundo-animal-aventura.mp3",
+  "seccion": "Curiosidades del mundo animal",
+  "etiqueta": "Imágenes ilustrativas creadas con IA",
+  "escenas": [
+    {"foto": "img/1.jpg", "dur": 3.6, "gancho": "Su abrigo cambia con las estaciones", "texto": null},
+    {"foto": "img/2.jpg", "dur": 5.5, "texto": "El zorro ártico tiene un pelaje espeso que lo protege del frío extremo. Cambia de color con las estaciones para camuflarse entre la nieve y la tundra."},
+    {"foto": "img/1.jpg", "dur": 3.4, "gancho": "La naturaleza sabe adaptarse", "texto": null}
+  ]
+}
