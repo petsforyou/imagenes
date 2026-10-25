@@ -1,0 +1,11 @@
+{
+  "nombre": "selwo-leones-2026-10-26",
+  "musica": "../../audio/musica-mundo-animal-aventura.mp3",
+  "seccion": "Curiosidades del mundo animal",
+  "etiqueta": "Imágenes ilustrativas creadas con IA",
+  "escenas": [
+    {"foto": "img/1.jpg", "dur": 3.6, "gancho": "Hoy tenemos una buena noticia:", "texto": null},
+    {"foto": "img/2.jpg", "dur": 5.5, "texto": "Nacen dos crías de león en Selwo Aventura (Málaga), dentro de un programa de conservación de una especie con muy pocos ejemplares en libertad. Pronto saldrán a explorar su pradera."},
+    {"foto": "img/1.jpg", "dur": 3.6, "gancho": "Sigamos cuidando del mundo animal", "texto": null}
+  ]
+}
