@@ -1,0 +1,11 @@
+{
+  "nombre": "terapia-caballos-2026-10-27",
+  "musica": "../../audio/musica-nosotros-humor.mp3",
+  "seccion": "Nosotros y nuestras mascotas",
+  "etiqueta": "Imágenes ilustrativas creadas con IA",
+  "escenas": [
+    {"foto": "img/1.jpg", "dur": 3.6, "gancho": "Hoy tenemos una buena noticia:", "texto": null},
+    {"foto": "img/2.jpg", "dur": 5.8, "texto": "Investigadores comparan la terapia con caballos y la terapia convencional en niños autistas: la relacionada con los caballos reduce más el estrés, según mide su respuesta fisiológica."},
+    {"foto": "img/1.jpg", "dur": 3.4, "gancho": "El vínculo que ayuda a sanar", "texto": null}
+  ]
+}
