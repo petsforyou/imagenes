@@ -1,0 +1,11 @@
+{
+  "nombre": "cisnes-kazajistan-2026-10-30",
+  "musica": "../../audio/musica-mundo-animal-aventura.mp3",
+  "seccion": "Curiosidades del mundo animal",
+  "etiqueta": "Imágenes ilustrativas creadas con IA",
+  "escenas": [
+    {"foto": "img/1.jpg", "dur": 3.6, "gancho": "Él nunca la abandonó", "texto": null},
+    {"foto": "img/2.jpg", "dur": 5.8, "texto": "En un lago congelado de Kazajistán, una hembra de cisne quedó atrapada en el hielo. Su pareja no se movió de su lado. Un joven que paseaba los liberó a los dos."},
+    {"foto": "img/1.jpg", "dur": 3.4, "gancho": "Amor que no se rinde ni bajo cero", "texto": null}
+  ]
+}
