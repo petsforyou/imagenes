@@ -1,0 +1,14 @@
+{
+  "nombre": "historia-metro-cdmx-perro-rejilla",
+  "musica": "../../audio/musica-heroe-epica.mp3",
+  "seccion": "Historias de cuatro patas",
+  "etiqueta": "Fotos ilustrativas: no son los protagonistas de la noticia",
+  "escenas": [
+    {"foto": "img/1-hook-perro.jpg", "dur": 3.4, "gancho": "A tres metros de altura, y no podía bajar solo"},
+    {"foto": "img/2-contexto-metro.jpg", "dur": 4.3, "texto": "En la Línea 3 del Metro de la Ciudad de México, un perro grande quedó atrapado en una estructura metálica sobre el andén."},
+    {"foto": "img/3-atrapado-rejilla.jpg", "dur": 4.2, "texto": "Estaba a unos tres metros del suelo: una caída desde ahí podía haber sido grave."},
+    {"foto": "img/4-rescate-lumina.png", "dur": 4.5, "texto": "El personal del metro llevó una escalera, y trabajadores y pasajeros se organizaron para bajarlo sin que se hiciera daño."},
+    {"foto": "img/5-liberado-tranquilo.jpg", "dur": 4.0, "texto": "Entre todos lo consiguieron: se dejó bajar sin resistirse, tranquilo."},
+    {"foto": "img/6-cierre-manta.jpg", "dur": 4.8, "gancho": "Nadie pasó de largo", "texto": "Abajo, una mujer lo recibió con una manta y salió sano y a salvo. ¿Le damos un aplauso a quienes no miran para otro lado?"}
+  ]
+}
