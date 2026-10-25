@@ -1,0 +1,11 @@
+{
+  "nombre": "leona-ciega-2026-11-01",
+  "musica": "../../audio/musica-superacion-inspiradora.mp3",
+  "seccion": "Curiosidades del mundo animal",
+  "etiqueta": "Imágenes ilustrativas creadas con IA",
+  "escenas": [
+    {"foto": "img/1.jpg", "dur": 3.6, "gancho": "Se quedó ciega. Su manada no la abandonó", "texto": null},
+    {"foto": "img/2.jpg", "dur": 5.5, "texto": "Cuentan que una leona que perdió la vista siguió viva gracias a sus hijas: la guiaban, cazaban por ella y la avisaban cuando había comida."},
+    {"foto": "img/1.jpg", "dur": 3.4, "gancho": "Los animales también cuidan de los suyos", "texto": null}
+  ]
+}
