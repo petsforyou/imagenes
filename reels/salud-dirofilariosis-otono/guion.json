@@ -1,0 +1,13 @@
+{
+  "nombre": "salud-dirofilariosis-otono-reel",
+  "musica": "../../audio/musica-salud-tranquila.mp3",
+  "seccion": "Salud y mascotas",
+  "escenas": [
+    {"foto": "img/perro-otono.jpg", "dur": 3.6, "gancho": "¿Dejas el preventivo del corazón porque ya es otoño? Puede ser un error", "texto": null, "x": 0.35},
+    {"foto": "img/mosquito.jpg", "dur": 4.6, "texto": "La dirofilariosis, o gusano del corazón, la transmite la picadura de un mosquito infectado, no el contacto entre perros", "x": 0.55},
+    {"foto": "img/perro-otono.jpg", "dur": 4.6, "texto": "España está entre las zonas de Europa donde este parásito está presente de forma habitual, según ESCCAP", "x": 0.4},
+    {"foto": "img/vet-pastor.jpg", "dur": 5.0, "texto": "Vive en las arterias de los pulmones y, en casos avanzados, en el corazón: puede tardar años en dar señales claras", "x": 0.4},
+    {"foto": "img/mosquito.jpg", "dur": 5.0, "texto": "El mito: en otoño ya no hace falta el preventivo. La realidad: hay que seguirlo dando hasta que termine el otoño, con el mosquito aún activo", "x": 0.55},
+    {"foto": "img/vet-pastor.jpg", "dur": 5.5, "texto": "Ante cualquier duda sobre el calendario de tu perro o tu gato, consulta a tu veterinario. ¿Le sigues dando el preventivo estos días?", "x": 0.4}
+  ]
+}
