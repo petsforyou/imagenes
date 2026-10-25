@@ -1,0 +1,11 @@
+{
+  "nombre": "diesel-burro-2026-11-02",
+  "musica": "../../audio/musica-historias-emocionante.mp3",
+  "seccion": "Historias de cuatro patas",
+  "etiqueta": "Imágenes ilustrativas creadas con IA",
+  "escenas": [
+    {"foto": "img/1.jpg", "dur": 3.8, "gancho": "Desapareció. 5 años después lo encontraron", "texto": null},
+    {"foto": "img/2.jpg", "dur": 5.8, "texto": "Diesel, un burro, se asustó y huyó durante una excursión en California. 5 años después lo vieron viviendo libre, integrado en una manada de ciervos salvajes."},
+    {"foto": "img/1.jpg", "dur": 3.4, "gancho": "Su familia decidió dejarlo en libertad", "texto": null}
+  ]
+}
