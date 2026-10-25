@@ -1,0 +1,11 @@
+{
+  "nombre": "diego-tortuga-2026-10-29",
+  "musica": "../../audio/musica-superacion-inspiradora.mp3",
+  "seccion": "Curiosidades del mundo animal",
+  "etiqueta": "Imágenes ilustrativas creadas con IA",
+  "escenas": [
+    {"foto": "img/1.jpg", "dur": 3.8, "gancho": "Diego ayudó a salvar a toda su especie", "texto": null},
+    {"foto": "img/2.jpg", "dur": 6.0, "texto": "En los 70 quedaban 15 tortugas gigantes en la isla Española (Galápagos). Diego tuvo unos 800 descendientes. Hoy son más de 2.000, y él ya volvió a casa, en libertad."},
+    {"foto": "img/1.jpg", "dur": 3.4, "gancho": "Nunca es tarde para salvar una especie", "texto": null}
+  ]
+}
