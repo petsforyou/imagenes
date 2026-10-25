@@ -1,0 +1,13 @@
+{
+  "nombre": "amigos-busardo-lechuza-eume-reel",
+  "musica": "../../audio/musica-superacion-inspiradora.mp3",
+  "seccion": "Los animales, nuestros amigos",
+  "escenas": [
+    {"foto": "img/forest.jpg", "dur": 3.4, "gancho": "Dos aves heridas vuelven a volar en Galicia", "texto": null, "x": 0.5},
+    {"foto": "img/busardo.jpg", "dur": 5.2, "texto": "Un busardo ratonero y una lechuza volvieron este jueves a las Fragas do Eume, en A Coruña", "x": 0.5},
+    {"foto": "img/lechuza.jpg", "dur": 5.2, "texto": "Habían llegado heridos al Centro de Recuperación de Fauna Silvestre de Oleiros, de la Xunta de Galicia", "x": 0.55},
+    {"foto": "img/forest.jpg", "dur": 5.2, "texto": "Solo en 2026 ese centro ya ha atendido a 1.528 animales salvajes, y más de la mitad se han recuperado", "x": 0.5},
+    {"foto": "img/gaviota.jpg", "dur": 5.2, "texto": "Ahora mismo cuida a un centenar de gaviotas y a otros 20 animales de especies distintas, a la espera de volver a casa", "x": 0.65},
+    {"foto": "img/lechuza.jpg", "dur": 5.5, "texto": "Si ves un animal salvaje herido, no lo toques: llama al 112 o avisa a los agentes medioambientales. ¿Tú has visto alguna vez un animal salvaje herido?", "x": 0.55}
+  ]
+}
