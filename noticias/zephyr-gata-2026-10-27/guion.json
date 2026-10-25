@@ -1,0 +1,11 @@
+{
+  "nombre": "zephyr-gata-2026-10-27",
+  "musica": "../../audio/musica-abandono-triste.mp3",
+  "seccion": "Historias de cuatro patas",
+  "etiqueta": "Imágenes ilustrativas creadas con IA",
+  "escenas": [
+    {"foto": "img/1.jpg", "dur": 3.8, "gancho": "\"Me ataron y, cuando no servía, me tiraron\"", "texto": null},
+    {"foto": "img/2.jpg", "dur": 5.8, "texto": "Zephyr ya está a salvo: tiene cama, comida y manos que la acarician. Aún le cuesta confiar del todo, pero está aprendiendo a querer de nuevo."},
+    {"foto": "img/2.jpg", "dur": 3.4, "gancho": "Dales tiempo para volver a confiar", "texto": null}
+  ]
+}
