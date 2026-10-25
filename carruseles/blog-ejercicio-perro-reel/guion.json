@@ -1,0 +1,12 @@
+{
+  "nombre": "blog-ejercicio-perro-reel",
+  "musica": "../../audio/musica-blog-suave.mp3",
+  "seccion": "Del blog de Petsforyou",
+  "escenas": [
+    {"foto": "img/1-jogger.jpg", "dur": 4.5, "gancho": "¿Sabes cuánto ejercicio necesita tu perro?", "texto": "No es lo mismo un border collie que un bulldog francés, ni un cachorro que un perro mayor.", "x": 0.35},
+    {"foto": "img/2-paseo.jpg", "dur": 4.5, "texto": "El paseo de olfato, dejándole oler a su ritmo, cansa mucho más de lo que parece."},
+    {"foto": "img/3-cachorro.jpg", "dur": 4.5, "texto": "Los cachorros necesitan MENOS: nada de carreras largas ni saltos hasta que terminen de crecer."},
+    {"foto": "img/4-descanso.jpg", "dur": 4.5, "texto": "El descanso también cuenta: un perro adulto duerme muchas horas al día."},
+    {"foto": "img/5-cierre.jpg", "dur": 4.5, "gancho": "La guía completa, en el blog", "texto": "Cómo saber si le falta ejercicio y qué hacer con el calor."}
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "nombre": "historia-sollana-desague-reel",
+  "musica": "../../audio/musica-heroe-epica.mp3",
+  "seccion": "Historias de cuatro patas",
+  "etiqueta": "Fotos ilustrativas: no son los protagonistas de la noticia",
+  "escenas": [
+    {"foto": "img/1-perro.jpg", "dur": 6.5, "gancho": "Atrapado en un desagüe…", "texto": "En Sollana (Valencia), un perro pequeño quedó atrapado por accidente."},
+    {"foto": "img/2-bomberos.jpg", "dur": 6.5, "texto": "Los Bomberos de Valencia acudieron y fueron abriendo huecos en el suelo hasta dar con él."},
+    {"foto": "img/1-perro.jpg", "dur": 7.0, "gancho": "Y lo mejor: salió con vida", "texto": "¿Le damos un aplauso a los bomberos que no se rinden?", "x": 0.6}
+  ]
+}
