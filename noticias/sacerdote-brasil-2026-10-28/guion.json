@@ -1,0 +1,11 @@
+{
+  "nombre": "sacerdote-brasil-2026-10-28",
+  "musica": "../../audio/musica-nosotros-humor.mp3",
+  "seccion": "Nosotros y nuestras mascotas",
+  "etiqueta": "Imágenes ilustrativas creadas con IA",
+  "escenas": [
+    {"foto": "img/1.jpg", "dur": 3.6, "gancho": "Un cura que abre las puertas a los perros de la calle", "texto": null},
+    {"foto": "img/2.jpg", "dur": 6.0, "texto": "En Pernambuco (Brasil), el padre João Paulo acoge perros callejeros en la parroquia y los lleva a misa, bañados y cuidados, para que los feligreses los adopten."},
+    {"foto": "img/1.jpg", "dur": 3.4, "gancho": "La fe también tiene cuatro patas", "texto": null}
+  ]
+}
