@@ -69,7 +69,7 @@ Historias reales y noticias: contarlas a nuestra manera, mencionar la cuenta (@)
 - [libre] 2026-10-25 · Tema: baño sin dramas con hamaca de baño (si hay producto real equivalente en la tienda) · Gancho: "Si bañar a tu perro termina así…" · Formato: problema, demo, comenta una palabra · Origen: @myzarteraa https://www.instagram.com/reel/DepCDM1F5Yl
 - [libre] 2026-10-25 · Tema: manta antiruido para perros con miedo a petardos (si existe en la tienda) · Gancho: "Cinco años viéndole temblar y no sabía esto" · Formato: demo con voz · Origen: @palamichi https://www.tiktok.com/@palamichi/video/7692791059159485698
 - [libre] 2026-10-25 · Tema: accesorio para perros que comen poco o deprisa · Gancho: pregunta del veterinario · Formato: consejo + producto real con fotos de la ficha · Origen: @lau.vet https://www.tiktok.com/@lau.vet/video/7689839507805441281
-- [libre] 2026-10-25 · Tema: cama o rascador para el gato que duerme en cualquier sitio · Gancho: "Cada noche me sorprende en un sitio diferente" · Formato: humor + producto · Origen: @tala_lpz https://www.instagram.com/reel/DemhQdXIeev
+- [usada 2026-10-25] 2026-10-25 · Tema: cama o rascador para el gato que duerme en cualquier sitio · Gancho: "Cada noche me sorprende en un sitio diferente" · Formato: humor + producto · Origen: @tala_lpz https://www.instagram.com/reel/DemhQdXIeev
 
 ## Historias de cuatro patas
 (historias reales: contarlas a nuestra manera, mencionar @cuenta y comprobar la fuente original)
