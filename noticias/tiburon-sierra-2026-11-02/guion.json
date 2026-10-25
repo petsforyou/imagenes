@@ -1,0 +1,11 @@
+{
+  "nombre": "tiburon-sierra-2026-11-02",
+  "musica": "../../audio/musica-mundo-animal-aventura.mp3",
+  "seccion": "Curiosidades del mundo animal",
+  "etiqueta": "Imágenes ilustrativas creadas con IA",
+  "escenas": [
+    {"foto": "img/1.jpg", "dur": 3.6, "gancho": "Su hocico es una sierra de verdad", "texto": null},
+    {"foto": "img/2.jpg", "dur": 5.5, "texto": "El tiburón sierra tiene un hocico largo con dientes afilados y dos barbillones para palpar el fondo marino. Mide entre 1 y 1,5 metros y vive en aguas templadas y tropicales."},
+    {"foto": "img/1.jpg", "dur": 3.4, "gancho": "El océano guarda sorpresas así", "texto": null}
+  ]
+}
