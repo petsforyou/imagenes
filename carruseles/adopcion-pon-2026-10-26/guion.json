@@ -1,0 +1,12 @@
+{
+  "nombre": "adopcion-pon-2026-10-26",
+  "musica": "../../audio/musica-historias-emocionante.mp3",
+  "seccion": "Busca familia",
+  "escenas": [
+    {"foto": "lienzos/pon-1.jpg", "dur": 4.0, "titulo": "PON BUSCA FAMILIA", "texto": "American Staffordshire barcino, nacido en 2015"},
+    {"foto": "lienzos/pon-2.jpg", "dur": 4.0, "texto": "Lleva en el refugio desde agosto de 2016"},
+    {"foto": "lienzos/pon-3.jpg", "dur": 4.0, "texto": "Muy sociable con las personas: le encantan los besos"},
+    {"foto": "lienzos/pon-4.jpg", "dur": 4.0, "texto": "Disfruta jugando con la pelota"},
+    {"foto": "lienzos/pon-5.jpg", "dur": 4.0, "texto": "La protectora lo ve ideal para personas activas"}
+  ]
+}
