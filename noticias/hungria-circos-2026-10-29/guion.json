@@ -1,0 +1,11 @@
+{
+  "nombre": "hungria-circos-2026-10-29",
+  "musica": "../../audio/musica-ley-sobria.mp3",
+  "seccion": "Tu mascota y la ley",
+  "etiqueta": "Imágenes ilustrativas creadas con IA",
+  "escenas": [
+    {"foto": "img/1.jpg", "dur": 3.6, "gancho": "Hungría dice basta a los animales en el circo", "texto": null},
+    {"foto": "img/2.jpg", "dur": 5.5, "texto": "Desde 2027, Hungría prohíbe usar animales en espectáculos de circo. Un paso más hacia el fin de su explotación en Europa."},
+    {"foto": "img/1.jpg", "dur": 3.4, "gancho": "Un paso más hacia el fin de su explotación", "texto": null}
+  ]
+}
