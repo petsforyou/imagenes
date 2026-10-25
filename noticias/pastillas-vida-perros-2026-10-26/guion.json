@@ -1,0 +1,11 @@
+{
+  "nombre": "pastillas-vida-perros-2026-10-26",
+  "musica": "../../audio/musica-salud-tranquila.mp3",
+  "seccion": "Salud y mascotas",
+  "etiqueta": "Imágenes ilustrativas creadas con IA",
+  "escenas": [
+    {"foto": "img/1.jpg", "dur": 3.6, "gancho": "Hoy tenemos una buena noticia:", "texto": null},
+    {"foto": "img/2.jpg", "dur": 5.5, "texto": "Una investigación ha puesto en marcha un proyecto para alargar la vida de los perros con pastillas, ya en ensayos. Aún no están a la venta."},
+    {"foto": "img/1.jpg", "dur": 3.4, "gancho": "Más años para quererlos", "texto": null}
+  ]
+}
