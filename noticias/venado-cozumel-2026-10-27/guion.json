@@ -1,0 +1,11 @@
+{
+  "nombre": "venado-cozumel-2026-10-27",
+  "musica": "../../audio/musica-mundo-animal-aventura.mp3",
+  "seccion": "Curiosidades del mundo animal",
+  "etiqueta": "Imágenes ilustrativas creadas con IA",
+  "escenas": [
+    {"foto": "img/1.jpg", "dur": 3.6, "gancho": "¿Un animal marino? No, es un venado", "texto": null},
+    {"foto": "img/2.jpg", "dur": 5.5, "texto": "En Cozumel (México), turistas vieron a un venado nadando en el mar Caribe. Son excelentes nadadores: cruzan ríos y lagunas para explorar o escapar de amenazas."},
+    {"foto": "img/1.jpg", "dur": 3.4, "gancho": "La naturaleza siempre sorprende", "texto": null}
+  ]
+}
