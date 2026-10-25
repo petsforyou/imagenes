@@ -1,0 +1,13 @@
+{
+  "nombre": "ley-ppp-licencia-reel",
+  "musica": "../../audio/musica-ley-sobria.mp3",
+  "seccion": "Tu mascota y la ley",
+  "escenas": [
+    {"foto": "img/1-hook.jpg", "dur": 3.3, "gancho": "¿Sabías que en España hay perros que necesitan licencia del ayuntamiento?", "texto": null, "x": 0.4},
+    {"foto": "img/2-rottweiler.jpg", "dur": 5.0, "texto": "Un reglamento marca qué perros son ‘potencialmente peligrosos’ por su raza o su historial, y su dueño necesita una licencia especial", "x": 0.65},
+    {"foto": "img/3-ayuntamiento.jpg", "dur": 5.3, "texto": "Para conseguirla hacen falta: ser mayor de edad, sin antecedentes por ciertos delitos, certificado psicológico y un seguro de responsabilidad civil", "x": 0.5},
+    {"foto": "img/4-bozal.jpg", "dur": 5.0, "texto": "En la calle, siempre bozal homologado y correa o cadena de menos de dos metros: sin excepciones", "x": 0.45},
+    {"foto": "img/5-euros.jpg", "dur": 5.3, "texto": "No tener licencia, dejarlo suelto o sacarlo sin bozal son infracciones graves: las multas van de 150 a más de 15.000 euros", "x": 0.6},
+    {"foto": "img/6-final.jpg", "dur": 5.5, "texto": "Esto es información general, no asesoramiento legal. Consulta tu ayuntamiento o tu comunidad: cada sitio puede tener normas propias. ¿Lo sabías?", "x": 0.3}
+  ]
+}
