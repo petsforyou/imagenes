@@ -1,0 +1,11 @@
+{
+  "nombre": "nora-galga-2026-10-26",
+  "musica": "../../audio/musica-historias-emocionante.mp3",
+  "seccion": "Historias de cuatro patas",
+  "etiqueta": "Imágenes ilustrativas creadas con IA",
+  "escenas": [
+    {"foto": "img/1.jpg", "dur": 3.6, "gancho": "Once meses buscándola día y noche", "texto": null},
+    {"foto": "img/2.jpg", "dur": 5.5, "texto": "Nora, una galga, apareció a 70 km de casa gracias a una alerta al 112 y a un policía local de El Saucejo. Volvió con su familia."},
+    {"foto": "img/2.jpg", "dur": 3.4, "gancho": "Nunca dejes de buscar", "texto": null}
+  ]
+}
