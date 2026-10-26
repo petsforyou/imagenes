@@ -4,3 +4,4 @@
 2026-10-23 | Atila | Scooby (Castilla y León; la ficha no dice qué refugio) | https://www.uonline.it/scooby/sitio.php?tipo=perros&q=ATILA
 2026-10-26 | Pon | Scooby (Castilla y León; la ficha no dice qué refugio) | https://www.uonline.it/scooby/sitio.php?tipo=perros&q=PON
 2026-10-27 | Lázaro | Scooby (Castilla y León; la ficha no dice qué refugio) | https://www.uonline.it/scooby/sitio.php?tipo=perros&q=LAZARO
+2026-10-27 | Coke | benemeritvm.org (perro del Ejército de Tierra; la ficha no dice ubicación) | https://benemeritvm.org/services/coke/
