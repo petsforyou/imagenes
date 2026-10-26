@@ -3,9 +3,9 @@
 Formato de redes de Petsforyou desde el 16/10/2026 (sustituye a la tarjeta
 blanca de tarjeta.py): cada foto ocupa toda la pantalla con un zoom lento, pasa
 a la siguiente con un fundido y lleva su frase en subtítulos grandes abajo. Si el guion
-tiene "seccion", la primera escena lleva arriba la etiqueta de la sección (píldora de
-su color con el nombre; desde el 19/10/2026 ya no hay portada borrosa de 1 s: el vídeo
-arranca con la imagen real), con el gancho abajo en amarillo. Música de fondo con fundido al final.
+tiene "seccion" Y ETIQUETA_SECCION es True (desde el 26/10/2026 está en False: sin título de sección al
+empezar), la primera escena lleva arriba la etiqueta de la sección; con el valor actual el vídeo arranca
+directamente con la imagen y el gancho abajo en amarillo. Música de fondo con fundido al final.
 
 Requisitos: pip install pillow imageio-ffmpeg
 Uso: python herramientas/montar_reel.py guion.json  ->  <nombre>.mp4 junto al guion
@@ -14,7 +14,7 @@ guion.json (rutas relativas a la carpeta del guion):
 {
   "nombre": "historia-rony",
   "musica": "audio/musica-heroe-epica.mp3",
-  "seccion": "Historias de cuatro patas",   (etiqueta de la sección arriba en la 1.ª escena)
+  "seccion": "Historias de cuatro patas",   (ya NO se dibuja desde el 26/10/2026; se puede omitir)
   "etiqueta": "Imágenes ilustrativas creadas con IA",   (opcional, abajo a la izquierda)
   "escenas": [
     {"foto": "img/1.jpg", "dur": 3.4, "gancho": "Frase gancho (abajo, en amarillo)", "texto": null},
@@ -81,7 +81,11 @@ COLORES = {
 }
 
 
-PORTADA = 1.6  # segundos de portada con el nombre de la sección (se ve ~1 s entera)
+PORTADA = 1.6  # (sin uso desde el 19/10/2026)
+# María, 26/10/2026: NADA de título de sección en los primeros segundos del reel (la gente se va si los
+# 2-3 primeros segundos son un título). Con False se ignora la clave "seccion" del guion; la sección se
+# sigue identificando por el hashtag, el nombre del archivo y la clave de programación.
+ETIQUETA_SECCION = False
 
 
 def capa_portada(seccion, salida):
@@ -226,7 +230,7 @@ def main(guion_path):
 
     clips, durs, fades = [], [], []
     etiqueta_sec = None
-    if g.get("seccion"):
+    if g.get("seccion") and ETIQUETA_SECCION:
         # Desde el 19/10/2026: nada de portada borrosa aparte. La etiqueta de la sección va
         # arriba, encima de la primera escena, y el vídeo arranca ya con la imagen real.
         etiqueta_sec = tmp / "etiqueta_seccion.png"
