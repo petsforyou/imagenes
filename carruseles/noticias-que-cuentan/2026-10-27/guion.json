@@ -1,0 +1,22 @@
+{
+  "nombre": "noticias-que-cuentan-2026-10-27",
+  "semana": "Martes 27 de octubre",
+  "portada": "Gusano barrenador y transporte de animales",
+  "noticias": [
+    {
+      "etiqueta": "VETERINARIA",
+      "titulo": "La OMS alerta por el gusano barrenador en América",
+      "que": "Entre enero y septiembre de 2026 hubo 1.355 casos en personas y 5 muertes en América. El parásito también afecta a perros, gatos y caballos.",
+      "importa": "Se vigila que no llegue a Europa con animales importados; el riesgo por animal es muy bajo. Si viajas desde América, consulta a tu veterinario.",
+      "fuente": "OPS/OMS, vía Diario Veterinario, 19/10/2026"
+    },
+    {
+      "etiqueta": "NORMATIVA",
+      "titulo": "Europa debate nuevas reglas para transportar animales",
+      "que": "La UE negocia un reglamento nuevo para el transporte de animales vivos. Se debatía el 23/10 y se quiere cerrar este año. Incluye normas para perros y gatos.",
+      "importa": "Aún no es ley y puede cambiar. Los ganaderos (ASAJA) avisan de que podría encarecer el transporte entre un 25 y un 30 %.",
+      "fuente": "Agrodigital, 22/10/2026; Consejo de la UE (2023/0448)"
+    }
+  ],
+  "cierre": "¿Te ha servido? Guárdalo y compártelo con quien tenga mascota."
+}
