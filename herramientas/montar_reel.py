@@ -15,7 +15,7 @@ guion.json (rutas relativas a la carpeta del guion):
   "nombre": "historia-rony",
   "musica": "audio/musica-heroe-epica.mp3",
   "seccion": "Historias de cuatro patas",   (ya NO se dibuja desde el 26/10/2026; se puede omitir)
-  "etiqueta": "Imágenes ilustrativas creadas con IA",   (opcional, abajo a la izquierda)
+  "etiqueta": "...",   (ya NO se dibuja desde el 2/11/2026; se puede omitir)
   "escenas": [
     {"foto": "img/1.jpg", "dur": 3.4, "gancho": "Frase gancho (abajo, en amarillo)", "texto": null},
     {"foto": "img/2.png", "dur": 4.0, "texto": "Subtítulo de esta escena", "x": 0.4}
@@ -237,7 +237,7 @@ def main(guion_path):
         capa_etiqueta_seccion(g["seccion"], etiqueta_sec)
     for i, esc in enumerate(g["escenas"]):
         capa = tmp / f"t{i}.png"
-        capa_texto(esc.get("texto"), capa, esc.get("gancho"), g.get("etiqueta"), esc.get("titulo"))
+        capa_texto(esc.get("texto"), capa, esc.get("gancho"), None, esc.get("titulo"))  # sin aviso de IA en el vídeo (María, 2/11/2026)
         if i == 0 and etiqueta_sec:
             unir_capas(capa, etiqueta_sec, salida=capa)
         c = tmp / f"c{i}.mp4"
