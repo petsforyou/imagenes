@@ -1,1 +1,1 @@
-{"sitios":[{"id":"osm-w1149542084","tipo":"camping","nombre":"Domaine de Meilly","lat":15.95132,"lon":-61.30559,"localidad":null,"pais":"FR","mascotas":{"estado":"sin dato"},"contactos":{"tel":[],"email":[],"web":[]}}]}
+{"sitios":[{"id":"osm-w1149542084","tipo":"camping","nombre":"Domaine de Meilly","lat":15.95132,"lon":-61.30559,"localidad":null,"pais":"FR","mascotas":{"estado":"sin dato"},"contactos":{"tel":[],"email":[],"web":[]},"servicios":{"agua":true}}]}
