@@ -1,0 +1,14 @@
+{
+ "nombre": "noticias-que-cuentan-2026-11-09",
+ "musica": "../audio/musica-historias-emocionante-3.mp3",
+ "escenas": [
+  {"foto": "img/1.jpg", "dur": 3.4, "texto": null, "gancho": "Se perdió en 2019. Siete años después, un pequeño pitido lo cambió todo."},
+  {"foto": "img/2.jpg", "dur": 3.2, "x": 0.35, "texto": "Corduroy, un cocker spaniel, se escapó en Los Ángeles mientras su familia cargaba el camión de la mudanza."},
+  {"foto": "img/3.jpg", "dur": 3.2, "texto": "Lo buscaron sin descanso. Al final tuvieron que irse a San Diego sin él."},
+  {"foto": "img/4.jpg", "dur": 3.2, "texto": "Pasaron siete años. Ni una pista. Ni un aviso."},
+  {"foto": "img/5.jpg", "dur": 3.2, "x": 0.6, "texto": "Pero en octubre llegó a un refugio de Los Ángeles un perro mayor, sin dueño. Uno más."},
+  {"foto": "img/6.jpg", "dur": 3.2, "x": 0.5, "texto": "Le pasaron un lector por el cuello. Sonó un pitido: tenía microchip."},
+  {"foto": "img/7.jpg", "dur": 3.3, "texto": "Llamaron a Samantha, su dueña. Condujo desde San Diego y Corduroy volvió con su familia."},
+  {"foto": "img/8.jpg", "dur": 3.6, "texto": "Lo trajo a casa un chip del tamaño de un grano de arroz. ¿El de tu mascota tiene tus datos al día?"}
+ ]
+}
