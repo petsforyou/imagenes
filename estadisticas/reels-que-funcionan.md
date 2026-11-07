@@ -29,3 +29,17 @@ Fuente: Instagram, Make 7618937 (/17841429835211881/media con insights views, re
 | 3/11 | Estudio de Kioto sobre los años con tu gato | 289 | 230 | 0 / 0 | NO funciona: dato de estudio sin animal protagonista ni emoción |
 
 Modo que se replica (sin cambios): animal protagonista con un giro (abandono → rescate, desaparecido → encontrado), primera frase con lo más fuerte que es verdad, 8 escenas de unos 3,7 s, re-enganche con «Pero…» en la escena 5, música emotiva según la historia y cierre con una acción útil. Los estudios y curiosidades sin animal con historia se quedan en cientos de vistas.
+
+## 7/11/2026 · Revisión de la tarea pfy-animales-nuestros-amigos-noticias (Noticias que cuentan)
+
+Fuente: Instagram, Make 7618937 (/17841429835211881/media con insights views, reach, saved, shares), últimos 40 reels (29/10 a 7/11). Facebook y YouTube no se han leído.
+
+| Fecha | Reel | Vistas IG | Alcance | Guardados / compartidos | Por qué funciona |
+|---|---|---|---|---|---|
+| 31/10 | Jasper, el malinois que protege al rinoceronte | 23.083 | 16.659 | 40 / 28 | Héroe con nombre y misión, intriga desde la primera frase, música épica |
+| 2/11 | Mastina encadenada en el Arlanza | 13.489 | 8.827 | 30 / 25 | Indignación: el dato más duro y verdadero primero, «presunto», música triste |
+| 4/11 | Ismael, el galgo del pozo | 4.713 | 2.807 | 14 / 2 | Arranque sensorial, rescate, música épica |
+| 5/11 | Lince a 12 metros de altura (curiosidad) | 2.599 | 1.915 | 1 / 1 | Pregunta que intriga con imagen sorprendente |
+| 6/11 | Cebos envenenados en un parque | 789 | 648 | 1 / 0 | Más flojo: sin animal protagonista con nombre |
+
+Modo que se replica (sin cambios): animal protagonista, primera frase con lo más fuerte que es verdad, 8 escenas, «Pero…» en la escena 5, música emotiva y acción útil al final. El 10/11 (perros de Buñol) sigue el modelo de la mastina: indignación con «presunto» y salida útil (acogida o adopción).
