@@ -1,0 +1,14 @@
+{
+ "nombre": "noticias-que-cuentan-2026-11-10",
+ "musica": "../audio/musica-abandono-triste-3.mp3",
+ "escenas": [
+  {"foto": "img/1.jpg", "dur": 3.4, "x": 0.45, "texto": null, "gancho": "110 perros encadenados. Sin agua y sin comida."},
+  {"foto": "img/2.jpg", "dur": 3.2, "x": 0.5, "texto": "Pasó en una finca de Buñol (Valencia). Un vecino llamó preocupado y la Policía Local dio el aviso."},
+  {"foto": "img/3.jpg", "dur": 3.2, "x": 0.55, "texto": "El 26 de octubre entró el Seprona de la Guardia Civil."},
+  {"foto": "img/4.jpg", "dur": 3.2, "texto": "La mitad estaban atados en pequeños cobertizos. El resto, con cadenas cortas o en jaulas diminutas."},
+  {"foto": "img/5.jpg", "dur": 3.2, "texto": "Pero para doce de ellos la ayuda llegó tarde: no sobrevivieron."},
+  {"foto": "img/6.jpg", "dur": 3.2, "texto": "La mayoría eran podencos y perros de caza. Hay un detenido de 50 años, presunto autor de maltrato animal."},
+  {"foto": "img/7.jpg", "dur": 3.3, "x": 0.25, "texto": "Los demás se recuperan en el centro Ribamontes: agua, comida poco a poco, curas y veterinario."},
+  {"foto": "img/8.jpg", "dur": 3.7, "texto": "Y el juzgado ya deja que vayan a acogida o adopción. ¿Les abres una puerta?"}
+ ]
+}
