@@ -1,0 +1,47 @@
+{
+ "nombre": "historia-poza-fuente-el-fresno",
+ "musica": "../audio/musica-heroe-epica-3.mp3",
+ "escenas": [
+  {
+   "foto": "img/1.jpg",
+   "dur": 3.4,
+   "gancho": "Dos perros, en el fondo de una poza de cinco metros. Abandonados."
+  },
+  {
+   "foto": "img/2.jpg",
+   "dur": 3.6,
+   "texto": "Gravemente desnutridos y atrapados en el fondo."
+  },
+  {
+   "foto": "img/3.jpg",
+   "dur": 3.8,
+   "texto": "El Seprona de la Guardia Civil llegó a Fuente el Fresno, en Ciudad Real.",
+   "x": 0.5
+  },
+  {
+   "foto": "img/4.jpg",
+   "dur": 3.6,
+   "texto": "Los agentes bajaron con rápel hasta el fondo."
+  },
+  {
+   "foto": "img/5.jpg",
+   "dur": 3.8,
+   "texto": "Y sacaron a los dos perros, uno detrás de otro."
+  },
+  {
+   "foto": "img/6.jpg",
+   "dur": 3.6,
+   "texto": "Ahora están al cuidado de una protectora."
+  },
+  {
+   "foto": "img/7.jpg",
+   "dur": 3.8,
+   "texto": "Su presunto dueño está investigado por maltrato animal."
+  },
+  {
+   "foto": "img/8.jpg",
+   "dur": 4.4,
+   "texto": "¿Ves un animal en peligro? Llama al 112. Sin denuncia, no hay investigación."
+  }
+ ]
+}

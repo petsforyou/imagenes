@@ -1,0 +1,46 @@
+{
+ "nombre": "mundo-animal-lince-wonders",
+ "musica": "../audio/musica-superacion-inspiradora-2.mp3",
+ "escenas": [
+  {
+   "foto": "img/1.jpg",
+   "dur": 3.4,
+   "gancho": "Perdió a su madre con solo 20 días de vida."
+  },
+  {
+   "foto": "img/2.jpg",
+   "dur": 3.8,
+   "texto": "Él y sus dos hermanos estaban solos en una cueva. No podían sobrevivir."
+  },
+  {
+   "foto": "img/3.jpg",
+   "dur": 3.6,
+   "texto": "Su madre, Urava, había muerto atropellada en una carretera."
+  },
+  {
+   "foto": "img/4.jpg",
+   "dur": 3.8,
+   "texto": "Técnicos de la Junta de Extremadura los llevaron a un centro de cría."
+  },
+  {
+   "foto": "img/5.jpg",
+   "dur": 3.8,
+   "texto": "Allí, una lince veterana llamada Flora los acogió."
+  },
+  {
+   "foto": "img/6.jpg",
+   "dur": 3.4,
+   "texto": "Aprendieron a convivir y a cazar."
+  },
+  {
+   "foto": "img/7.jpg",
+   "dur": 3.6,
+   "texto": "Pasaron por Monfragüe para prepararse… y después, a Lorca."
+  },
+  {
+   "foto": "img/8.jpg",
+   "dur": 4.4,
+   "texto": "Wonders recorre libre las Tierras Altas de Lorca. ¿Le damos un aplauso?"
+  }
+ ]
+}
