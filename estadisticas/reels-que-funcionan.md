@@ -56,3 +56,14 @@ Fuente: Instagram, Make 7618937 (/17841429835211881/media con insights views, re
 | 5/11 | Lince a 12 metros de altura | 2.654 | 1.956 | 1 / 1 | Pregunta que intriga con imagen sorprendente |
 
 Modo que se replica (11 y 12/11: Judah y Storm): animal con nombre que salva a su persona, primera frase con lo más fuerte que es verdad, 8-9 escenas de ~3 s (25 s), «Pero…» hacia la escena 4-7, música épica y cierre útil o pregunta.
+
+## 9/11/2026 (noche) · Facebook (Metricool, marca 7728783, FBRE02, 26/10 a 9/11)
+
+| Fecha | Reel | Reproducciones FB | Por qué |
+|---|---|---|---|
+| 7/11 | Un mes encerrado en un piso (Manguito) | 5.050 | Animal en apuros + vecina que avisa + final contable; gancho de suspense; pregunta directa «¿Habrías llamado tú?» y acción útil (112/062) |
+| 8/11 | Regla 3-3-3 del perro adoptado | 342 | Consejo práctico de adopción |
+| 5/11 | Lince a 12 metros (Doñana) | 350 | Pregunta que intriga |
+| resto | consejos, curiosidades, producto | 185-320 | media de la página |
+
+Modo que se replica en el hueco nuevo de las 11:00 (rescates): animal en apuros + gente normal que actúa + final contado, gancho con suspense, 8 escenas (~25 s), pregunta directa y acción útil. 11/11: LouLou (avalancha, Alaska). 12/11: perro del canal Bogotá (Cúcuta).
