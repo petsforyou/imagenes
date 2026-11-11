@@ -21,6 +21,9 @@ guion.json (rutas relativas a la carpeta del guion):
     {"foto": "img/2.png", "dur": 4.0, "texto": "Subtítulo de esta escena", "x": 0.4}
   ]
 }
+VOZ EN OFF (11/11/2026, opcional): "voz": "voz.mp3" mezcla esa locución sobre la música, que baja
+de volumen ("volumen_musica", 0.16 por defecto; "volumen_voz", 1.6; "voz_inicio", 0.3 s). El vídeo dura
+lo que sumen las escenas: ajusta los "dur" para que la suma sea la duración de la voz + 1 s.
 Escena de VÍDEO (21/10/2026): en vez de "foto", pon "video": "clips/1.mp4" (un clip
 real libre, p. ej. de Pexels, o uno corto generado con IA). Se recorta a vertical, se queda
 con los primeros "dur" segundos y se le quita su audio.
@@ -262,11 +265,20 @@ def main(guion_path):
         prev = out
     total = sum(durs) - sum(fades[1:])
     musica = str(base / g["musica"])
+    voz = g.get("voz")
+    vol_musica = g.get("volumen_musica", 0.16) if voz else 0.9
     filtro.append(f"[{len(clips)}:a]atrim=0:{total:.2f},afade=t=in:d=0.5,"
-                  f"afade=t=out:st={total-1.5:.2f}:d=1.5,volume=0.9[a]")
+                  f"afade=t=out:st={total-1.5:.2f}:d=1.5,volume={vol_musica}[{'m' if voz else 'a'}]")
+    extra = []
+    if voz:
+        # Voz en off (11/11/2026): empieza a los "voz_inicio" s (0.3 por defecto), la musica baja de volumen.
+        ini = int(float(g.get("voz_inicio", 0.3)) * 1000)
+        filtro.append(f"[{len(clips)+1}:a]adelay={ini}:all=1,volume={g.get('volumen_voz', 1.6)}[vz]")
+        filtro.append("[m][vz]amix=inputs=2:duration=first:normalize=0[a]")
+        extra = ["-i", str(base / voz)]
     salida = base / f"{g['nombre']}.mp4"
     subprocess.run([FFMPEG, "-y", "-loglevel", "error", *inputs,
-                    "-stream_loop", "-1", "-i", musica,
+                    "-stream_loop", "-1", "-i", musica, *extra,
                     "-filter_complex", ";".join(filtro), "-map", prev, "-map", "[a]",
                     "-c:v", "libx264", "-preset", "medium", "-crf", "20",
                     "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k",
