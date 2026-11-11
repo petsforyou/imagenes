@@ -1,0 +1,47 @@
+{
+ "nombre": "noticias-que-cuentan-2026-11-14",
+ "musica": "../audio/musica-heroe-epica-2.mp3",
+ "escenas": [
+  {
+   "foto": "img/1.jpg",
+   "dur": 3.3,
+   "texto": null,
+   "gancho": "A más de 10 metros de altura. Y no sabía bajar."
+  },
+  {
+   "foto": "img/2.jpg",
+   "dur": 3.0,
+   "texto": "Pasó el lunes por la noche en Palma: un gato subió a lo alto de un ciprés, frente al colegio La Salle."
+  },
+  {
+   "foto": "img/3.jpg",
+   "dur": 2.8,
+   "texto": "Llegó casi a la copa y empezó a maullar sin parar."
+  },
+  {
+   "foto": "img/4.jpg",
+   "dur": 3.0,
+   "texto": "Alumnos, padres y deportistas que salían de entrenar lo oyeron y dieron la alerta."
+  },
+  {
+   "foto": "img/5.jpg",
+   "dur": 2.9,
+   "texto": "Hacia las 21:00 llegaron los Bombers de Palma con la autoescala."
+  },
+  {
+   "foto": "img/6.jpg",
+   "dur": 2.8,
+   "texto": "Una patrulla de la Policía Local cortó el tráfico para que pudieran trabajar."
+  },
+  {
+   "foto": "img/7.jpg",
+   "dur": 2.8,
+   "texto": "En pocos minutos, un bombero llegó hasta él…"
+  },
+  {
+   "foto": "img/8.jpg",
+   "dur": 3.6,
+   "texto": "…y lo bajó sano y salvo. Los jóvenes querían adoptarlo, pero se escapó. ¿Le habrías dado un hogar?"
+  }
+ ]
+}

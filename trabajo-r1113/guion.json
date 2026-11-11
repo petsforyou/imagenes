@@ -1,0 +1,47 @@
+{
+ "nombre": "rescate-anchovy-jack-2026-11-13",
+ "musica": "../audio/musica-superacion-inspiradora-4.mp3",
+ "escenas": [
+  {
+   "foto": "img/1.jpg",
+   "dur": 3.4,
+   "texto": null,
+   "gancho": "Con un solo ojo. Semanas huyendo de todo el mundo."
+  },
+  {
+   "foto": "img/2.jpg",
+   "dur": 3.1,
+   "texto": "Anchovy Jack vivía en la calle. Lo adoptaron, lo operaron del ojo… y a los pocos días se escapó de su casa nueva en San Francisco."
+  },
+  {
+   "foto": "img/3.jpg",
+   "dur": 3.0,
+   "texto": "Lo vieron en el Sunset, en Richmond, en el parque Golden Gate, en el Presidio…"
+  },
+  {
+   "foto": "img/4.jpg",
+   "dur": 2.9,
+   "texto": "Llegó hasta el Marina Green, junto al Golden Gate."
+  },
+  {
+   "foto": "img/5.jpg",
+   "dur": 3.0,
+   "texto": "Corría muy rápido y saltaba vallas. Tenía tanto miedo que nadie podía acercarse."
+  },
+  {
+   "foto": "img/6.jpg",
+   "dur": 3.2,
+   "texto": "Entonces llamaron a Susan Packer, experta en perros perdidos. Y los vecinos ayudaron: apuntaban dónde lo veían, sin perseguirlo."
+  },
+  {
+   "foto": "img/7.jpg",
+   "dur": 3.1,
+   "texto": "Ella se quedó en la ciudad día y noche. Una noche, con las calles en silencio, Jack entró solo en una jaula trampa."
+  },
+  {
+   "foto": "img/8.jpg",
+   "dur": 3.8,
+   "texto": "Hoy está a salvo: come, bebe y descansa. ¿Habrías sabido no perseguirlo?"
+  }
+ ]
+}

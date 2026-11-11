@@ -1,0 +1,47 @@
+{
+ "nombre": "noticias-que-cuentan-2026-11-13",
+ "musica": "../audio/musica-historias-emocionante-2.mp3",
+ "escenas": [
+  {
+   "foto": "img/1.jpg",
+   "dur": 3.3,
+   "texto": null,
+   "gancho": "17 perros llegaron en un solo día. Y no había sitio."
+  },
+  {
+   "foto": "img/2.jpg",
+   "dur": 3.0,
+   "texto": "Pasó en El Hierro (Canarias). La protectora El Juaclo los recibió un domingo, a principios de noviembre."
+  },
+  {
+   "foto": "img/3.jpg",
+   "dur": 2.9,
+   "texto": "«No tenemos espacio ni recintos libres», avisaron."
+  },
+  {
+   "foto": "img/4.jpg",
+   "dur": 2.8,
+   "texto": "Ni siquiera mantas suficientes para todos."
+  },
+  {
+   "foto": "img/5.jpg",
+   "dur": 3.0,
+   "texto": "Aun así, no dijeron que no: «Había que ayudarles»."
+  },
+  {
+   "foto": "img/6.jpg",
+   "dur": 3.0,
+   "texto": "Ahora piden voluntarios para cuidarlos cada día…"
+  },
+  {
+   "foto": "img/7.jpg",
+   "dur": 3.0,
+   "texto": "…y casas de acogida que les den un sofá mientras encuentran familia."
+  },
+  {
+   "foto": "img/8.jpg",
+   "dur": 3.6,
+   "texto": "«17 vidas dependen de que entre todos ayudemos». ¿Lo compartes?"
+  }
+ ]
+}

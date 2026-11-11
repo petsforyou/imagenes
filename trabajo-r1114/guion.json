@@ -1,0 +1,52 @@
+{
+ "nombre": "rescate-aya-daroca-de-rioja-2026-11-14",
+ "musica": "../audio/musica-heroe-epica-3.mp3",
+ "escenas": [
+  {
+   "foto": "img/1.jpg",
+   "dur": 3.3,
+   "texto": null,
+   "gancho": "Pasó la noche sola en el monte. Empapada y con una pata herida."
+  },
+  {
+   "foto": "img/2.jpg",
+   "dur": 3.0,
+   "texto": "Su dueño, un cazador de 64 años, sufrió un accidente en el barranco del Colorado, en Daroca de Rioja."
+  },
+  {
+   "foto": "img/3.jpg",
+   "dur": 2.9,
+   "texto": "A él lo rescataron la Guardia Civil y los servicios de emergencia. Pero Aya, su perra, no aparecía."
+  },
+  {
+   "foto": "img/4.jpg",
+   "dur": 2.8,
+   "texto": "Llegó la noche y hubo que parar. El terreno era demasiado peligroso."
+  },
+  {
+   "foto": "img/5.jpg",
+   "dur": 2.7,
+   "texto": "Al amanecer, el equipo de montaña de la Guardia Civil volvió a por ella."
+  },
+  {
+   "foto": "img/6.jpg",
+   "dur": 2.8,
+   "texto": "Bajaron 30 metros con cuerda y rastrearon barrancos y laderas."
+  },
+  {
+   "foto": "img/7.jpg",
+   "dur": 2.8,
+   "texto": "Y entonces lo oyeron: unos pitidos débiles. Era el collar de Aya."
+  },
+  {
+   "foto": "img/8.jpg",
+   "dur": 2.9,
+   "texto": "Estaba agotada, temblando de frío, casi sin poder andar."
+  },
+  {
+   "foto": "img/9.jpg",
+   "dur": 3.6,
+   "texto": "La sacaron en un petate de rescate y la llevaron al veterinario. ¿Tu perro lleva collar localizador?"
+  }
+ ]
+}
