@@ -533,3 +533,5 @@ instagram | 17871305172659533 | 2026-11-14 | callescarmennieto (reel Wonders) | 
 facebook | 122131278405463962_3355024144886177 | 2026-11-14 | "Comparto" (reel El Hierro) | me gusta
 youtube | UgyjvSripJT3mg6vul14AaABAg | 2026-11-14 | @bstanford-n3g (reel Jota y Deny) | respondido
 instagram | varios (solo emojis/elogio/indignacion en reels Fuente el Fresno, Bunol, Wonders, Judah, Jota) | 2026-11-14 | sin respuesta
+tiktok | revisado 14/11 ~08:15, conector TikTok Social con error de servidor en todas las llamadas (account_user_post_list_get, account_user_get); 5 intentos. Respaldo Upload-Post sin videos de TikTok en su historial desde el 10/11 (los reels recientes no se publican por esa via): no se pudo listar comentarios nuevos. Nada procesado. Aviso enviado a Maria.
+tiktok-dm | revisado 14/11 ~08:20, Business Suite | 2026-11-14 | sin mensajes nuevos (0 sin leer; Nestor Salinas y Nn_m siguen esperando respuesta del usuario; Rachel Elkins y oswaldoescobar01 cerradas; 0 solicitudes nuevas)
