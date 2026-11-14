@@ -1,0 +1,47 @@
+{
+ "nombre": "noticias-que-cuentan-2026-11-17",
+ "musica": "../audio/musica-superacion-inspiradora-3.mp3",
+ "escenas": [
+  {
+   "foto": "img/1.jpg",
+   "dur": 3.0,
+   "texto": null,
+   "gancho": "Se hundía en brea. Y quien fue a sacarlo, también."
+  },
+  {
+   "foto": "img/2.jpg",
+   "dur": 3.9,
+   "texto": "Hace unos días, en La Plata (Argentina), en un terreno de 611 y 119."
+  },
+  {
+   "foto": "img/3.jpg",
+   "dur": 2.8,
+   "texto": "Un perro buscaba comida junto a un tanque abandonado."
+  },
+  {
+   "foto": "img/4.jpg",
+   "dur": 2.6,
+   "texto": "Se hundió y quedó atrapado en la brea."
+  },
+  {
+   "foto": "img/5.jpg",
+   "dur": 3.7,
+   "texto": "El rescatista Ezequiel «Kelo» fue a por él, con ayuda de los vecinos."
+  },
+  {
+   "foto": "img/6.jpg",
+   "dur": 2.8,
+   "texto": "Pero el suelo cedía. Él también se estaba hundiendo."
+  },
+  {
+   "foto": "img/7.jpg",
+   "dur": 3.4,
+   "texto": "Al final lo sacaron. Está internado en una veterinaria de La Plata."
+  },
+  {
+   "foto": "img/8.jpg",
+   "dur": 4.3,
+   "texto": "Piden ayuda para sus cuidados. Si ves un animal atrapado, no entres solo: llama al 112."
+  }
+ ]
+}

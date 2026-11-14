@@ -1,0 +1,52 @@
+{
+ "nombre": "rescate-border-collie-fosa-san-pedro-2026-11-17",
+ "musica": "../audio/musica-heroe-epica-4.mp3",
+ "escenas": [
+  {
+   "foto": "img/1.jpg",
+   "dur": 2.7,
+   "texto": null,
+   "gancho": "Diez metros bajo tierra. Hasta que alguien se asomó."
+  },
+  {
+   "foto": "img/2.jpg",
+   "dur": 3.3,
+   "texto": "Pasó el domingo 8 de noviembre en San Pedro, Nuevo León (México)."
+  },
+  {
+   "foto": "img/3.jpg",
+   "dur": 2.7,
+   "texto": "Un border collie adulto había caído en una excavación."
+  },
+  {
+   "foto": "img/4.jpg",
+   "dur": 2.9,
+   "texto": "Un ciudadano lo vio en el fondo y pidió ayuda."
+  },
+  {
+   "foto": "img/5.jpg",
+   "dur": 3.3,
+   "texto": "Llegó Protección Civil de San Pedro con cuerdas y equipo de rescate."
+  },
+  {
+   "foto": "img/6.jpg",
+   "dur": 2.7,
+   "texto": "Un rescatista bajó hasta el fondo y lo sacó."
+  },
+  {
+   "foto": "img/7.jpg",
+   "dur": 3.3,
+   "texto": "Casi dos horas de trabajo. Solo tenía una herida en la nariz."
+  },
+  {
+   "foto": "img/8.jpg",
+   "dur": 2.7,
+   "texto": "Está a salvo, y ahora buscan a su familia."
+  },
+  {
+   "foto": "img/9.jpg",
+   "dur": 3.3,
+   "texto": "¿Te habrías asomado tú? Si ves un animal atrapado, llama al 112."
+  }
+ ]
+}

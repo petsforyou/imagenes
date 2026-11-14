@@ -1,0 +1,52 @@
+{
+ "nombre": "noticias-que-cuentan-2026-11-15",
+ "musica": "../audio/musica-noticias.mp3",
+ "escenas": [
+  {
+   "foto": "img/1.jpg",
+   "dur": 2.4,
+   "texto": null,
+   "gancho": "Si tienes perro, gato o hurón, esto va contigo."
+  },
+  {
+   "foto": "img/2.jpg",
+   "dur": 3.8,
+   "texto": "El 10 de noviembre el Gobierno aprobó el primer decreto que desarrolla la Ley de Bienestar Animal."
+  },
+  {
+   "foto": "img/3.jpg",
+   "dur": 2.4,
+   "texto": "Trata de cómo se identifican los animales de compañía."
+  },
+  {
+   "foto": "img/4.jpg",
+   "dur": 2.4,
+   "texto": "Perros, gatos y hurones llevarán microchip bajo la piel..."
+  },
+  {
+   "foto": "img/5.jpg",
+   "dur": 2.4,
+   "texto": "...en el lado izquierdo del cuello."
+  },
+  {
+   "foto": "img/6.jpg",
+   "dur": 2.8,
+   "texto": "Y se pondrá antes de que cumplan dos meses de edad."
+  },
+  {
+   "foto": "img/7.jpg",
+   "dur": 3.3,
+   "texto": "Los veterinarios habilitados harán el registro, cambiarán los chips que fallen y emitirán pasaportes."
+  },
+  {
+   "foto": "img/8.jpg",
+   "dur": 3.7,
+   "texto": "La idea: un sistema único en toda España, para controlar y localizar mejor a cada animal."
+  },
+  {
+   "foto": "img/9.jpg",
+   "dur": 3.8,
+   "texto": "¿El chip de tu animal tiene tus datos al día? Ante la duda, pregunta a tu veterinario."
+  }
+ ]
+}

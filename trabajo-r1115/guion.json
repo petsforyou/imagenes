@@ -1,0 +1,47 @@
+{
+ "nombre": "rescate-perro-caza-o-valadouro-2026-11-15",
+ "musica": "../audio/musica-heroe-epica.mp3",
+ "escenas": [
+  {
+   "foto": "img/1.jpg",
+   "dur": 3.4,
+   "texto": null,
+   "gancho": "Cayó 20 metros por un talud. Abajo, un río con saltos de agua."
+  },
+  {
+   "foto": "img/2.jpg",
+   "dur": 3.8,
+   "texto": "Pasó el jueves 12 de noviembre en O Valadouro (Lugo), durante una jornada de caza."
+  },
+  {
+   "foto": "img/3.jpg",
+   "dur": 2.8,
+   "texto": "Un perro de caza resbaló barranco abajo, hasta el río."
+  },
+  {
+   "foto": "img/4.jpg",
+   "dur": 3.6,
+   "texto": "Los Bomberos de Barreiros bajaron a pie entre 500 y 600 metros de desnivel."
+  },
+  {
+   "foto": "img/5.jpg",
+   "dur": 3.0,
+   "texto": "Montaron un polipasto con cuerdas y un bombero bajó con arnés."
+  },
+  {
+   "foto": "img/6.jpg",
+   "dur": 2.8,
+   "texto": "Pero el perro, asustado, había cruzado a la otra orilla."
+  },
+  {
+   "foto": "img/7.jpg",
+   "dur": 3.2,
+   "texto": "Lo alcanzaron, lo aseguraron en un triángulo de evacuación y lo subieron."
+  },
+  {
+   "foto": "img/8.jpg",
+   "dur": 3.8,
+   "texto": "Estaba golpeado y asustado, pero a salvo. ¿Sabrías a quién llamar? En España, al 112."
+  }
+ ]
+}

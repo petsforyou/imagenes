@@ -1,0 +1,47 @@
+{
+ "nombre": "noticias-que-cuentan-2026-11-16",
+ "musica": "../audio/musica-historias-emocionante-4.mp3",
+ "escenas": [
+  {
+   "foto": "img/1.jpg",
+   "dur": 2.9,
+   "texto": null,
+   "gancho": "Era tan pequeño que no hizo falta el atrapaperros."
+  },
+  {
+   "foto": "img/2.jpg",
+   "dur": 4.2,
+   "texto": "Un chihuahua cayó en una zanja en Mucho Lote 1, al norte de Guayaquil (Ecuador)."
+  },
+  {
+   "foto": "img/3.jpg",
+   "dur": 3.6,
+   "texto": "Sus dueños estaban allí, pero no tenían equipo ni experiencia para bajar."
+  },
+  {
+   "foto": "img/4.jpg",
+   "dur": 2.4,
+   "texto": "Llegaron los Bomberos de Guayaquil."
+  },
+  {
+   "foto": "img/5.jpg",
+   "dur": 3.8,
+   "texto": "Erick Pincay bajó con arnés y cuerda. Leopoldo Alay lo aseguraba desde arriba."
+  },
+  {
+   "foto": "img/6.jpg",
+   "dur": 3.1,
+   "texto": "Habían pensado usar un atrapaperros. Pero el perro era diminuto."
+  },
+  {
+   "foto": "img/7.jpg",
+   "dur": 3.1,
+   "texto": "Así que lo sujetaron con la mano y lo sacaron."
+  },
+  {
+   "foto": "img/8.jpg",
+   "dur": 3.8,
+   "texto": "Sus dueños lo esperaban arriba. ¿Sabrías a quién llamar? En España, al 112."
+  }
+ ]
+}

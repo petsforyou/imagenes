@@ -1,0 +1,52 @@
+{
+ "nombre": "rescate-perro-acantilados-castro-urdiales-2026-11-16",
+ "musica": "../audio/musica-superacion-inspiradora.mp3",
+ "escenas": [
+  {
+   "foto": "img/1.jpg",
+   "dur": 3.1,
+   "texto": null,
+   "gancho": "Un perro en el agua, al pie de los acantilados."
+  },
+  {
+   "foto": "img/2.jpg",
+   "dur": 3.4,
+   "texto": "Pasó el viernes 6 de noviembre en Saltacaballo, Castro Urdiales (Cantabria)."
+  },
+  {
+   "foto": "img/3.jpg",
+   "dur": 2.9,
+   "texto": "El perro había caído al mar desde las rocas."
+  },
+  {
+   "foto": "img/4.jpg",
+   "dur": 3.4,
+   "texto": "A las 15:58 entró el aviso en el 112 de Cantabria."
+  },
+  {
+   "foto": "img/5.jpg",
+   "dur": 2.9,
+   "texto": "Mientras, él seguía en el agua, entre las olas."
+  },
+  {
+   "foto": "img/6.jpg",
+   "dur": 2.7,
+   "texto": "Los Bomberos de Castro Urdiales salieron a buscarlo."
+  },
+  {
+   "foto": "img/7.jpg",
+   "dur": 2.5,
+   "texto": "Lo recuperaron y lo llevaron a puerto."
+  },
+  {
+   "foto": "img/8.jpg",
+   "dur": 2.4,
+   "texto": "Llegó sin lesiones aparentes."
+  },
+  {
+   "foto": "img/9.jpg",
+   "dur": 3.8,
+   "texto": "¿Sabrías qué hacer? Llama al 112 y no te tires tú al agua."
+  }
+ ]
+}
