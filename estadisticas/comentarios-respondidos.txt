@@ -606,3 +606,4 @@ tiktok | 7708300019636405014 | 2026-11-16 | mactres333 (emojis, reel rapaces lib
 tiktok | 7708322695981925152 | 2026-11-16 | gloria.villalba.p (gracias de corazon, reel Aya perra cazador) | me gusta
 tiktok | 7708314324410417942 | 2026-11-16 | pasion081 (pena, ojala los adopten, reel El Hierro 17 perros) | me gusta
 tiktok | revisado 16/11 ~07:18-07:21, conector TikTok Social: 10 videos de los ultimos 3 dias con comentarios (mas 1 con 0 comentarios). Comprobados sus comentarios; 10 nuevos (emojis/gracias/indignacion sin insulto) con me gusta, 1 ya oculto por TikTok (sin accion), el resto ya estaba gestionado en ejecuciones anteriores o ya tenia nuestro me gusta. Ninguno para Maria ni respuesta nueva. | 2026-11-16 | 10 me gusta
+tiktok-dm | revisado 16/11 ~07:30, Business Suite: el navegador no tenia la sesion de TikTok de Maria iniciada (pidio login); no se pudo entrar sin contraseña. Nada revisado. Aviso enviado a Maria. | 2026-11-16 | sin revisar
