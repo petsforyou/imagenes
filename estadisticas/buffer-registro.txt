@@ -54,3 +54,16 @@
 2026-11-14 | x | tunel paja producto del dia (metricool 426904707) 16:30
 2026-11-15 | x+threads | nov-g02 tortuga zona seca (metricool 418916924) 09:30
 2026-11-15 | x+threads | nov-g09 tortuga frio (metricool 418916925) 19:00
+2026-11-15 | x | perro talud O Valadouro (metricool 427985205) 11:30
+2026-11-15 | x+threads | microchip decreto (metricool 427985286) 14:00
+2026-11-15 | x+threads | fany gata cementerio (metricool 427971813) 23:00
+2026-11-16 | x | perro mar Castro Urdiales (metricool 427985364) 11:30
+2026-11-16 | x | chihuahua Guayaquil (metricool 427985424) 14:00
+2026-11-16 | x+threads | stubby (metricool 427971860) 23:00
+2026-11-15 | x+threads | HILO microchip decreto 12:20
+2026-11-16 | x+threads | terrario nov-g04 (metricool 418916926) 09:30
+2026-11-16 | x+threads | HILO Castro Urdiales perro al mar 12:20
+2026-11-16 | x+threads | mal aliento nov-g44 (metricool 418916932) 19:00
+2026-11-17 | x | border collie San Pedro (metricool 427985493) 11:30
+2026-11-17 | x | brea La Plata (metricool 427985556) 14:00
+2026-11-17 | x+threads | tortuga Solitario George (metricool 427971906) 23:00
