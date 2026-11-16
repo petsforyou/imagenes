@@ -67,3 +67,4 @@
 2026-11-17 | x | border collie San Pedro (metricool 427985493) 11:30
 2026-11-17 | x | brea La Plata (metricool 427985556) 14:00
 2026-11-17 | x+threads | tortuga Solitario George (metricool 427971906) 23:00
+2026-11-16 | x+threads | HILO Stubby 20:30
