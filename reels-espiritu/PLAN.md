@@ -199,3 +199,20 @@ Y el envío es gratis a toda España, sin mínimo de compra.
 Imágenes ilustrativas en las dos últimas escenas.
 
 #mascotas #preciosclaros #perros #gatos #petsforyou
+
+## DESCARTADOS por María (19/11)
+- 19/11 ~17:40 · reels espíritu, criterio de María: los tres reels de ideas (contesto-yo, plazos-honestos, precios-claros) NO se programan. No quiere que se vea que es una sola persona, y no puede afirmar plazos honestos ni precios claros («ha sido un caos desde que empecé, aunque no hay voluntad de que no sea así»). Aviso dado: la página «Quiénes somos» de la web sí dice las tres cosas; sin tocar.
+
+## Seis reels más (María, 19/11 tarde: ideas 4, 5 y 6, la app con todo y la app de rutas) — MONTADOS, SIN PROGRAMAR
+En plural («nosotros»), sin «una sola persona» y sin prometer plazos ni precios. APTO los seis; un fotograma por escena visto.
+| nombre | gancho | duración | de dónde sale lo que dice |
+|---|---|---|---|
+| pfy-cumple-la-ley | ¿Seguro que tu mascota cumple la ley? | 20,8 s | ficha de la app en App Store y Google Play (leídas 19/11, las dos públicas) |
+| pfy-tambien-explicamos | Antes de comprarle nada, ¿sabes qué necesita de verdad? | 21,0 s | blog (sitemap), ebooks «Razas de perros», «Razas de gatos», «El primer año de tu cachorro», guía de tallas en fichas de ropa |
+| pfy-para-ti-tambien | ¿Y para ti? Tú también eres de su familia. | 20,0 s | colección «Accesorios para amantes de mascotas» (fotos reales) |
+| pfy-app-todo | Una app de mascotas que no es solo una tienda. | 21,6 s | ficha de la app: ley, viajar por Europa, veterinarios de urgencias, blog, series, asistente |
+| pfy-app-rutas-por-dentro | ¿Esa ruta le va bien a tu perro? Esta app te lo dice. | 23,8 s | README y política de privacidad de «Rutas con tu peludo» |
+| pfy-app-rutas-autocaravana | ¿Tu autocaravana pasa por ahí? Esta app te avisa antes. | 23,6 s | código de la app (textos es.json y `src/caravaning`) |
+
+Ojo con la app de rutas: sigue en pruebas cerradas, los dos reels lo dicen y piden escribir a contacto@. María pidió «gasolineras de toda Europa, precios GLP»: en el código los precios oficiales solo están en España y Francia (`PAISES_CON_PRECIO = ['ES','FR']`); en el resto, las gasolineras y el GLP salen de OpenStreetMap sin precio. Por eso el reel dice «Gasolineras con GLP en el mapa» y «precios del día en España y Francia». Avisos de altura: «Pon la altura, el peso y el largo… te avisaremos si el acceso tiene un gálibo o un límite de peso» (texto de la app). Fronteras: apartado «Cruzar fronteras con tu perro». No comprobado en un móvil: solo en el código.
+El asistente de la app es de inteligencia artificial (lo dice su ficha); el reel dice «un asistente que te ayuda a elegir».
