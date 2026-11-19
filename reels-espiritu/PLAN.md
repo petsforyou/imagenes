@@ -150,3 +150,52 @@ Venga de donde venga, aquí tiene su sitio.
 Imágenes ilustrativas. Foto: Egan Snow (CC BY-SA 2.0).
 
 #adopcion #mascotas #perros #gatos #petsforyou
+
+## Los dos nuevos, PROGRAMADOS el 19/11 ~16:43
+- 19/11 ~16:43 · reels espíritu, los dos nuevos PROGRAMADOS (María: «Sí, prográmalos»): pfy-adopcion-sin-juzgar el dom 6/12 20:30 y pfy-marcas-del-mundo el mié 9/12 20:30. Huecos mirados antes en Metricool (vacío 19:35-21:25) y Postiz (ejecuciones 1063-1064: vecinos 9:00 y 18:30). Postiz: ejecuciones 1065 y 1066, 201 con 3 postId cada una (cola sin releer después). Metricool (TikTok y Pinterest, PENDING): 434394524 y 434394563. Pendiente de María: cambiar o no #adoptanocompres en los reels del 21/11 y 26/11.
+
+## Tres reels de ideas de Claude (María, 19/11: «haz los tres reels de tus ideas») — MONTADOS, SIN PROGRAMAR
+Todo lo que dicen sale de la página «Quiénes somos» de la web (leída el 19/11) y, lo del carrito, de «Nuestras marcas». APTO los tres; un fotograma por escena visto. Sin nombre ni datos personales de María.
+| nombre | gancho (fórmula) | música | duración |
+|---|---|---|---|
+| pfy-contesto-yo | ¿Quién hay al otro lado cuando escribes a una tienda? (1) | superacion-inspiradora-3 | 21,0 s |
+| pfy-plazos-honestos | ¿Cuántas veces te han dicho «llega mañana»… y no llegó? (2) | curiosidades | 21,4 s |
+| pfy-precios-claros | ¿Por qué sube y baja el precio de lo que compras para tu mascota? (1) | blog-suave | 21,0 s |
+
+Peros antes de programar:
+- «Si escribes, contesto yo»: vale para el correo; los comentarios de las redes los contestan las rutinas automáticas. No decir «no hay robot».
+- «Precios claros» («si el proveedor baja el precio, yo lo bajo», «sin precios inflados»): los precios SUBEN el 1/12 y la web lleva la barra «Black Friday: precios rebajados» hasta el 30/11. Publicarlo pegado a esas fechas puede volverse en contra: mejor a mediados de diciembre o no publicarlo.
+- «Envío gratis a toda España, sin mínimo» lo dice la web; no lo he comprobado en el carrito.
+
+### pfy-contesto-yo — título: ¿Quién hay al otro lado cuando escribes a una tienda?
+¿Quién hay al otro lado cuando escribes a una tienda?
+
+Aquí no hay centro de atención al cliente. Hay una persona, la misma que eligió cada producto pensando en sus propios animales. No soy una gran superficie.
+
+Si escribes, contesto yo: contacto@petsforyou.es
+
+Imágenes ilustrativas creadas con IA.
+
+#mascotas #tiendademascotas #perros #gatos #petsforyou
+
+### pfy-plazos-honestos — título: ¿Cuántas veces te han dicho «llega mañana»… y no llegó?
+¿Cuántas veces te han dicho «llega mañana»… y no llegó?
+
+Aquí, si algo tarda dos semanas, lo ves antes de comprar: el plazo de tu pedido sale en el carrito, antes de pagar. Prefiero decírtelo a que te lleves la sorpresa.
+
+Y el envío es gratis a toda España, sin mínimo de compra.
+
+Imágenes ilustrativas creadas con IA.
+
+#mascotas #comprasonline #perros #gatos #petsforyou
+
+### pfy-precios-claros — título: ¿Por qué sube y baja el precio de lo que compras para tu mascota?
+¿Por qué sube y baja el precio de lo que compras para tu mascota?
+
+Detrás hay un proveedor y un transporte. Si el proveedor baja el precio, yo lo bajo. Si el transporte se abarata, también. Sin precios inflados.
+
+Y el envío es gratis a toda España, sin mínimo de compra.
+
+Imágenes ilustrativas en las dos últimas escenas.
+
+#mascotas #preciosclaros #perros #gatos #petsforyou

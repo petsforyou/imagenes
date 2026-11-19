@@ -114,6 +114,33 @@ REELS = {
   (3.4, "t", "Nadie tiene por qué quedarse solo.", ("c", B + "app2.png")),
   (3.8, "t", "Venga de donde venga, aquí tiene su sitio. petsforyou.es", ("c", B + "pfy6.png")),
  ]),
+ "pfy-contesto-yo": ("musica-superacion-inspiradora-3.mp3", [
+  (3.8, "g", "¿Quién hay al otro lado cuando escribes a una tienda?", ("c", B + "pfy3.png")),
+  (3.4, "t", "Aquí no hay centro de atención al cliente.", ("c", B + "app2.png")),
+  (3.4, "t", "Hay una persona. La que eligió cada producto.", ("c", B + "A4_escena-4.png")),
+  (3.6, "t", "Solo elijo lo que compraría para mis propios animales.", ("c", B + "G41_escena-4.png")),
+  (3.2, "t", "No soy una gran superficie.", ("c", B + "pfy2.png")),
+  (3.4, "t", "Si escribes, contesto yo.", ("c", B + "A3_escena-5.png")),
+  (3.8, "t", "Escríbeme: contacto@petsforyou.es", ("c", B + "pfy6.png")),
+ ]),
+ "pfy-plazos-honestos": ("musica-curiosidades.mp3", [
+  (3.8, "g", "¿Cuántas veces te han dicho «llega mañana»… y no llegó?", ("c", B + "G16_escena-1.png")),
+  (3.4, "t", "Esperar sin saber cuánto es lo peor.", ("c", B + "G16_escena-3.png")),
+  (3.6, "t", "Aquí, si algo tarda dos semanas, lo ves antes de comprar.", ("c", B + "HOOK_20.png")),
+  (3.6, "t", "El plazo de tu pedido sale en el carrito, antes de pagar.", ("c", B + "app5.png")),
+  (3.4, "t", "Prefiero decírtelo a que te lleves la sorpresa.", ("c", B + "NAV_11.png")),
+  (3.4, "t", "Y el envío, gratis a toda España, sin mínimo.", ("c", B + "A4_escena-5.png")),
+  (3.8, "t", "Plazos honestos. petsforyou.es", ("c", B + "HOOK_18.png")),
+ ]),
+ "pfy-precios-claros": ("musica-blog-suave.mp3", [
+  (3.8, "g", "¿Por qué sube y baja el precio de lo que compras para tu mascota?", ("f", P + "m_fur-whiskers_5.jpg")),
+  (3.4, "t", "Detrás hay un proveedor y un transporte.", ("f", P + "m_lilly-dash_4.jpg")),
+  (3.6, "t", "Si el proveedor baja el precio, yo lo bajo.", ("f", P + "m_purre_7.jpg")),
+  (3.4, "t", "Si el transporte se abarata, también.", ("f", P + "m_mellow_5.jpg")),
+  (3.2, "t", "Sin precios inflados.", ("f", P + "m_lilly-dash_2.jpg")),
+  (3.4, "t", "Y el envío, gratis a toda España, sin mínimo.", ("c", B + "NAV_09.png")),
+  (3.8, "t", "Precios claros y honestos. petsforyou.es", ("c", B + "G39_escena-5.png")),
+ ]),
 }
 
 for nombre, (musica, escenas) in REELS.items():
