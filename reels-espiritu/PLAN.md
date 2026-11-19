@@ -1,4 +1,4 @@
-# Reels «lo que nos hace distintos» (pedido de María, 19/11/2026) — MONTADOS, NADA PROGRAMADO: falta el sí de María
+﻿# Reels «lo que nos hace distintos» (pedido de María, 19/11/2026) — MONTADOS, NADA PROGRAMADO: falta el sí de María
 
 Seis reels de ejemplo, sin voz, 1080×1920, montados en el PC con `montar_todo.py` (usa `herramientas/montar_reel.py`). Guiones: `guion-pfy-*.json`. Fotogramas vistos: `fotogramas-pfy-*.jpg`. Sin precios (suben el 1/12). Sin «Black Friday».
 
@@ -7,7 +7,7 @@ Vídeos (repo público, tras el push): `https://raw.githubusercontent.com/petsfo
 | n.º | día 20:30 (propuesta) | nombre del vídeo | gancho (fórmula) | música |
 |---|---|---|---|---|
 | 1 | sáb 21/11 | pfy-lo-que-no-vendemos | Tres cosas que esta tienda de mascotas se niega a vender. (6) | historias-emocionante-2 |
-| 2 | lun 23/11 | pfy-aqui-todos-cuentan | ¿Tu mascota no es ni perro ni gato? (2) | curiosidades-pegadiza |
+| 2 | lun 23/11 | pfy-aqui-todos-cuentan | En cada hogar del mundo hay un pequeño amigo que nos acompaña en la vida. (7, con el lema de María) | historias-emocionante-3 |
 | 3 | jue 26/11 | pfy-nunca-vendemos-animales | Somos una tienda de mascotas. Y no vendemos mascotas. (3) | historias-emocionante |
 | 4 | dom 29/11 | pfy-sal-de-ruta-con-tu-perro | Llegas con tu perro… y el cartel dice «perros no». (2) | mundo-animal-aventura |
 | 5 | mié 2/12 | pfy-comer-de-verdad | Lee la etiqueta de su comida. ¿Reconoces los ingredientes? (2) | salud-tranquila |
@@ -17,8 +17,8 @@ Hueco: 20:30 (el de anuncios; los anuncios de producto son martes y viernes; los
 Redes: Facebook, Instagram y YouTube por Postiz (n8n `pfyPostizPublicar1`); TikTok y Pinterest por Metricool (marca 7728783). Después, releer las dos colas.
 «Hecho aquí» va el último (5/12) porque M!MADO está de vacaciones hasta el 4/12 y hoy solo tiene 1 producto activo (el champú sólido, el que sale en el reel).
 
-Duraciones: 23,4 · 28,4 · 22,0 · 24,8 · 24,2 · 23,2 s. `comprobar_reel.py`: APTO los seis. Sonido sin escuchar (misma música y mezcla de siempre).
-Añadido el 19/11 por encargo de María (vía la sesión de estrategia): «Enviamos a 48 países» en el reel 2 (mercados ACTIVE de Shopify: 29 países con mercado propio + 19 de «Unión Europea»; dato de esa sesión, no releído aquí). Es «enviamos a», nunca «clientes en».
+Duraciones: 23,4 · 28,2 · 22,0 · 24,8 · 24,2 · 23,2 s. `comprobar_reel.py`: APTO los seis. Sonido sin escuchar (misma música y mezcla de siempre).
+Reel 2 rehecho el 19/11 con el lema de María («En esta tienda cabemos todos… Por eso estamos en 48 países… Si hay algún pequeño amigo que nos falte, escríbenos»; dice «estamos en», palabras suyas) y reel 4 con senderismo, travesías y autocaravana (README de la app). 48 países (mercados ACTIVE de Shopify: 29 países con mercado propio + 19 de «Unión Europea»; dato de esa sesión, no releído aquí). Es «enviamos a», nunca «clientes en».
 Pegas conocidas: los reels 3 y 4 comparten cuatro imágenes (las de la app de rutas); si molesta, se cambian las del 3. El reel 6 enseña el champú de M!MADO, hoy su único producto activo.
 
 ## Datos comprobados el 19/11/2026 (web pública petsforyou.es, products.json y pages.json)
@@ -49,14 +49,12 @@ Imágenes ilustrativas. Fotos: cdrussorusso (CC BY 2.0) y W. Mooldee (CC0).
 
 #bienestaranimal #hamsters #conejos #adoptanocompres #petsforyou
 
-### 2 · pfy-aqui-todos-cuentan — título: ¿Tu mascota no es ni perro ni gato?
-¿Tu mascota no es ni perro ni gato?
+### 2 · pfy-aqui-todos-cuentan — título: En cada hogar del mundo hay un pequeño amigo
+En esta tienda cabemos todos.
 
-Aquí el hámster tiene su sección. Y el hurón. Y las gallinas, las tortugas, los peces, los pájaros, los conejos, las cobayas y las chinchillas. Y sí: también perros y gatos.
+En todos los hogares del mundo hay un pequeño amigo que nos acompaña en la vida. A veces es un hámster. A veces, un hurón, una gallina, una tortuga, un pez, un pájaro, un conejo… o un perro y un gato.
 
-Enviamos a 48 países. Petsforyou es la tienda de todos, donde todos cuentan.
-
-¿Quién manda en tu casa? Cuéntanoslo.
+Por eso estamos en 48 países y por eso todos tienen aquí su sección. Si no es así y hay algún pequeño amigo que nos falte, escríbenos.
 
 Imágenes ilustrativas. Fotos: leoncillo sabino (CC BY 2.0) y PuppiesAreProzac (CC BY-SA 2.0).
 
@@ -78,7 +76,7 @@ Imágenes ilustrativas. Fotos: Egan Snow y smerikal (CC BY-SA 2.0).
 ### 4 · pfy-sal-de-ruta-con-tu-perro — título: Llegas con tu perro… y el cartel dice «perros no»
 Llegas con tu perro… y el cartel dice «perros no».
 
-Estamos haciendo una app para acabar con eso: Rutas con tu peludo. Rutas a pie con perro por toda Europa, que se guardan y se abren sin cobertura, con campings y las normas de cada país.
+Estamos haciendo una app para acabar con eso: Rutas con tu peludo. Rutas a pie con perro por toda Europa (senderismo y travesías), que se guardan y se abren sin cobertura, con apartado de autocaravana y las normas de cada país.
 
 Está en pruebas (Android y iPhone). ¿La pruebas antes que nadie? Escríbenos a contacto@petsforyou.es.
 
