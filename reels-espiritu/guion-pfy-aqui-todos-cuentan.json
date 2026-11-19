@@ -1,0 +1,72 @@
+{
+ "nombre": "pfy-aqui-todos-cuentan",
+ "musica": "../audio/musica-curiosidades-pegadiza.mp3",
+ "escenas": [
+  {
+   "foto": "img/pfy-aqui-todos-cuentan/1.jpg",
+   "dur": 3.4,
+   "_origen": "bib/A4_escena-1.png",
+   "gancho": "¿Tu mascota no es ni perro ni gato?"
+  },
+  {
+   "foto": "img/pfy-aqui-todos-cuentan/2.jpg",
+   "dur": 3.0,
+   "_origen": "bib/A3_escena-1.png",
+   "texto": "Aquí el hámster tiene su sección."
+  },
+  {
+   "foto": "img/pfy-aqui-todos-cuentan/3.jpg",
+   "dur": 3.0,
+   "_origen": "bib/A4_escena-2.png",
+   "texto": "El hurón, la suya."
+  },
+  {
+   "foto": "img/pfy-aqui-todos-cuentan/4.jpg",
+   "dur": 3.0,
+   "_origen": "cand/gallina2.jpg",
+   "texto": "Las gallinas también."
+  },
+  {
+   "foto": "img/pfy-aqui-todos-cuentan/5.jpg",
+   "dur": 3.0,
+   "_origen": "bib/G02_escena-5.png",
+   "texto": "Tortugas y reptiles."
+  },
+  {
+   "foto": "img/pfy-aqui-todos-cuentan/6.jpg",
+   "dur": 3.0,
+   "_origen": "bib/C26_escena-3.png",
+   "texto": "Peces."
+  },
+  {
+   "foto": "img/pfy-aqui-todos-cuentan/7.jpg",
+   "dur": 3.0,
+   "_origen": "cand/pajaro2.jpg",
+   "texto": "Pájaros."
+  },
+  {
+   "foto": "img/pfy-aqui-todos-cuentan/8.jpg",
+   "dur": 3.2,
+   "_origen": "bib/G08_escena-5.png",
+   "texto": "Conejos, cobayas y chinchillas."
+  },
+  {
+   "foto": "img/pfy-aqui-todos-cuentan/9.jpg",
+   "dur": 3.0,
+   "_origen": "bib/NAV_09.png",
+   "texto": "Y sí: también perros y gatos."
+  },
+  {
+   "foto": "img/pfy-aqui-todos-cuentan/10.jpg",
+   "dur": 3.0,
+   "_origen": "bib/pfy5.png",
+   "texto": "Enviamos a 48 países."
+  },
+  {
+   "foto": "img/pfy-aqui-todos-cuentan/11.jpg",
+   "dur": 3.8,
+   "_origen": "bib/pfy6.png",
+   "texto": "La tienda de todos, donde todos cuentan. petsforyou.es"
+  }
+ ]
+}

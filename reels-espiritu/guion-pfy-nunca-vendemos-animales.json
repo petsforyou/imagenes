@@ -1,0 +1,48 @@
+{
+ "nombre": "pfy-nunca-vendemos-animales",
+ "musica": "../audio/musica-historias-emocionante.mp3",
+ "escenas": [
+  {
+   "foto": "img/pfy-nunca-vendemos-animales/1.jpg",
+   "dur": 3.8,
+   "_origen": "cand/pata4.jpg",
+   "gancho": "Somos una tienda de mascotas. Y no vendemos mascotas."
+  },
+  {
+   "foto": "img/pfy-nunca-vendemos-animales/2.jpg",
+   "dur": 3.4,
+   "_origen": "cand/pata0.jpg",
+   "texto": "Un animal no es un producto."
+  },
+  {
+   "foto": "img/pfy-nunca-vendemos-animales/3.jpg",
+   "dur": 3.8,
+   "_origen": "bib/app2.png",
+   "texto": "Cada semana difundimos gratis a uno que busca casa."
+  },
+  {
+   "foto": "img/pfy-nunca-vendemos-animales/4.jpg",
+   "dur": 3.8,
+   "_origen": "bib/app1.png",
+   "texto": "¿Quieres ayudar? Dona directamente a su protectora."
+  },
+  {
+   "foto": "img/pfy-nunca-vendemos-animales/5.jpg",
+   "dur": 3.4,
+   "_origen": "bib/app4.png",
+   "texto": "El dinero nunca pasa por nosotros."
+  },
+  {
+   "foto": "img/pfy-nunca-vendemos-animales/6.jpg",
+   "dur": 3.8,
+   "_origen": "bib/app7.png",
+   "texto": "Su final feliz no se compra. Se adopta."
+  },
+  {
+   "foto": "img/pfy-nunca-vendemos-animales/7.jpg",
+   "dur": 3.6,
+   "_origen": "bib/M01_escena-5.png",
+   "texto": "Mira quién busca casa en petsforyou.es"
+  }
+ ]
+}

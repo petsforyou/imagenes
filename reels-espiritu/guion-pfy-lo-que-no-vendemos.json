@@ -1,0 +1,54 @@
+{
+ "nombre": "pfy-lo-que-no-vendemos",
+ "musica": "../audio/musica-historias-emocionante-2.mp3",
+ "escenas": [
+  {
+   "foto": "img/pfy-lo-que-no-vendemos/1.jpg",
+   "dur": 3.6,
+   "_origen": "bib/A3_escena-3.png",
+   "gancho": "Tres cosas que esta tienda de mascotas se niega a vender."
+  },
+  {
+   "foto": "img/pfy-lo-que-no-vendemos/2.jpg",
+   "dur": 3.2,
+   "_origen": "cand/jaulapeq3.jpg",
+   "texto": "Una: jaulas pequeñas para que viva un hámster."
+  },
+  {
+   "foto": "img/pfy-lo-que-no-vendemos/3.jpg",
+   "dur": 3.6,
+   "_origen": "prod/jaula3.jpg",
+   "texto": "Aquí, la más pequeña mide 100 × 50 cm de suelo."
+  },
+  {
+   "foto": "img/pfy-lo-que-no-vendemos/4.jpg",
+   "dur": 3.2,
+   "_origen": "cand/conejo3.jpg",
+   "texto": "Dos: arneses para conejos y animales pequeños."
+  },
+  {
+   "foto": "img/pfy-lo-que-no-vendemos/5.jpg",
+   "dur": 3.4,
+   "_origen": "bib/app8.png",
+   "texto": "Tres: animales. Ninguno. Nunca."
+  },
+  {
+   "foto": "img/pfy-lo-que-no-vendemos/6.jpg",
+   "dur": 3.6,
+   "_origen": "bib/pfy2.png",
+   "texto": "A los que buscan casa los difundimos gratis."
+  },
+  {
+   "foto": "img/pfy-lo-que-no-vendemos/7.jpg",
+   "dur": 3.4,
+   "_origen": "bib/A3_escena-2.png",
+   "texto": "Si a ellos no les hace bien, aquí no se vende."
+  },
+  {
+   "foto": "img/pfy-lo-que-no-vendemos/8.jpg",
+   "dur": 3.6,
+   "_origen": "bib/app5.png",
+   "texto": "Hay ventas que no queremos. petsforyou.es"
+  }
+ ]
+}

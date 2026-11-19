@@ -1,0 +1,54 @@
+{
+ "nombre": "pfy-sal-de-ruta-con-tu-perro",
+ "musica": "../audio/musica-mundo-animal-aventura.mp3",
+ "escenas": [
+  {
+   "foto": "img/pfy-sal-de-ruta-con-tu-perro/1.jpg",
+   "dur": 4.0,
+   "_origen": "bib/app1.png",
+   "gancho": "Llegas con tu perro… y el cartel dice «perros no»."
+  },
+  {
+   "foto": "img/pfy-sal-de-ruta-con-tu-perro/2.jpg",
+   "dur": 3.4,
+   "_origen": "bib/app2.png",
+   "texto": "Horas buscando rutas donde de verdad lo admitan."
+  },
+  {
+   "foto": "img/pfy-sal-de-ruta-con-tu-perro/3.jpg",
+   "dur": 3.4,
+   "_origen": "bib/app3.png",
+   "texto": "Estamos haciendo una app para acabar con eso."
+  },
+  {
+   "foto": "img/pfy-sal-de-ruta-con-tu-perro/4.jpg",
+   "dur": 3.4,
+   "_origen": "bib/app4.png",
+   "texto": "Rutas a pie con perro por toda Europa."
+  },
+  {
+   "foto": "img/pfy-sal-de-ruta-con-tu-perro/5.jpg",
+   "dur": 3.4,
+   "_origen": "bib/app5.png",
+   "texto": "Las guardas y se abren sin cobertura."
+  },
+  {
+   "foto": "img/pfy-sal-de-ruta-con-tu-perro/6.jpg",
+   "dur": 3.6,
+   "_origen": "bib/app6.png",
+   "texto": "Campings y las normas de cada país."
+  },
+  {
+   "foto": "img/pfy-sal-de-ruta-con-tu-perro/7.jpg",
+   "dur": 3.6,
+   "_origen": "bib/app7.png",
+   "texto": "Se llama Rutas con tu peludo. Está en pruebas."
+  },
+  {
+   "foto": "img/pfy-sal-de-ruta-con-tu-perro/8.jpg",
+   "dur": 4.2,
+   "_origen": "bib/app8.png",
+   "texto": "¿La pruebas antes que nadie? Escribe a contacto@petsforyou.es"
+  }
+ ]
+}

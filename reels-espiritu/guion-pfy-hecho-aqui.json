@@ -1,0 +1,54 @@
+{
+ "nombre": "pfy-hecho-aqui",
+ "musica": "../audio/musica-producto-alegre.mp3",
+ "escenas": [
+  {
+   "foto": "img/pfy-hecho-aqui/1.jpg",
+   "dur": 3.6,
+   "_origen": "bib/pfy1.png",
+   "gancho": "Tres marcas españolas. La tercera le pone su nombre."
+  },
+  {
+   "foto": "img/pfy-hecho-aqui/2.jpg",
+   "dur": 3.4,
+   "_origen": "prod/ari1.jpg",
+   "texto": "AriBabi: diseños propios y mucho color."
+  },
+  {
+   "foto": "img/pfy-hecho-aqui/3.jpg",
+   "dur": 3.2,
+   "_origen": "prod/ari3.jpg",
+   "texto": "Collar, correa y portabolsas a juego."
+  },
+  {
+   "foto": "img/pfy-hecho-aqui/4.jpg",
+   "dur": 3.4,
+   "_origen": "prod/mim1.jpg",
+   "texto": "M!MADO: champú sólido con aloe vera."
+  },
+  {
+   "foto": "img/pfy-hecho-aqui/5.jpg",
+   "dur": 3.2,
+   "_origen": "prod/mim3.jpg",
+   "texto": "Para perros y gatos."
+  },
+  {
+   "foto": "img/pfy-hecho-aqui/6.jpg",
+   "dur": 3.4,
+   "_origen": "prod/mym3.png",
+   "texto": "Mascotas Y Max: cuero hecho a mano en España."
+  },
+  {
+   "foto": "img/pfy-hecho-aqui/7.jpg",
+   "dur": 3.4,
+   "_origen": "prod/mym5.png",
+   "texto": "Y graban su nombre."
+  },
+  {
+   "foto": "img/pfy-hecho-aqui/8.jpg",
+   "dur": 3.8,
+   "_origen": "bib/pfy7.png",
+   "texto": "Hecho aquí. Lo tienes en petsforyou.es"
+  }
+ ]
+}

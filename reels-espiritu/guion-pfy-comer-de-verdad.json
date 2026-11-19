@@ -1,0 +1,54 @@
+{
+ "nombre": "pfy-comer-de-verdad",
+ "musica": "../audio/musica-salud-tranquila.mp3",
+ "escenas": [
+  {
+   "foto": "img/pfy-comer-de-verdad/1.jpg",
+   "dur": 3.8,
+   "_origen": "cand/pienso5.jpg",
+   "gancho": "Lee la etiqueta de su comida. ¿Reconoces los ingredientes?"
+  },
+  {
+   "foto": "img/pfy-comer-de-verdad/2.jpg",
+   "dur": 3.4,
+   "_origen": "prod/cru1.jpg",
+   "texto": "En la comida natural se ven a simple vista."
+  },
+  {
+   "foto": "img/pfy-comer-de-verdad/3.jpg",
+   "dur": 3.6,
+   "_origen": "prod/cru4.jpg",
+   "texto": "Cruda (BARF): carne y verduras sin cocinar."
+  },
+  {
+   "foto": "img/pfy-comer-de-verdad/4.jpg",
+   "dur": 3.4,
+   "_origen": "prod/puro1.png",
+   "texto": "Cocinada: lista para servir."
+  },
+  {
+   "foto": "img/pfy-comer-de-verdad/5.jpg",
+   "dur": 3.4,
+   "_origen": "prod/puro2.png",
+   "texto": "Con ingredientes como estos."
+  },
+  {
+   "foto": "img/pfy-comer-de-verdad/6.jpg",
+   "dur": 3.4,
+   "_origen": "prod/puro3.png",
+   "texto": "Y snacks naturales deshidratados."
+  },
+  {
+   "foto": "img/pfy-comer-de-verdad/7.jpg",
+   "dur": 3.6,
+   "_origen": "prod/cru2.jpg",
+   "texto": "El cambio, poco a poco y con tu veterinario."
+  },
+  {
+   "foto": "img/pfy-comer-de-verdad/8.jpg",
+   "dur": 3.8,
+   "_origen": "bib/G39_escena-5.png",
+   "texto": "Para perros y gatos. Alimentación natural en petsforyou.es"
+  }
+ ]
+}
