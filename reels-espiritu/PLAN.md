@@ -17,6 +17,10 @@ Hueco: 20:30 (el de anuncios; los anuncios de producto son martes y viernes; los
 Redes: Facebook, Instagram y YouTube por Postiz (n8n `pfyPostizPublicar1`); TikTok y Pinterest por Metricool (marca 7728783). Después, releer las dos colas.
 «Hecho aquí» va el último (5/12) porque M!MADO está de vacaciones hasta el 4/12 y hoy solo tiene 1 producto activo (el champú sólido, el que sale en el reel).
 
+Duraciones: 23,4 · 28,4 · 22,0 · 24,8 · 24,2 · 23,2 s. `comprobar_reel.py`: APTO los seis. Sonido sin escuchar (misma música y mezcla de siempre).
+Añadido el 19/11 por encargo de María (vía la sesión de estrategia): «Enviamos a 48 países» en el reel 2 (mercados ACTIVE de Shopify: 29 países con mercado propio + 19 de «Unión Europea»; dato de esa sesión, no releído aquí). Es «enviamos a», nunca «clientes en».
+Pegas conocidas: los reels 3 y 4 comparten cuatro imágenes (las de la app de rutas); si molesta, se cambian las del 3. El reel 6 enseña el champú de M!MADO, hoy su único producto activo.
+
 ## Datos comprobados el 19/11/2026 (web pública petsforyou.es, products.json y pages.json)
 - Jaulas de hámster para vivir a la venta: 9, todas de 100 × 50 cm de suelo o más (la menor: 100 × 50 × 50 y 100 × 50 × 52,5). OJO: hay además una «Jaula de viaje para hámster con botella de agua» (transportín pequeño): por eso el reel dice «jaulas pequeñas para que viva un hámster».
 - Arneses para conejo o animales pequeños: 0 productos con «arnés» en Hámsters, Mascotas pequeñas, Conejos y Hurones.
@@ -50,7 +54,7 @@ Imágenes ilustrativas. Fotos: cdrussorusso (CC BY 2.0) y W. Mooldee (CC0).
 
 Aquí el hámster tiene su sección. Y el hurón. Y las gallinas, las tortugas, los peces, los pájaros, los conejos, las cobayas y las chinchillas. Y sí: también perros y gatos.
 
-Petsforyou es la tienda de todos, donde todos cuentan.
+Enviamos a 48 países. Petsforyou es la tienda de todos, donde todos cuentan.
 
 ¿Quién manda en tu casa? Cuéntanoslo.
 
