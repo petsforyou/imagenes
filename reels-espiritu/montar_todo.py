@@ -95,6 +95,25 @@ REELS = {
   (3.6, "t", "El cambio, poco a poco y con tu veterinario.", ("f", P + "cru2.jpg")),
   (3.8, "t", "Para perros y gatos. Alimentación natural en petsforyou.es", ("c", B + "G39_escena-5.png")),
  ]),
+ "pfy-marcas-del-mundo": ("musica-producto-alegre.mp3", [
+  (3.6, "g", "Buscamos marcas por medio mundo. Nos quedamos con estas.", ("f", P + "m_lilly-dash_3.jpg")),
+  (3.4, "t", "Bestia, de Bulgaria: para perros grandes y fuertes.", ("f", P + "m_bestia_6.jpg")),
+  (3.4, "t", "Purré, de Polonia: cosido en talleres locales.", ("f", P + "m_purre_7.jpg")),
+  (3.4, "t", "Mellow, de Cracovia: lana natural, hecho a mano.", ("f", P + "m_mellow_5.jpg")),
+  (3.4, "t", "Pawsome Pets, de Nueva York: pintado a mano.", ("f", P + "m_pawsome-pets-new-york_1.jpg")),
+  (3.4, "t", "Lilly+Dash, de Melbourne: bouclé y diseño.", ("f", P + "m_lilly-dash_4.jpg")),
+  (3.4, "t", "Fur & Whiskers, de Australia: paseo a juego.", ("f", P + "m_fur-whiskers_5.jpg")),
+  (3.8, "t", "Nuestra selección Premium. En petsforyou.es", ("f", P + "m_lilly-dash_2.jpg")),
+ ]),
+ "pfy-adopcion-sin-juzgar": ("musica-historias-emocionante-4.mp3", [
+  (3.6, "g", "¿Adoptado o elegido? Aquí no juzgamos a nadie.", ("c", B + "NAV_09.png")),
+  (3.6, "t", "Promovemos la adopción: difundimos gratis a los que buscan casa.", ("c", B + "pfy3.png")),
+  (3.2, "t", "Y nunca venderemos animales.", ("c", C + "pata4.jpg")),
+  (3.4, "t", "Pero a veces es mejor elegir a nuestro compañero.", ("c", B + "M01_escena-5.png")),
+  (3.2, "t", "Por compatibilidad. Por salud.", ("c", B + "G39_escena-5.png")),
+  (3.4, "t", "Nadie tiene por qué quedarse solo.", ("c", B + "app2.png")),
+  (3.8, "t", "Venga de donde venga, aquí tiene su sitio. petsforyou.es", ("c", B + "pfy6.png")),
+ ]),
 }
 
 for nombre, (musica, escenas) in REELS.items():

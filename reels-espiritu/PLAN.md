@@ -114,3 +114,39 @@ Imágenes ilustrativas en la primera y la última escena.
 1. La «Jaula de viaje para hámster con botella de agua» está activa. Es un transportín, pero se llama «jaula» y es pequeña: quien vea el reel 1 puede echárnoslo en cara. Propuesta: llamarla «Transportín de viaje para hámster».
 2. Existe un reel de consejos (G08, vídeo `nov-g08.mp4`) que dice «Para pasear, mejor un arnés bien ajustado» hablando de conejos y cobayas. Choca con «no vendemos arneses para conejos». El índice de la biblioteca lo fechaba el 23/11, pero ese día NO está en la cola (mirado 19/11): sin comprobar si ya salió o si está en otra fecha. Si sigue programado, conviene quitarlo.
 3. «Cada semana difundimos gratis un animal» lo dice la web; si ahora no sale uno cada semana, cambiar la frase del reel 3 por «Difundimos gratis a los que buscan casa».
+
+## PROGRAMADOS el 19/11/2026 ~16:27 (sí de María: «Sí, prográmalos»)
+Los seis, a las 20:30 de su día. Postiz (Facebook, Instagram, YouTube): n8n `pfyPostizPublicar1`, ejecuciones 1056-1061, respuesta 201 con 3 postId cada una; cola del 5/12 releída (ejecución 1062): las 3 redes en QUEUE a las 19:30 UTC. Metricool (TikTok y Pinterest, PENDING en la respuesta): 434372863 (21/11), 434372907 (23/11), 434372997 (26/11), 434373069 (29/11), 434373133 (2/12), 434373179 (5/12).
+Para quitar uno: Metricool, pasarlo a borrador con `updateScheduledPost`; Postiz, desde https://redes.petsforyou.es.
+
+## Dos reels más (pedidos por María el 19/11 al dar el sí) — MONTADOS, SIN PROGRAMAR
+| nombre | gancho (fórmula) | música | duración |
+|---|---|---|---|
+| pfy-marcas-del-mundo | Buscamos marcas por medio mundo. Nos quedamos con estas. (5) | producto-alegre | 23,6 s |
+| pfy-adopcion-sin-juzgar | ¿Adoptado o elegido? Aquí no juzgamos a nadie. (3) | historias-emocionante-4 | 20,6 s |
+
+María pidió «marcas exclusivas»: NO se dice «exclusivas» porque no está comprobado que solo las vendamos nosotros. Lo que se dice de cada marca (país, hecho a mano, talleres locales) sale de la página «Nuestras marcas» de la web: Bestia (Bulgaria), Purré (Polonia), Mellow (Cracovia), Pawsome Pets (Nueva York), Lilly+Dash (Melbourne), Fur & Whiskers (Australia). Fotos reales de sus fichas.
+Adopción: palabras de María («hay veces que es mejor elegir a nuestro compañero, por compatibilidad, por salud, y no tenemos por qué quedarnos solos… no juzgamos a nadie»). OJO: los reels 1 y 3 ya programados llevan #adoptanocompres y «Su final feliz no se compra. Se adopta»; si María quiere el tono «no juzgamos», conviene cambiar ese hashtag por #adopcion.
+Huecos: el 30/11 y el 3/12 hay anuncio de Navidad a las 20:00 (20:30 no vale). 20:30 libre en Metricool el dom 6/12 (mirado 19/11); Postiz sin mirar.
+
+### pfy-marcas-del-mundo — título: Buscamos marcas por medio mundo. Nos quedamos con estas
+Buscamos marcas por medio mundo. Nos quedamos con estas.
+
+Bestia, de Bulgaria, para perros grandes y fuertes. Purré, de Polonia, cosido en talleres locales. Mellow, de Cracovia, con lana natural y hecho a mano. Pawsome Pets, de Nueva York. Lilly+Dash, de Melbourne. Fur & Whiskers, de Australia.
+
+Es nuestra selección Premium: enlace en la bio.
+
+#mascotas #perros #gatos #hechoamano #petsforyou
+
+### pfy-adopcion-sin-juzgar — título: ¿Adoptado o elegido? Aquí no juzgamos a nadie
+¿Adoptado o elegido? Aquí no juzgamos a nadie.
+
+Promovemos la adopción: difundimos gratis a los que buscan casa, y nunca venderemos animales.
+
+Pero hay veces que es mejor elegir a nuestro compañero, por compatibilidad o por salud. Y nadie tiene por qué quedarse solo.
+
+Venga de donde venga, aquí tiene su sitio.
+
+Imágenes ilustrativas. Foto: Egan Snow (CC BY-SA 2.0).
+
+#adopcion #mascotas #perros #gatos #petsforyou
