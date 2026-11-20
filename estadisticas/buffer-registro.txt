@@ -99,3 +99,6 @@
 2026-11-20 | x+threads | HILO pelicanos Peru 12:00 (buffer 6b00010ad5f8acdd0d8262c1 / 6b00010bd5f8acdd0d8262f1)
 2026-11-21 | x | gerbilo 25 cm (metricool 434562204) 09:30
 2026-11-21 | x | bostezo perros (metricool 434562312) 16:30
+2026-11-20 | x+threads | HILO cachorros Manacor 20:30 (buffer 6b0063e67efc64d5e42cfcc7 / 6b0063e777e195b7221123ac)
+2026-11-21 | x | hamster frio (metricool 434562285) 19:00
+2026-11-21 | x | pelicanos Peru reel (metricool 433950396) 23:00
