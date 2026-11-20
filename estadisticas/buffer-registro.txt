@@ -96,3 +96,6 @@
 2026-11-20 | x | cola perro estudio (metricool 433941804) 16:30
 2026-11-20 | x | ladrar perros miedo nov-g24 (metricool 418916935) 19:00
 2026-11-20 | x | 13 cachorros Manacor (metricool 433942546) 23:00
+2026-11-20 | x+threads | HILO pelicanos Peru 12:00 (buffer 6b00010ad5f8acdd0d8262c1 / 6b00010bd5f8acdd0d8262f1)
+2026-11-21 | x | gerbilo 25 cm (metricool 434562204) 09:30
+2026-11-21 | x | bostezo perros (metricool 434562312) 16:30
