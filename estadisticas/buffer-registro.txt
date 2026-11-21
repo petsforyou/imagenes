@@ -102,3 +102,8 @@
 2026-11-20 | x+threads | HILO cachorros Manacor 20:30 (buffer 6b0063e67efc64d5e42cfcc7 / 6b0063e777e195b7221123ac)
 2026-11-21 | x | hamster frio (metricool 434562285) 19:00
 2026-11-21 | x | pelicanos Peru reel (metricool 433950396) 23:00
+2026-11-21 | x | tres cosas que no vendemos (metricool 434562342) 21:00 (buffer 6b01526320a2d09a0ae3d908)
+2026-11-21 | x+threads | HILO multa tortuga orejas rojas Bolonia 12:00 (buffer 6b01524b5102766245088935 / 6b01524c9ffbc8503c0bbc9a)
+2026-11-22 | x | conejera (metricool 418918253) 09:30 (buffer 6b01524e9ffbc8503c0bbce8)
+2026-11-22 | x | Loki puente Guayaquil (metricool 436455678) 11:30 (buffer 6b01524fdd205ed779cd0b40)
+2026-11-22 | x | santuario ballenas (metricool 436455654) 14:00 (buffer 6b01525051027662450889e9)
