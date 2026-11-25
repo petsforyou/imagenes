@@ -125,3 +125,4 @@
 2026-11-24 | x | perro llueve nov-g60 (metricool 418918258) 19:00 (buffer 6b0546bb060d9b64825b114d)
 2026-11-24 | x+threads | HILO cachorro barrotes Albacete 12:00 (buffer 6b0546bcb34a1444db985f5e / 6b0546bdca4899309e6da1c8)
 2026-11-24 | x+threads | HILO lobos marinos isla San Jorge (Escapada H) 20:30 (buffer 6b05a99915f4fbd32104171a / 6b05a99ae86dabb983d83657)
+2026-11-25 | x+threads | HILO Mexico ley general bienestar animal 12:00 (buffer 6b06984fb6204bca46dbef80 / 6b06985eb6204bca46dbf777)
