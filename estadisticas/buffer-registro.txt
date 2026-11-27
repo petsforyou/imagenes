@@ -135,3 +135,4 @@
 2026-11-27 | x | nov-g45 laser gato (reel) 09:30 (buffer 6b08139b2c607bdcad53d222)
 2026-11-27 | x | nov-g39 bolas de pelo (reel) 19:00 (buffer 6b08139c2c18150e1049cc4d)
 2026-11-26 | x+threads | HILO tucan 8 meses sin volar Colombia (El Colombiano) X 20:15 / Threads 20:30 (buffer 6b08139c2c18150e1049cc87 / 6b08139c2c607bdcad53d3f7)
+2026-11-27 | x+threads | HILO gata Luna Glasgow-Hull microchip (STV News) 12:00 (buffer 6b093b4b776ce21276fb43d2 / 6b093b4c1fd46e62e726784a)
