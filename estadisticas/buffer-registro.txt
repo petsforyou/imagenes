@@ -136,3 +136,6 @@
 2026-11-27 | x | nov-g39 bolas de pelo (reel) 19:00 (buffer 6b08139c2c18150e1049cc4d)
 2026-11-26 | x+threads | HILO tucan 8 meses sin volar Colombia (El Colombiano) X 20:15 / Threads 20:30 (buffer 6b08139c2c18150e1049cc87 / 6b08139c2c607bdcad53d3f7)
 2026-11-27 | x+threads | HILO gata Luna Glasgow-Hull microchip (STV News) 12:00 (buffer 6b093b4b776ce21276fb43d2 / 6b093b4c1fd46e62e726784a)
+2026-11-27 | x+threads | HILO gatita Micha infante de marina Colombia (Noticias RCN) 20:30 (buffer 6b099dd9015034238d37f47c / 6b099dda18c8c6749bf5690b)
+2026-11-28 | x | disfraz alce navideño (reel producto) 19:00 (buffer 6b099ddbbb117e5ba757fe32)
+2026-11-28 | x | collar cuero reflectante (reel producto) 21:00 (buffer 6b099ddc32c212878fde74a5)
