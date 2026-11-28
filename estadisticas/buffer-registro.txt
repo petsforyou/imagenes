@@ -141,3 +141,7 @@
 2026-11-28 | x | collar cuero reflectante (reel producto) 21:00 (buffer 6b099ddc32c212878fde74a5)
 2026-11-28 | x | nov-c24 tortuga terrario (reel) 09:30 (buffer 6b0a8cb6db8a1c14ef16c3ba)
 2026-11-28 | x+threads | HILO gato Frank 500 dias microchip (Good News Post) 12:00 (buffer 6b0a8cb6db8a1c14ef16c3f4 / 6b0a8cb7d718580fbd6dbcb8)
+2026-11-28 | x+threads | HILO linces rojos Virginia (WSET) 20:30 (buffer 6b0aef5cb793a21e71f3436a / 6b0aef5dbe536564e43d5bbf)
+2026-11-29 | x | hamster cama nov-c06 (reel) 09:30 (buffer 6b0aef5e8e7dd71de79bd07b)
+2026-11-29 | x | perro lame patas nov-g21 (reel) 19:00 (buffer 6b0aef5ec6d7f1e72251aeed)
+2026-11-29 | x | app Rutas con tu peludo (reel) 21:00 (buffer 6b0aef5fc6d7f1e72251af2e)
