@@ -7,3 +7,4 @@
 2026-11-24 16:00 | curiosidad | Tu perro no inclina la cabeza por manía | Animal Cognition 2021 (Sommese y colaboradores) | 26,2 s | sin voz
 2026-11-27 16:00 | curiosidad/estudio | Probaron a 164 perros en 5 países: ¿entienden igual a las personas? | Bräuer et al., Scientific Reports 16, 18527 (2026) | 22,8 s | sin voz
 2026-11-30 16:00 | debate | ¿Tu perro duerme en tu cama? (nuevo estudio, repite tema del 23/11) | Li et al., PLOS ONE 07/10/2026, doi 10.1371/journal.pone.0358453 | 23,6 s | sin voz
+2026-12-01 16:00 | curiosidad | Tu gato no pasa de ti por manía (estudio húngaro: perros, gatos y niños ante un objeto escondido) | Csepregi y Gácsi, Animal Behaviour 13/02/2026, doi 10.1016/j.anbehav.2026.123488; EurekAlert 26/02/2026 | 26,0 s | sin voz
