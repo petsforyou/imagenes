@@ -74,7 +74,7 @@
 2026-11-17 | x+threads | HILO brea La Plata 12:15
 2026-11-18 | x+threads | caballo Torà depuradora 11:30
 2026-11-18 | x+threads | gata Summer Middletown 14:00
-2026-11-18 | x+threads | Tana Campdevànol adopción 23:00
+2026-11-18 | x+threads | Tana Campdevánol adopción 23:00
 2026-11-17 | x | gato Isaac Flatbush (metricool 431298442) 16:30
 2026-11-17 | x+threads | HILO gato Isaac Flatbush 20:15
 2026-11-18 | x | chinchilla baño polvo nov-c15 (metricool 418916929) 09:30
@@ -139,3 +139,5 @@
 2026-11-27 | x+threads | HILO gatita Micha infante de marina Colombia (Noticias RCN) 20:30 (buffer 6b099dd9015034238d37f47c / 6b099dda18c8c6749bf5690b)
 2026-11-28 | x | disfraz alce navideño (reel producto) 19:00 (buffer 6b099ddbbb117e5ba757fe32)
 2026-11-28 | x | collar cuero reflectante (reel producto) 21:00 (buffer 6b099ddc32c212878fde74a5)
+2026-11-28 | x | nov-c24 tortuga terrario (reel) 09:30 (buffer 6b0a8cb6db8a1c14ef16c3ba)
+2026-11-28 | x+threads | HILO gato Frank 500 dias microchip (Good News Post) 12:00 (buffer 6b0a8cb6db8a1c14ef16c3f4 / 6b0a8cb7d718580fbd6dbcb8)
